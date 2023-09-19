@@ -14,7 +14,7 @@ export default defineComponent({
       type: String
     },
     size: {
-      default: 'text',
+      default: 'paragraph',
       required: false,
       type: String
     },
@@ -32,6 +32,10 @@ export default defineComponent({
         @apply font-poppins font-bold
       }
 
+      .font-secondary{
+        @apply font-montserrat font-bold
+      }
+
       .font-button{
         @apply font-montserrat font-bold uppercase
       }
@@ -47,16 +51,34 @@ export default defineComponent({
       }
 
       .heading3{
-        @apply font-montserrat font-bold md:text-[34px] text-[26px] leading-[38px]
+        @apply font-secondary md:text-[34px] text-[26px] leading-[38px]
+      }
+
+      .heading4{
+        @apply font-secondary md:text-[24px] text-[18px] leading-[28px]
+      }
+
+      /* Paragraphs */
+
+      .paragraph{
+        @apply font-montserrat md:text-[24px] text-[18px] leading-[28px]
+      }
+
+      .paragraph-small{
+        @apply font-montserrat md:text-[20px] text-[16px] leading-[24px]
+      }
+
+      .paragraph-extra-small{
+        @apply font-montserrat md:text-[16px] text-[12px] leading-[20px]
       }
 
       /* Button fonts */
 
-      .buttonbig{
+      .button-big{
         @apply font-button text-[24px] leading-[24px]
       }
 
-      .buttonregular{
+      .button-regular{
         @apply font-button text-[20px] leading-[24px]
       }
 

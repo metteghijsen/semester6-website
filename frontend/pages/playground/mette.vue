@@ -60,6 +60,36 @@
           <div class="w-3 h-3 m-1 bg-white60" />
           <div class="w-3 h-3 m-1 bg-white50" />
         </div>
+
+        <div class="my-2">
+          <UiTypography type="h1" size="heading1">
+            Heading1
+          </UiTypography>
+          <UiTypography type="h2" size="heading2">
+            Heading2
+          </UiTypography>
+          <UiTypography type="h3" size="heading3">
+            Heading3
+          </UiTypography>
+          <UiTypography type="h4" size="heading4">
+            Heading4
+          </UiTypography>
+          <UiTypography type="p">
+            Paragraph default
+          </UiTypography>
+          <UiTypography type="p" size="paragraph-small">
+            Paragraph small
+          </UiTypography>
+          <UiTypography type="p" size="paragraph-extra-small">
+            Paragraph extra small
+          </UiTypography>
+          <UiTypography type="p" size="button-big">
+            Button Big
+          </UiTypography>
+          <UiTypography type="p" size="button-regular">
+            Button Regular
+          </UiTypography>
+        </div>
       </div>
     </div>
   </UiContainer>
