@@ -6,7 +6,6 @@
           Home
         </UiTypography>
         <div v-if="isActive(links[0].to)" class="bg-darkblue100 h-0.5 rounded-full" />
-        <!-- <div v-else class="bg-darkblue100 h-0.5 rounded-full w-0 hover:w-full hover:transition-transform" /> -->
       </router-link>
 
       <router-link :to="links[1].to" class="px-2" :class="{ 'active-link': isActive(links[1].to) }">
