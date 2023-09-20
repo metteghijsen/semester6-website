@@ -102,6 +102,39 @@
           <UiButton label="leeswijzer" secondary big />
         </div>
       </div>
+
+      <div class="flex justify-center">
+        <LayoutDeliverable
+          lo4
+          lo7
+          to="/"
+          deliverable-name="Projectplan"
+          image-name="projectplan"
+          deliverable-description="In dit document beschrijf ik mijn Personal Project Plan en geef ik een overzicht van het proces dat ik heb doorlopen bij het opstellen van dit plan."
+          project-type="Personal Project"
+        />
+
+        <LayoutDeliverable
+          lo1
+          lo3
+          to="/"
+          deliverable-name="Library Research"
+          image-name="libraryresearch"
+          deliverable-description="In dit document beschrijf ik mijn Personal Project Plan en geef ik een overzicht van het proces dat ik heb doorlopen bij het opstellen van dit plan."
+          project-type="Personal Project"
+        />
+
+        <LayoutDeliverable
+          lo2
+          lo3
+          lo6
+          to="/"
+          deliverable-name="Wireframing"
+          image-name="wireframing"
+          deliverable-description="In dit document beschrijf ik mijn Personal Project Plan en geef ik een overzicht van het proces dat ik heb doorlopen bij het opstellen van dit plan."
+          project-type="Personal Project"
+        />
+      </div>
     </div>
   </UiContainer>
 </template>
