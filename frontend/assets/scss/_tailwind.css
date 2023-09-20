@@ -53,6 +53,21 @@
     --color-white-100: #FFFFFF;
 }
 
+::-webkit-scrollbar {
+    height: 12px;
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--color-white-100);
+    border-radius: 15px; 
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--color-dark-blue-40);
+    border-radius: 15px; 
+}
+
 @font-face {
     font-family: 'Montserrat';
     src: url('/fonts/Montserrat-ExtraBold.woff') format('woff');
