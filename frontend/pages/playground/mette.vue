@@ -90,6 +90,18 @@
           Button Regular
         </UiTypography>
       </div>
+      <div class="w-[300px] my-2">
+        <UiButton label="view project" primary regular arrow />
+      </div>
+
+      <div class="flex justify-around w-[900px]">
+        <div class="w-[400px] my-2">
+          <UiButton label="deliverables" primary big arrow />
+        </div>
+        <div class="w-[400px] my-2">
+          <UiButton label="leeswijzer" secondary big />
+        </div>
+      </div>
     </div>
   </UiContainer>
 </template>
