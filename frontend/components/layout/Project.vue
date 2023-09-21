@@ -1,0 +1,43 @@
+<template>
+  <NuxtLink :to="to">
+    <div class="bg-white w-full max-h-[524px] flex flex-row rounded-3xl mb-3" :class="imageRight ? 'flex-row' : 'flex-row-reverse'">
+      <NuxtImg :src="`/img/deliverables/${imageName}.png`" :alt="imageName" class="w-[357px] aspect-square my-11 rounded-3xl mx-4" :class="imageRight ? 'ml-10' : 'mr-10'" />
+      <div class="flex flex-col mx-10">
+        <UiTypography type="h3" size="heading3" class="pt-11 pb-1">
+          {{ projectName }}
+        </UiTypography>
+        <UiTypography type="p" class="opacity-50 pb-3">
+          {{ projectDescription }}
+        </UiTypography>
+        <div class="w-[300px]">
+          <UiButton label="view project" primary regular arrow />
+        </div>
+      </div>
+    </div>
+  </NuxtLink>
+</template>
+
+<script lang="ts">
+export default defineComponent({
+  name: 'Project',
+  props: {
+    imageName: {
+      type: String,
+      required: true
+    },
+    projectName: {
+      type: String,
+      required: true
+    },
+    projectDescription: {
+      type: String,
+      required: true
+    },
+    to: {
+      type: String,
+      required: true
+    },
+    imageRight: Boolean
+  }
+})
+</script>

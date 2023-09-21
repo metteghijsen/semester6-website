@@ -149,5 +149,8 @@
         <LayoutLearningOutcome lo-name-color="text-green100" lo-name="4. Future-oriented organisation" lo-description="You carry out a problem analysis and on that basis, you determine the definitive problem and elaborate on this in a project plan." />
       </div>
     </div>
+
+    <LayoutProject image-name="developmentwebsite" project-name="Individueel Project" project-description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vulputate tristique felis, non malesuada sapien fermentum id. Sed commodo diam in velit vestibulum, vel feugiat erat scelerisque. Suspendisse potenti. Aenean sit amet bibendum nunc. Sed auctor justo id mi eleifend, nec dictum metus convallis. In hac habitasse platea dictumst. Etiam ac risus ut urna rhoncus efficitur. " />
+    <LayoutProject image-right image-name="libraryresearch" project-name="Groepsproject" project-description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vulputate tristique felis, non malesuada sapien fermentum id. Sed commodo diam in velit vestibulum, vel feugiat erat scelerisque. Suspendisse potenti. Aenean sit amet bibendum nunc. Sed auctor justo id mi eleifend, nec dictum metus convallis. In hac habitasse platea dictumst. Etiam ac risus ut urna rhoncus efficitur. " />
   </UiContainer>
 </template>
