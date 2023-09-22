@@ -1,7 +1,7 @@
 <template>
   <div>
     <UiContainer>
-      <div class="h-full overflow-x-auto">
+      <div class="h-full overflow-x-hidden">
         <LayoutTaskbar />
         <div class="px-[200px] pt-11 flex flex-col">
           <UiTypography type="h1" size="heading1">

@@ -1,7 +1,7 @@
 <template>
   <div>
     <UiContainer>
-      <div class="h-full overflow-x-auto">
+      <div class="h-full overflow-x-hidden">
         <LayoutTaskbar />
 
         <div class="md:grid md:grid-cols-3 md:gap-1">
@@ -9,7 +9,7 @@
             lo4
             lo5
             lo7
-            to="/"
+            to="projectplan"
             deliverable-name="Projectplan"
             image-name="projectplan"
             deliverable-description="In dit document beschrijf ik mijn persoonlijke projectplan, en beschrijf ik het proces dat ik heb doorlopen bij het samenstellen van dit plan."
