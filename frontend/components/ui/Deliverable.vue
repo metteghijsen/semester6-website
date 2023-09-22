@@ -12,7 +12,7 @@
           <div v-if="lo4" class="rounded-full bg-green100 w-2 h-2 my-0.5" />
           <div v-if="lo5" class="rounded-full bg-blue100 w-2 h-2 my-0.5" />
           <div v-if="lo6" class="rounded-full bg-purple100 w-2 h-2 my-0.5" />
-          <div v-if="lo4" class="rounded-full bg-pink100 w-2 h-2 my-0.5" />
+          <div v-if="lo7" class="rounded-full bg-pink100 w-2 h-2 my-0.5" />
         </div>
         <div class="flex flex-col ml-2.5">
           <UiTypography type="h4" size="heading4">

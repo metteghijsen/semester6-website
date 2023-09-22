@@ -105,7 +105,7 @@
         </div>
 
         <div class="flex justify-center">
-          <LayoutDeliverable
+          <UiDeliverable
             lo4
             lo7
             to="/"
@@ -115,7 +115,7 @@
             project-type="Personal Project"
           />
 
-          <LayoutDeliverable
+          <UiDeliverable
             lo1
             lo3
             to="/"
@@ -125,7 +125,7 @@
             project-type="Personal Project"
           />
 
-          <LayoutDeliverable
+          <UiDeliverable
             lo2
             lo3
             lo6
@@ -140,19 +140,19 @@
 
       <div class="flex flex-row">
         <div class="flex flex-col">
-          <LayoutLearningOutcome lo-name-color="text-red100" lo-name="1. User Interaction (Analysis & Advice)" lo-description="You analyse the user, the user interaction and the user experience, also taking state of the art interactive technologies into account. You select a suitable design process to be able to advise on UX interventions based on a validated UX design." />
-          <LayoutLearningOutcome lo-name-color="text-yellow100" lo-name="3. Software design and realisation" lo-description="You create & design software with existing components or libraries using predetermined quality criteria and version control." />
-          <LayoutLearningOutcome lo-name-color="text-blue100" lo-name="5. Investigative problem solving" lo-description="You formulate sub-questions pertaining to the primary question and answer these using relevant research methods. You use the conclusions of the sub-questions to justify (design) choices." />
+          <UiLearningOutcome lo-name-color="text-red100" lo-name="1. User Interaction (Analysis & Advice)" lo-description="You analyse the user, the user interaction and the user experience, also taking state of the art interactive technologies into account. You select a suitable design process to be able to advise on UX interventions based on a validated UX design." />
+          <UiLearningOutcome lo-name-color="text-yellow100" lo-name="3. Software design and realisation" lo-description="You create & design software with existing components or libraries using predetermined quality criteria and version control." />
+          <UiLearningOutcome lo-name-color="text-blue100" lo-name="5. Investigative problem solving" lo-description="You formulate sub-questions pertaining to the primary question and answer these using relevant research methods. You use the conclusions of the sub-questions to justify (design) choices." />
         </div>
 
         <div class="flex flex-col">
-          <LayoutLearningOutcome lo-name-color="text-orange100" lo-name="2. User Interaction (Execution & Validation)" lo-description="You execute and evaluate the user experience of an interactive product. You document the development process for the stakeholders." />
-          <LayoutLearningOutcome lo-name-color="text-green100" lo-name="4. Future-oriented organisation" lo-description="You carry out a problem analysis and on that basis, you determine the definitive problem and elaborate on this in a project plan." />
+          <UiLearningOutcome lo-name-color="text-orange100" lo-name="2. User Interaction (Execution & Validation)" lo-description="You execute and evaluate the user experience of an interactive product. You document the development process for the stakeholders." />
+          <UiLearningOutcome lo-name-color="text-green100" lo-name="4. Future-oriented organisation" lo-description="You carry out a problem analysis and on that basis, you determine the definitive problem and elaborate on this in a project plan." />
         </div>
       </div>
 
-      <LayoutProject image-name="developmentwebsite" project-name="Individueel Project" project-description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vulputate tristique felis, non malesuada sapien fermentum id. Sed commodo diam in velit vestibulum, vel feugiat erat scelerisque. Suspendisse potenti. Aenean sit amet bibendum nunc. Sed auctor justo id mi eleifend, nec dictum metus convallis. In hac habitasse platea dictumst. Etiam ac risus ut urna rhoncus efficitur. " />
-      <LayoutProject image-right image-name="libraryresearch" project-name="Groepsproject" project-description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vulputate tristique felis, non malesuada sapien fermentum id. Sed commodo diam in velit vestibulum, vel feugiat erat scelerisque. Suspendisse potenti. Aenean sit amet bibendum nunc. Sed auctor justo id mi eleifend, nec dictum metus convallis. In hac habitasse platea dictumst. Etiam ac risus ut urna rhoncus efficitur. " />
+      <UiProject image-name="developmentwebsite" project-name="Individueel Project" project-description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vulputate tristique felis, non malesuada sapien fermentum id. Sed commodo diam in velit vestibulum, vel feugiat erat scelerisque. Suspendisse potenti. Aenean sit amet bibendum nunc. Sed auctor justo id mi eleifend, nec dictum metus convallis. In hac habitasse platea dictumst. Etiam ac risus ut urna rhoncus efficitur. " />
+      <UiProject image-right image-name="libraryresearch" project-name="Groepsproject" project-description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vulputate tristique felis, non malesuada sapien fermentum id. Sed commodo diam in velit vestibulum, vel feugiat erat scelerisque. Suspendisse potenti. Aenean sit amet bibendum nunc. Sed auctor justo id mi eleifend, nec dictum metus convallis. In hac habitasse platea dictumst. Etiam ac risus ut urna rhoncus efficitur. " />
     </UiContainer>
     <SectionsFooter />
   </div>
