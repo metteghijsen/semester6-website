@@ -1,9 +1,9 @@
-import eslintPlugin from 'vite-plugin-eslint';
+import eslintPlugin from 'vite-plugin-eslint'
 export default defineNuxtConfig({
   app: {
     // https://nuxt.com/docs/api/configuration/nuxt-config#head
     head: {
-      title: '', // Add global website title
+      title: 'Portfolio Semester 6', // Add global website title
       meta: [
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
         { charset: 'utf-8' },
@@ -11,14 +11,14 @@ export default defineNuxtConfig({
         { hid: 'og:image', property: 'og:image', content: '' }, // Add link to global og:image
         { hid: 'og:title', property: 'og:title', content: '' }, // Add global og:title
         { hid: 'og:description', property: 'og:description', content: '' }, // Add global og:description
-        { hid: 'og:site_name', property: 'og:site_name', content: '' }, // Add global og:site_name
+        { hid: 'og:site_name', property: 'og:site_name', content: '' } // Add global og:site_name
       ],
       link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
       noscript: [
         // Add no-script tag to head
-        { children: 'JavaScript is required' },
-      ],
-    },
+        { children: 'JavaScript is required' }
+      ]
+    }
   },
 
   // https://nuxt.com/docs/api/configuration/nuxt-config/#vite
@@ -27,10 +27,10 @@ export default defineNuxtConfig({
     css: {
       preprocessorOptions: {
         scss: {
-          additionalData: '@import "@/assets/scss/_variables.scss";', // Globally auto import scss vars
-        },
-      },
-    },
+          additionalData: '@import "@/assets/scss/_variables.scss";' // Globally auto import scss vars
+        }
+      }
+    }
   },
 
   // https://nuxt.com/docs/api/configuration/nuxt-config/#css
@@ -42,7 +42,7 @@ export default defineNuxtConfig({
     '@nuxt/image-edge', // https://v1.image.nuxtjs.org/configuration
     '@vueuse/nuxt', // https://vueuse.org/functions.html
     'nuxt-security',
-    '@nuxtjs/robots',
+    '@nuxtjs/robots'
   ],
 
   // https://tailwindcss.com/docs/configuration
@@ -53,5 +53,5 @@ export default defineNuxtConfig({
   // https://v1.image.nuxtjs.org/configuration
   image: {
     // Options
-  },
-});
+  }
+})
