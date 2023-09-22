@@ -1,6 +1,6 @@
 <template>
   <div class="justify-center flex my-8">
-    <div class="bg-white100 px-[106px] py-3 flex justify-center rounded-full max-w-[1030px]">
+    <div class="bg-white100 px-[106px] py-3 flex justify-center rounded-full w-[1030px]">
       <router-link :to="links[0].to" class="px-2 link" :class="{ 'active-link': isActive(links[0].to) }">
         <UiTypography type="p" size="paragraph-small" :class="{ 'font-bold': isActive(links[0].to) }">
           Home
