@@ -21,5 +21,6 @@
         </div>
       </div>
     </UiContainer>
+    <SectionsFooter />
   </div>
 </template>
