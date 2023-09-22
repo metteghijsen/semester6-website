@@ -1,7 +1,7 @@
 <template>
   <NuxtLink :to="to">
-    <div class="bg-white w-full max-h-[524px] flex flex-row rounded-3xl mb-3" :class="imageRight ? 'flex-row' : 'flex-row-reverse'">
-      <NuxtImg :src="`/img/deliverables/${imageName}.png`" :alt="imageName" class="w-[357px] aspect-square my-11 rounded-3xl mx-4" :class="imageRight ? 'ml-10' : 'mr-10'" />
+    <div class="bg-white w-full max-h-[524px] flex flex-row rounded-3xl mb-3" :class="imageLeft ? 'flex-row' : 'flex-row-reverse'">
+      <NuxtImg :src="`/img/projects/${imageName}.png`" :alt="imageName" class="w-[357px] aspect-square my-11 rounded-3xl mx-4" :class="imageLeft ? 'ml-10' : 'mr-10'" />
       <div class="flex flex-col mx-10">
         <UiTypography type="h3" size="heading3" class="pt-11 pb-1">
           {{ projectName }}
@@ -37,7 +37,7 @@ export default defineComponent({
       type: String,
       required: true
     },
-    imageRight: Boolean
+    imageLeft: Boolean
   }
 })
 </script>
