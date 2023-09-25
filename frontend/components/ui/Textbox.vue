@@ -18,8 +18,8 @@
       </UiTypography>
       <UiTypography
         type="p"
-        class="opacity-50 pt-2 pr-4"
-        :class="addButton ? 'pb-4' : 'pb-8'"
+        color="text-black60"
+        class="pt-2 pr-4 pb-8"
       >
         <slot />
       </UiTypography>
@@ -31,11 +31,6 @@
         class="rounded-3xl max-w-[550px] py-2 px-4"
         div
       />
-    </div>
-    <div v-if="addButton" class="flex px-5 pb-8" :to="to">
-      <div class="w-[300px]">
-        <UiButton label="view pdf" primary regular arrow />
-      </div>
     </div>
   </div>
 </template>
@@ -63,8 +58,7 @@ export default defineComponent({
       required: false
     },
     addHeader: Boolean,
-    addImage: Boolean,
-    addButton: Boolean
+    addImage: Boolean
   }
 })
 </script>
