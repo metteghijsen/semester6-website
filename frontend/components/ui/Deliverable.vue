@@ -1,6 +1,6 @@
 <template>
   <NuxtLink :to="`/deliverable/${to}`">
-    <div class="bg-white100 h-[720px] w-[460px] flex flex-col rounded-3xl relative m-0.5">
+    <div class="bg-white100 h-[720px] w-[460px] flex flex-col rounded-3xl relative m-0.5 hover:-translate-y-2 transition-all ease-in-out">
       <div class="flex justify-center">
         <NuxtImg :src="`/img/deliverables/${imageName}.png`" :alt="imageName" class="w-[443px] m-1.5 rounded-3xl" />
       </div>
