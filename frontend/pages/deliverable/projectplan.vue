@@ -9,7 +9,7 @@
         <UiTextbox
           add-image
           image-name="cmdmethods"
-          title="Inzichten & Bevindingen"
+          title="Samenvatting"
         >
           Het belangrijkste doel van mijn persoonlijk projectplan is om mijn portfolio-websiteproject voor de komende drie weken te sturen en goed te plannen. Ondanks mijn natuurlijke neiging om direct aan het ontwerp te beginnen, realiseer ik me dat dit semester een onderzoekende aanpak vereist. Daarom heb ik onderzoeksvragen en -methoden zorgvuldig geformuleerd met behulp van het CMD Method Pack.
           <br><br>Tijdens het proces heb ik twee keer feedback gekregen van Constanze, wat mijn projectaanpak heeft versterkt. Ze benadrukte het belang van het demonstreren van de kwaliteit van mijn werk in de portfolio en moedigde diepgaander onderzoek aan. Ze suggereerde ook bibliografisch onderzoek als aanvullende methode. Daarnaast heeft ze waardevolle feedback gegeven over een grafiek die ik had gemaakt, waarin ik mijn projectstappen beschreef.
