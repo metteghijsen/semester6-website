@@ -22,7 +22,8 @@ module.exports = {
       rules: {
         'vue/multi-word-component-names': 'off', // Components must be multi-word-with-dases off
         'vuejs-accessibility/no-onchange': 'off', // @blur must be used instead of @change on select dropdowns off
-        'no-tabs': 'off' // Tabs must be spaces off
+        'no-tabs': 'off', // Tabs must be spaces off
+        'vuejs-accessibility/media-has-caption': 'off'
       }
     }
   ],
