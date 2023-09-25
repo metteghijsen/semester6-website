@@ -84,17 +84,17 @@
             project-type="Personal Project"
           />
 
-          <!-- <UiDeliverable
+          <UiDeliverable
             lo1
             lo2
-            to="/"
+            to="wireframes"
             deliverable-name="Wireframing"
             image-name="wireframing"
             deliverable-description="Dit document biedt inzicht in het proces dat ik heb doorlopen bij het ontwerpen van mijn portfolio-website.  "
             project-type="Personal Project"
           />
 
-          <UiDeliverable
+          <!-- <UiDeliverable
             lo1
             lo2
             to="/"
