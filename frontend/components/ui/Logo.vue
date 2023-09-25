@@ -1,6 +1,6 @@
 <template>
   <div class="flex justify-center items-center">
-    <NuxtLink :to="to">
+    <NuxtLink :to="to" target="_blank">
       <NuxtImg :src="`/img/logos/${imageName}.png`" :alt="imageName" class="grayscale hover:grayscale-0 transition-all ease-in-out" />
     </NuxtLink>
   </div>
