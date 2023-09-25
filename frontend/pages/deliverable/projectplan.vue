@@ -3,7 +3,7 @@
     <UiContainer>
       <div class="h-full overflow-x-hidden">
         <LayoutTaskbar />
-        <UiTextbox add-header header="Personal Project Plan" title="Inleiding" add-button to="documents/projectplandocumentation.pdf">
+        <UiTextbox add-header header="Personal Project Plan" title="Inleiding">
           In dit document beschrijf ik mijn persoonlijke projectplan, en beschrijf ik het proces dat ik heb doorlopen bij het samenstellen van dit plan.
         </UiTextbox>
         <UiTextbox
@@ -16,6 +16,28 @@
         </UiTextbox>
         <UiTextbox title="Conclusie">
           Het opstellen van mijn Personal Project Plan was essentieel om de koers van mijn project te bepalen en een duidelijk plan te creëren voor de komende drie weken. Door de waardevolle feedback van Constanze kreeg ik een beter idee op welke elementen ik me het beste kon focussen, vooral met betrekking tot het aantonen van de kwaliteit van mijn werk in mijn portfolio. Kortom, mijn Personal Project Plan voelt als een professionele leidraad die mij helpt om een goed ontworpen en gebruiksvriendelijk portfolio samen te stellen.
+          <div class="flex flex-row">
+            <div class="w-[300px] my-2 mr-4">
+              <UiButton
+                label="bekijk PDF"
+                primary
+                regular
+                arrow
+                to="/documents/projectplandocumentatie.pdf"
+                target="_blank"
+              />
+            </div>
+            <div class="w-[370px] my-2">
+              <UiButton
+                label="bekijk projectplan"
+                primary
+                regular
+                arrow
+                to="/documents/personalprojectplan_v1_2_metteghijsen.pdf"
+                target="_blank"
+              />
+            </div>
+          </div>
         </UiTextbox>
         <UiTextbox title="Leeruitkomsten">
           •	<b> Learning outcome 4: Future-oriented organisation </b> <br>
