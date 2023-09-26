@@ -6,13 +6,13 @@
       </div>
       <div class="flex">
         <div class="flex flex-col pl-1.5">
-          <div v-if="lo1" class="rounded-full bg-red100 w-2 h-2 my-0.5" />
-          <div v-if="lo2" class="rounded-full bg-orange100 w-2 h-2 my-0.5" />
-          <div v-if="lo3" class="rounded-full bg-yellow100 w-2 h-2 my-0.5" />
-          <div v-if="lo4" class="rounded-full bg-green100 w-2 h-2 my-0.5" />
-          <div v-if="lo5" class="rounded-full bg-blue100 w-2 h-2 my-0.5" />
-          <div v-if="lo6" class="rounded-full bg-purple100 w-2 h-2 my-0.5" />
-          <div v-if="lo7" class="rounded-full bg-pink100 w-2 h-2 my-0.5" />
+          <div v-if="lo1" class="rounded-full bg-red100 w-2 h-2 my-0.5" title="UI (Analysis & Advice)" />
+          <div v-if="lo2" class="rounded-full bg-orange100 w-2 h-2 my-0.5" title="UI (Execution & Validation)" />
+          <div v-if="lo3" class="rounded-full bg-yellow100 w-2 h-2 my-0.5" title="Software Design & Development" />
+          <div v-if="lo4" class="rounded-full bg-green100 w-2 h-2 my-0.5" title="Future Oriented Organisation" />
+          <div v-if="lo5" class="rounded-full bg-blue100 w-2 h-2 my-0.5" title="Investigative Problem Solving" />
+          <div v-if="lo6" class="rounded-full bg-purple100 w-2 h-2 my-0.5" title="Personal Leadership" />
+          <div v-if="lo7" class="rounded-full bg-pink100 w-2 h-2 my-0.5" title="Goal-oriented Interaction" />
         </div>
         <div class="flex flex-col ml-2.5">
           <UiTypography type="h4" size="heading4">
