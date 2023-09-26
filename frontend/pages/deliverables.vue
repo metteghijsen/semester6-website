@@ -6,29 +6,29 @@
 
         <div class="pb-4">
           <div class="flex flex-row">
-            <div class="w-[450px] pr-1">
+            <div class="w-[450px] pr-1" title="You analyse the user, the user interaction and the user experience, also taking state of the art interactive technologies into account. You select a suitable design process to be able to advise on UX interventions based on a validated UX design.">
               <UiFilterButton color="red100" label="UI (Analysis & Advice)" @click="filterLearningOutcome('lo1')" />
             </div>
-            <div class="w-[450px] pr-1">
+            <div class="w-[450px] pr-1" title="You execute and evaluate the user experience of an interactive product. You document the development process for the stakeholders.">
               <UiFilterButton color="orange100" label="UI (Execution & Validation)" @click="filterLearningOutcome('lo2')" />
             </div>
-            <div class="w-[475px]">
+            <div class="w-[475px]" title="You create & design software with existing components or libraries using predetermined quality criteria and version control.">
               <UiFilterButton color="yellow100" label="Software Design & Development" @click="filterLearningOutcome('lo3')" />
             </div>
           </div>
           <div class="flex flex-row">
-            <div class="w-[500px] pr-1">
+            <div class="w-[500px] pr-1" title="You carry out a problem analysis and on that basis, you determine the definitive problem and elaborate on this in a project plan.">
               <UiFilterButton color="green100" label="Future Oriented Organisation" @click="filterLearningOutcome('lo4')" />
             </div>
-            <div class="w-[475px] pr-1">
+            <div class="w-[475px] pr-1" title="You formulate sub-questions pertaining to the primary question and answer these using relevant research methods. You use the conclusions of the sub-questions to justify (design) choices.">
               <UiFilterButton color="blue100" label="Investigative Problem Solving" @click="filterLearningOutcome('lo5')" />
             </div>
-            <div class="w-[375px]">
+            <div class="w-[375px]" title="You methodically reflect on your professional identity and personal development.">
               <UiFilterButton color="purple100" label="Personal Leadership" @click="filterLearningOutcome('lo6')" />
             </div>
           </div>
           <div class="flex flex-row">
-            <div class="w-[475px]">
+            <div class="w-[475px]" title="You communicate with different stakeholders and team members about the ICT assignment, taking into account an international context.">
               <UiFilterButton color="pink100" label="Goal-oriented interaction" @click="filterLearningOutcome('lo7')" />
             </div>
           </div>
@@ -85,6 +85,7 @@
           />
 
           <UiDeliverable
+            v-if="selectedLo.includes('lo1') || selectedLo.includes('lo2') || selectedLo.length === 0"
             lo1
             lo2
             to="wireframes"
@@ -94,25 +95,49 @@
             project-type="Personal Project"
           />
 
-          <!-- <UiDeliverable
+          <UiDeliverable
+            v-if="selectedLo.includes('lo3') || selectedLo.includes('lo5') || selectedLo.length === 0"
+            lo3
+            lo5
+            to="/"
+            deliverable-name="!C4 Model (nog niet af)"
+            image-name="c4model"
+            deliverable-description="Dit document gaat verder in op het C4 model wat ik heb gemaakt voor mijn portfolio-website."
+            project-type="Personal Project"
+          />
+
+          <UiDeliverable
+            v-if="selectedLo.includes('lo1') || selectedLo.includes('lo5') || selectedLo.length === 0"
+            lo1
+            lo5
+            to="/"
+            deliverable-name="!Color Research (nog niet af)"
+            image-name="colorresearch"
+            deliverable-description="Ik heb een onderzoek uitgevoerd naar pastelkleuren. In dit document ga ik hier dieper op in."
+            project-type="Personal Project"
+          />
+
+          <UiDeliverable
+            v-if="selectedLo.includes('lo1') || selectedLo.includes('lo2') || selectedLo.length === 0"
             lo1
             lo2
             to="/"
-            deliverable-name="Usertesting"
+            deliverable-name="!Usertesting (nog niet af)"
             image-name="usertesting"
             deliverable-description="In dit document kun je lezen hoe ik gebruikerstesten heb afgenomen op het interactieve prototype van mijn portfolio-website. "
             project-type="Personal Project"
           />
 
           <UiDeliverable
+            v-if="selectedLo.includes('lo2') || selectedLo.includes('lo3') || selectedLo.length === 0"
             lo2
             lo3
             to="/"
-            deliverable-name="Development Website"
+            deliverable-name="!Development Website (nog niet af)"
             image-name="developmentwebsite"
             deliverable-description="In dit document kun je lezen over het proces dat ik heb doorlopen bij het ontwikkelen van mijn portfolio-website. "
             project-type="Personal Project"
-          /> -->
+          />
 
           <!-- <UiDeliverable
             lo6
