@@ -25,19 +25,11 @@
         <div v-else class="bg-darkblue100 h-0.5 rounded-full stripe" />
       </router-link>
 
-      <router-link :to="links[3].to" class="px-2 link" :class="{ 'active-link': isActive(links[3].to) }">
-        <UiTypography type="p" size="paragraph-small" :class="{ 'font-bold': isActive(links[3].to) }">
-          Leeruitkomsten
-        </UiTypography>
-        <div v-if="isActive(links[3].to)" class="bg-darkblue100 h-0.5 rounded-full" />
-        <div v-else class="bg-darkblue100 h-0.5 rounded-full stripe" />
-      </router-link>
-
-      <router-link :to="links[4].to" class="px-2 link" :class="{ 'active-link': isActive(links[4].to) }">
+      <router-link :to="links[3].to" class="px-2 link" :class="{ 'active-link': isActive(links[4].to) }">
         <UiTypography type="p" size="paragraph-small" :class="{ 'font-bold': isActive(links[4].to) }">
           Leeswijzer
         </UiTypography>
-        <div v-if="isActive(links[4].to)" class="bg-darkblue100 h-0.5 rounded-full" />
+        <div v-if="isActive(links[3].to)" class="bg-darkblue100 h-0.5 rounded-full" />
         <div v-else class="bg-darkblue100 h-0.5 rounded-full stripe" />
       </router-link>
     </div>
@@ -52,7 +44,6 @@ export default {
         { text: 'Home', to: '/' },
         { text: 'Deliverables', to: '/deliverables' },
         { text: 'Projecten', to: '/projecten' },
-        { text: 'Leeruitkomsten', to: '/leeruitkomsten' },
         { text: 'Leeswijzer', to: '/leeswijzer' }
       ]
     }
