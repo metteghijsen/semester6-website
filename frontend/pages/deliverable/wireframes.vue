@@ -3,7 +3,7 @@
     <UiContainer>
       <div class="h-full overflow-x-hidden">
         <LayoutTaskbar />
-        <UiTextbox add-header header="Wireframing" title="Inleiding">
+        <UiTextbox add-header header="Wireframing" title="Inleiding" lo1 lo2>
           Dit document biedt inzicht in het proces dat ik heb doorlopen bij het ontwerpen van mijn portfolio-website. Het hoofddoel van dit verslag is om mijn vroege prototyping en ideeënverkenning te presenteren. Hierbij zal ik verschillende ideeën en wireframes bespreken die ik heb ontwikkeld.
         </UiTextbox>
         <UiTextbox

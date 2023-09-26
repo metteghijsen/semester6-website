@@ -3,8 +3,15 @@
     <UiContainer>
       <div class="h-full overflow-x-hidden">
         <LayoutTaskbar />
-        <UiTextbox add-header header="Personal Project Plan" title="Inleiding">
-          In dit document beschrijf ik mijn persoonlijke projectplan, en beschrijf ik het proces dat ik heb doorlopen bij het samenstellen van dit plan.
+        <UiTextbox
+          add-header
+          header="Personal Project Plan"
+          title="Inleiding"
+          lo4
+          lo5
+          lo7
+        >
+          Dit semester moet ik een portfolio website maken om mijn werk in te presenteren. Docenten zullen deze website gebruiken om mij te beoordelen, dus is het belangrijk dat deze prettig en gebruiksvriendelijk is. In dit document beschrijf ik mijn persoonlijke projectplan, en beschrijf ik het proces dat ik heb doorlopen bij het samenstellen van dit plan.
         </UiTextbox>
         <UiTextbox
           add-image
