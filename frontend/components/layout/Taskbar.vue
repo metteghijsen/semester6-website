@@ -1,6 +1,6 @@
 <template>
   <div class="justify-center flex my-8">
-    <div class="bg-white100 px-[106px] py-3 flex justify-center rounded-full w-[1030px]">
+    <div class="bg-white100 px-[106px] py-3 flex justify-center rounded-full w-max">
       <router-link :to="links[0].to" class="px-2 link" :class="{ 'active-link': isActive(links[0].to) }">
         <UiTypography type="p" size="paragraph-small" :class="{ 'font-bold': isActive(links[0].to) }">
           Home
@@ -25,8 +25,8 @@
         <div v-else class="bg-darkblue100 h-0.5 rounded-full stripe" />
       </router-link>
 
-      <router-link :to="links[3].to" class="px-2 link" :class="{ 'active-link': isActive(links[4].to) }">
-        <UiTypography type="p" size="paragraph-small" :class="{ 'font-bold': isActive(links[4].to) }">
+      <router-link :to="links[3].to" class="px-2 link" :class="{ 'active-link': isActive(links[3].to) }">
+        <UiTypography type="p" size="paragraph-small" :class="{ 'font-bold': isActive(links[3].to) }">
           Leeswijzer
         </UiTypography>
         <div v-if="isActive(links[3].to)" class="bg-darkblue100 h-0.5 rounded-full" />
