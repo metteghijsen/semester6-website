@@ -44,12 +44,11 @@
         <slot />
       </UiTypography>
     </div>
-    <div v-if="addImage" class="flex justify-center items-center">
+    <div v-if="addImage" class="flex justify-center items-center py-2 px-4">
       <NuxtImg
         :src="`/img/documentation/${imageName}.png`"
         :alt="imageName"
-        class="rounded-3xl max-w-[550px] py-2 px-4"
-        div
+        class="rounded-3xl max-w-[600px] my-2 mx-4"
       />
     </div>
   </div>

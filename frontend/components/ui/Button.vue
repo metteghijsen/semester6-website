@@ -76,7 +76,7 @@ export default defineComponent({
 
   <style lang="postcss" scoped>
   .btn{
-    @apply rounded-full justify-center items-center flex w-full
+    @apply rounded-full justify-center items-center flex w-full px-5
   }
 
   .big{
