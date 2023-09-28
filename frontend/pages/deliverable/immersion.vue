@@ -12,15 +12,11 @@
           Ik heb de websites van Jordi Franssen en Merlijn Wilders geanalyseerd. Jordi's portfolio heeft een knop voor leeruitkomsten, maar het vereist veel klikken en scrollen om de gewenste informatie te vinden. Er ontbreekt een overzicht van alle deliverables, wat het moeilijker maakt om te navigeren en te zien wat een student heeft opgeleverd per leeruitkomst. De site van Jordi oogt erg prettig, maar de gebruiksvriendelijkheid kan verbeterd worden.
           <br><br>Merlijn daarentegen heeft alle deliverables op één pagina met een handige contentfilter. Dit maakt het gemakkelijk om te zien welke deliverables bij welke projecten horen, vooral handig voor docenten. Hij heeft ook een leeswijzer op de homepage, wat ontbreekt bij Jordi. Het gebruik van afzonderlijke pagina's voor elke deliverable met links naar PDF-bestanden biedt gedetailleerde informatie, een functie die ik miste bij Jordi.
           Kortom, Merlijn's portfolio scoort punten voor gebruiksgemak en handige functies voor docenten. Ik overweeg elementen van zijn aanpak te integreren in mijn eigen website.
-        </UiTextbox>
-        <UiTextbox title="Conclusie">
-          Jordi's website heeft me vooral geïnspireerd door zijn esthetische design en de handige taakbalk die continu zichtbaar blijft. Deze elementen zal ik zeker opnemen in mijn eigen portfolio-website, omdat ze zorgen voor visuele aantrekkelijkheid, en een consistente navigatie-ervaring bieden voor gebruikers.
-          Daarnaast ben ik sterk beïnvloed door Merlijn's aanpak om alle deliverables op één pagina te plaatsen. Met behulp van een contentfilter kunnen al deze deliverables dan gefilterd worden op project en/of leeruitkomst. Ook wil ik voor elke deliverable een afzonderlijke pagina aanmaken waar alle benodigde informatie op staat. Dit is een benadering die ik eerder heb toegepast en waar ik erg prettig mee kan werken. Het biedt een duidelijke structuur voor het presenteren van mijn werk en stelt bezoekers in staat om snel specifieke informatie te vinden.
 
           <div class="flex flex-row">
-            <div class="w-[300px] my-2 mr-4">
+            <div class="w-max my-2 mr-4">
               <UiButton
-                label="bekijk PDF"
+                label="bekijk uitgebreide documentatie"
                 primary
                 regular
                 arrow
@@ -29,6 +25,10 @@
               />
             </div>
           </div>
+        </UiTextbox>
+        <UiTextbox title="Conclusie">
+          Jordi's website heeft me vooral geïnspireerd door zijn esthetische design en de handige taakbalk die continu zichtbaar blijft. Deze elementen zal ik zeker opnemen in mijn eigen portfolio-website, omdat ze zorgen voor visuele aantrekkelijkheid, en een consistente navigatie-ervaring bieden voor gebruikers.
+          Daarnaast ben ik sterk beïnvloed door Merlijn's aanpak om alle deliverables op één pagina te plaatsen. Met behulp van een contentfilter kunnen al deze deliverables dan gefilterd worden op project en/of leeruitkomst. Ook wil ik voor elke deliverable een afzonderlijke pagina aanmaken waar alle benodigde informatie op staat. Dit is een benadering die ik eerder heb toegepast en waar ik erg prettig mee kan werken. Het biedt een duidelijke structuur voor het presenteren van mijn werk en stelt bezoekers in staat om snel specifieke informatie te vinden.
         </UiTextbox>
         <UiTextbox title="Leeruitkomsten">
           • <b> Learning outcome 1: User interaction (analysis & advice) </b> <br>

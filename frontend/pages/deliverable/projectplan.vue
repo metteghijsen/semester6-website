@@ -20,11 +20,9 @@
         >
           Het belangrijkste doel van mijn persoonlijk projectplan is om mijn portfolio-websiteproject voor de komende drie weken te sturen en goed te plannen. Ondanks mijn natuurlijke neiging om direct aan het ontwerp te beginnen, realiseer ik me dat dit semester een onderzoekende aanpak vereist. Daarom heb ik onderzoeksvragen en -methoden zorgvuldig geformuleerd met behulp van het CMD Method Pack.
           <br><br>Tijdens het proces heb ik twee keer feedback gekregen van Constanze, wat mijn projectaanpak heeft versterkt. Ze benadrukte het belang van het demonstreren van de kwaliteit van mijn werk in de portfolio en moedigde diepgaander onderzoek aan. Ze suggereerde ook bibliografisch onderzoek als aanvullende methode. Daarnaast heeft ze waardevolle feedback gegeven over een grafiek die ik had gemaakt, waarin ik mijn projectstappen beschreef.
-        </UiTextbox>
-        <UiTextbox title="Conclusie">
-          Het opstellen van mijn Personal Project Plan was essentieel om de koers van mijn project te bepalen en een duidelijk plan te creëren voor de komende drie weken. Door de waardevolle feedback van Constanze kreeg ik een beter idee op welke elementen ik me het beste kon focussen, vooral met betrekking tot het aantonen van de kwaliteit van mijn werk in mijn portfolio. Kortom, mijn Personal Project Plan voelt als een professionele leidraad die mij helpt om een goed ontworpen en gebruiksvriendelijk portfolio samen te stellen.
+
           <div class="flex flex-row">
-            <div class="w-[300px] my-2 mr-4">
+            <div class="w-max my-2 mr-4">
               <UiButton
                 label="bekijk PDF"
                 primary
@@ -34,7 +32,7 @@
                 target="_blank"
               />
             </div>
-            <div class="w-[370px] my-2">
+            <div class="w-max my-2">
               <UiButton
                 label="bekijk projectplan"
                 primary
@@ -45,6 +43,9 @@
               />
             </div>
           </div>
+        </UiTextbox>
+        <UiTextbox title="Conclusie">
+          Het opstellen van mijn Personal Project Plan was essentieel om de koers van mijn project te bepalen en een duidelijk plan te creëren voor de komende drie weken. Door de waardevolle feedback van Constanze kreeg ik een beter idee op welke elementen ik me het beste kon focussen, vooral met betrekking tot het aantonen van de kwaliteit van mijn werk in mijn portfolio. Kortom, mijn Personal Project Plan voelt als een professionele leidraad die mij helpt om een goed ontworpen en gebruiksvriendelijk portfolio samen te stellen.
         </UiTextbox>
         <UiTextbox title="Leeruitkomsten">
           •	<b> Learning outcome 4: Future-oriented organisation </b> <br>

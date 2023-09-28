@@ -16,13 +16,10 @@
           Door mijn trendanalyse heb ik besloten om pastelkleuren, subtiele animaties, ronde vormen en mooie afbeeldingen te gebruiken. Ik wil een eenvoudige website maken, met in gedachten "less is more". Hoewel het belangrijk is dat mijn site er goed uitziet op mobiele apparaten, heb ik ervoor gekozen om geen speciaal mobiel ontwerp te maken, omdat docenten waarschijnlijk vooral hun laptops zullen gebruiken.
           <br><br>
           Het immersion-onderzoek heeft me geleid naar het overnemen van de stijl van Jordi's website, omdat ik die erg mooi vond. Maar ik heb ook gemerkt dat de website van Jordi niet zo gebruiksvriendelijk was. Daarom heb ik besloten om mijn website meer te laten lijken op die van Merlijn, door onder andere het contentfilter over te nemen en de manier waarop hij zijn werk presenteert. Merlijn heeft me ook geïnspireerd om afbeeldingen te genereren met behulp van AI.
-        </UiTextbox>
-        <UiTextbox title="Conclusie">
-          In het kort, na het praten met Jordi, het bekijken van trends en grondig onderzoek te doen, weet ik nu beter wat er op mijn website moet komen en waarom. Ik snap nu waar docenten op letten en heb mijn website daarop aangepast, met bijvoorbeeld samenvattingen en filters voor de inhoud. Mijn keuzes voor het uiterlijk, zoals zachte kleuren en een simpele stijl, komen voort uit mijn analyse van trends. Jordi's stijl heeft me beïnvloed, maar ik heb ook geleerd van Merlijn om mijn site gebruiksvriendelijker te maken en AI voor afbeeldingen te gebruiken.
           <div class="flex flex-row">
-            <div class="w-[300px] my-2 mr-4">
+            <div class="w-max my-2 mr-4">
               <UiButton
-                label="bekijk PDF"
+                label="bekijk uitgebreide documentatie"
                 primary
                 regular
                 arrow
@@ -30,7 +27,7 @@
                 target="_blank"
               />
             </div>
-            <div class="w-[400px] my-2 mr-4">
+            <div class="w-max my-2 mr-4">
               <UiButton
                 label="bekijk figma bestand"
                 primary
@@ -41,6 +38,9 @@
               />
             </div>
           </div>
+        </UiTextbox>
+        <UiTextbox title="Conclusie">
+          In het kort, na het praten met Jordi, het bekijken van trends en grondig onderzoek te doen, weet ik nu beter wat er op mijn website moet komen en waarom. Ik snap nu waar docenten op letten en heb mijn website daarop aangepast, met bijvoorbeeld samenvattingen en filters voor de inhoud. Mijn keuzes voor het uiterlijk, zoals zachte kleuren en een simpele stijl, komen voort uit mijn analyse van trends. Jordi's stijl heeft me beïnvloed, maar ik heb ook geleerd van Merlijn om mijn site gebruiksvriendelijker te maken en AI voor afbeeldingen te gebruiken.
         </UiTextbox>
         <UiTextbox title="Leeruitkomsten">
           • <b> Learning outcome 1: User interaction (analysis & advice) </b> <br>

@@ -25,13 +25,11 @@
           •	<b>Scenario 5:</b> Je bent op zoek naar contactinformatie van de student. Waar kijk je?<br><br>
 
           Elke individuele usertest is te bekijken in het PDF document.
-        </UiTextbox>
-        <UiTextbox title="Conclusie">
-          De gebruikerstests hebben waardevolle inzichten opgeleverd voor de optimalisatie van mijn portfolio website. Over het algemeen werd de website positief beoordeeld op het gebied van esthetiek en gebruiksvriendelijkheid. De belangrijkste aanbevelingen zijn het toevoegen van de leeswijzer aan de navigatiebalk en het overwegen van optimalisaties om de grootte van de website te verminderen, zoals het verkleinen van elementen.
+
           <div class="flex flex-row">
-            <div class="w-[300px] my-2 mr-4">
+            <div class="w-max my-2 mr-4">
               <UiButton
-                label="bekijk PDF"
+                label="bekijk uitgebreide documentatie"
                 primary
                 regular
                 arrow
@@ -40,6 +38,9 @@
               />
             </div>
           </div>
+        </UiTextbox>
+        <UiTextbox title="Conclusie">
+          De gebruikerstests hebben waardevolle inzichten opgeleverd voor de optimalisatie van mijn portfolio website. Over het algemeen werd de website positief beoordeeld op het gebied van esthetiek en gebruiksvriendelijkheid. De belangrijkste aanbevelingen zijn het toevoegen van de leeswijzer aan de navigatiebalk en het overwegen van optimalisaties om de grootte van de website te verminderen, zoals het verkleinen van elementen.
         </UiTextbox>
         <UiTextbox title="Leeruitkomsten">
           • <b> Learning outcome 1: User interaction (analysis & advice) </b> <br>

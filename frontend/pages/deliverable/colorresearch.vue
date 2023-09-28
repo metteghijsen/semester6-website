@@ -12,14 +12,11 @@
           Pastelkleuren zijn zachtere, minder verzadigde tinten van kleuren, vaak beschreven als "melkachtig", "wasachtig", of "moe". Deze kleuren hebben een hogere waarde en lagere verzadiging dan hun meer verzadigde tegenhangers. <br><br>
 
           Pastelkleuren dragen bij aan een verbeterde leesbaarheid van tekst op een website, doordat ze een zachtheid bieden die een gemakkelijker te verwerken contrast oplevert. Bovendien hebben pastelkleuren het vermogen om gevoelens van warmte, comfort en vertrouwen op te wekken bij gebruikers, wat resulteert in een positievere perceptie van een website. Daarnaast zijn pastelkleuren minder vermoeiend voor de ogen, waardoor gebruikers langer betrokken blijven bij de website en dit bijdraagt aan een comfortabelere visuele ervaring
-        </UiTextbox>
-        <UiTextbox title="Conclusie">
-          Het gebruik van pastelkleuren in webdevelopment kan een positieve impact hebben op de gebruiker door een verbeterde leesbaarheid, een sterkere emotionele band en een comfortabelere visuele ervaring te bieden.
 
           <div class="flex flex-row">
-            <div class="w-[300px] my-2 mr-4">
+            <div class="w-max my-2 mr-4">
               <UiButton
-                label="bekijk PDF"
+                label="bekijk uitgebreide documentatie"
                 primary
                 regular
                 arrow
@@ -28,6 +25,9 @@
               />
             </div>
           </div>
+        </UiTextbox>
+        <UiTextbox title="Conclusie">
+          Het gebruik van pastelkleuren in webdevelopment kan een positieve impact hebben op de gebruiker door een verbeterde leesbaarheid, een sterkere emotionele band en een comfortabelere visuele ervaring te bieden.
         </UiTextbox>
         <UiTextbox title="Leeruitkomsten">
           • <b> Learning outcome 1: User interaction (analysis & advice) </b> <br>
