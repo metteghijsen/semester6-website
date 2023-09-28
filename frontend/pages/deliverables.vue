@@ -13,7 +13,7 @@
               <UiFilterButton color="orange100" label="UI (Execution & Validation)" @click="filterLearningOutcome('lo2')" />
             </div>
             <div class="w-[475px]" title="You create & design software with existing components or libraries using predetermined quality criteria and version control.">
-              <UiFilterButton color="yellow100" label="Software Design & Development" @click="filterLearningOutcome('lo3')" />
+              <UiFilterButton color="yellow100" label="Software Design & Realisation" @click="filterLearningOutcome('lo3')" />
             </div>
           </div>
           <div class="flex flex-row">
@@ -120,16 +120,18 @@
 
           <UiDeliverable
             v-if="selectedLo.includes('lo3') || selectedLo.includes('lo5') || selectedLo.length === 0"
+            lo1
             lo3
             lo5
-            to="/"
-            deliverable-name="!C4 Model (nog niet af)"
+            lo7
+            to="c4model"
+            deliverable-name="C4 Model"
             image-name="c4model"
             deliverable-description="Dit document gaat verder in op het C4 model wat ik heb gemaakt voor mijn portfolio-website."
             project-type="Personal Project"
           />
 
-          <UiDeliverable
+          <!-- <UiDeliverable
             v-if="selectedLo.includes('lo2') || selectedLo.includes('lo3') || selectedLo.length === 0"
             lo2
             lo3
@@ -138,7 +140,7 @@
             image-name="developmentwebsite"
             deliverable-description="In dit document kun je lezen over het proces dat ik heb doorlopen bij het ontwikkelen van mijn portfolio-website. "
             project-type="Personal Project"
-          />
+          /> -->
 
           <!-- <UiDeliverable
             lo6
@@ -167,6 +169,7 @@
 </template>
 
 <script>
+
 export default {
   data () {
     return {
