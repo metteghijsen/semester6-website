@@ -7,7 +7,7 @@
         </UiTypography>
         <div class="flex flex-row">
           <div v-if="lo1">
-            <UiLearningOutcomeBullet color="red100" bg-color="red40" label="UI (Analysis & Advice)" title="You analyse the user, the user interaction and the user experience, also taking state of the art interactive technologies into account. You select a suitable design process to be able to advise on UX interventions based on a validated UX design." />
+            <UiLearningOutcomeBullet color="red100" bg-color="red40" label="User Interaction (Analysis & Advice)" title="You analyse the user, the user interaction and the user experience, also taking state of the art interactive technologies into account. You select a suitable design process to be able to advise on UX interventions based on a validated UX design." />
           </div>
           <div v-if="lo2">
             <UiLearningOutcomeBullet color="orange100" bg-color="orange40" label="User Interaction (Execution & Validation)" title="You execute and evaluate the user experience of an interactive product. You document the development process for the stakeholders." />
