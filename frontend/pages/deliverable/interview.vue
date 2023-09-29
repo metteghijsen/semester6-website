@@ -27,8 +27,14 @@
           </div>
         </UiTextbox>
         <UiTextbox title="Conclusie">
-          Jordi's website heeft me vooral geïnspireerd door zijn esthetische design en de handige taakbalk die continu zichtbaar blijft. Deze elementen zal ik zeker opnemen in mijn eigen portfolio-website, omdat ze zorgen voor visuele aantrekkelijkheid, en een consistente navigatie-ervaring bieden voor gebruikers.
-          Daarnaast ben ik sterk beïnvloed door Merlijn's aanpak om alle deliverables op één pagina te plaatsen. Met behulp van een contentfilter kunnen al deze deliverables dan gefilterd worden op project en/of leeruitkomst. Ook wil ik voor elke deliverable een afzonderlijke pagina aanmaken waar alle benodigde informatie op staat. Dit is een benadering die ik eerder heb toegepast en waar ik erg prettig mee kan werken. Het biedt een duidelijke structuur voor het presenteren van mijn werk en stelt bezoekers in staat om snel specifieke informatie te vinden.
+          Het is belangrijk dat in je portfolio de kwaliteit van je werk helder naar voren komt. Het kan
+          daarom nuttig zijn om een samenvatting te schrijven bij elk project, wat docenten
+          helpt om snel de essentie te begrijpen. Wat betreft de technische aspecten, heb
+          ik geleerd dat het bouwen van je eigen portfolio, als je technische vaardigheden
+          dat toelaten, meer controle en flexibiliteit kan bieden dan webscraping.
+          Doelgroepgerichtheid is ook van essentieel belang. Een eenvoudige en intuïtieve
+          navigatiestructuur, met minimale scroll- en klikvereisten, vergemakkelijkt de
+          toegang tot informatie voor docenten.
         </UiTextbox>
         <UiTextbox title="Leeruitkomsten">
           • <b> Learning outcome 1: User interaction (analysis & advice) </b> <br>
