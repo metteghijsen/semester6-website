@@ -15,7 +15,7 @@
               <UiButton label="deliverables" primary big arrow to="/deliverables" />
             </div>
             <div class="w-[400px] my-2">
-              <UiButton label="leeswijzer" secondary big />
+              <UiButton label="leeswijzer" secondary big to="/documents/leeswijzerv1.pdf" target="_blank" />
             </div>
           </div>
         </div>
