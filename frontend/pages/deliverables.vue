@@ -153,17 +153,16 @@
             project-type="Personal Project"
           /> -->
 
-          <!-- <UiDeliverable
-            v-if="selectedLo.includes('lo4') || selectedLo.includes('lo5') || || selectedLo.includes('lo7') ||  selectedLo.length === 0"
-            to="/"
+          <UiDeliverable
+            v-if="selectedLo.includes('lo4') || selectedLo.includes('lo5') || selectedLo.includes('lo7') || selectedLo.length === 0"
+            to="leeswijzer"
             lo4
             lo5
             lo7
-            deliverable-name="!Leeswijzer (nog niet af)"
-            image-name="developmentwebsite"
-            deliverable-description="In dit document kun je lezen over het proces dat ik heb doorlopen bij het ontwikkelen van mijn portfolio-website. "
-            project-type="Personal Project"
-          /> -->
+            deliverable-name="Leeswijzer"
+            image-name="readingguide"
+            deliverable-description="In dit document kun je de iteraties van mijn leeswijzer inzien. "
+          />
 
           <UiDeliverable
             v-if="selectedLo.includes('lo6') || selectedLo.includes('lo7') || selectedLo.length === 0"
