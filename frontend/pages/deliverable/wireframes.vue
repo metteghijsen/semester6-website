@@ -15,7 +15,7 @@
           <br><br>
           Door mijn trendanalyse heb ik besloten om pastelkleuren, subtiele animaties, ronde vormen en mooie afbeeldingen te gebruiken. Ik wil een eenvoudige website maken, met in gedachten "less is more". Hoewel het belangrijk is dat mijn site er goed uitziet op mobiele apparaten, heb ik ervoor gekozen om geen speciaal mobiel ontwerp te maken, omdat docenten waarschijnlijk vooral hun laptops zullen gebruiken.
           <br><br>
-          Het immersion-onderzoek heeft me geleid naar het overnemen van de stijl van Jordi's website, omdat ik die erg mooi vond. Maar ik heb ook gemerkt dat de website van Jordi niet zo gebruiksvriendelijk was. Daarom heb ik besloten om mijn website meer te laten lijken op die van Merlijn, door onder andere het contentfilter over te nemen en de manier waarop hij zijn werk presenteert. Merlijn heeft me ook geïnspireerd om afbeeldingen te genereren met behulp van AI.
+          Het immersion-onderzoek heeft me geleid naar het overnemen van de stijl van Jordi's website, omdat ik die erg mooi vond. Maar ik heb ook gemerkt dat de website van Jordi niet zo gebruiksvriendelijk was. Daarom heb ik besloten om mijn website meer te laten lijken op die van Merlijn, door onder andere het contentfilter over te nemen en de manier waarop hij zijn werk presenteert. Merlijn heeft me ook geïnspireerd om afbeeldingen te genereren met behulp van AI. Om deze reden heb ik dan ook een Midjourney abonnement aangeschaft.
           <div class="flex flex-row">
             <div class="w-max my-2 mr-4">
               <UiButton
