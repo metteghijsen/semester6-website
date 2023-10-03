@@ -131,16 +131,17 @@
             project-type="Personal Project"
           />
 
-          <!-- <UiDeliverable
-            v-if="selectedLo.includes('lo2') || selectedLo.includes('lo3') || selectedLo.length === 0"
+          <UiDeliverable
+            v-if="selectedLo.includes('lo2') || selectedLo.includes('lo3') || selectedLo.includes('lo6') || selectedLo.length === 0"
             lo2
             lo3
-            to="/"
-            deliverable-name="!Development Website (nog niet af)"
+            lo6
+            to="developmentwebsite"
+            deliverable-name="Development Website"
             image-name="developmentwebsite"
-            deliverable-description="In dit document kun je lezen over het proces dat ik heb doorlopen bij het ontwikkelen van mijn portfolio-website. "
+            deliverable-description="In dit document kun je lezen over het proces dat ik heb doorlopen bij het ontwikkelen van het interactieve prototype van mijn portfolio-website. "
             project-type="Personal Project"
-          /> -->
+          />
 
           <!-- <UiDeliverable
             lo6
