@@ -163,6 +163,17 @@
             deliverable-description="In dit document kun je lezen over het proces dat ik heb doorlopen bij het ontwikkelen van mijn portfolio-website. "
             project-type="Personal Project"
           /> -->
+
+          <UiDeliverable
+            v-if="selectedLo.includes('lo6') || selectedLo.includes('lo7') || selectedLo.length === 0"
+            to="postersession"
+            lo6
+            lo7
+            deliverable-name="Poster Session"
+            image-name="postersession"
+            deliverable-description="Bij de start van ons groepsproject stond het maken van een poster over ons project op de agenda. In dit verslag leg ik uit hoe ik dit heb aangepakt."
+            project-type="Group Project (Grip on Sound)"
+          />
         </div>
 
         <div class="flex flex-col">
