@@ -174,6 +174,18 @@
             deliverable-description="Bij de start van ons groepsproject stond het maken van een poster over ons project op de agenda. In dit verslag leg ik uit hoe ik dit heb aangepakt."
             project-type="Group Project (Grip on Sound)"
           />
+
+          <UiDeliverable
+            v-if="selectedLo.includes('lo4') || selectedLo.includes('lo5') || selectedLo.includes('lo7') || selectedLo.length === 0"
+            to="brainstorming"
+            lo4
+            lo5
+            lo7
+            deliverable-name="Brainstorming"
+            image-name="brainstorming"
+            deliverable-description="Na de briefing van Teague, hebben we met de groep een brainstorm gedaan om ervoor te zorgen dat we allemaal de opdracht goed begrijpen."
+            project-type="Group Project (Grip on Sound)"
+          />
         </div>
 
         <div class="flex flex-col">
