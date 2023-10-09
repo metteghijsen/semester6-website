@@ -65,7 +65,6 @@ export default {
 .stripe {
   width: 0;
   transition: width 0.4s;
-  transition-timing-function: ease-in-out;
 }
 
 .link:hover .stripe{
