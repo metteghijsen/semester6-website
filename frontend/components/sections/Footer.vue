@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-black10 pt-[106px]">
+  <div class="bg-black10">
     <div class="w-full bg-white100 grid grid-cols-4 gap-9 px-[340px] py-[120px]">
       <UiLogo image-name="fontys" to="https://www.fontys.nl/Home.htm" />
       <UiLogo image-name="kea" to="https://kea.dk/en/" />

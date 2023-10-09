@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-black10 min-h-screen zoom-80">
+  <div class="bg-repeat min-h-screen zoom-80 pb-[106px]">
     <div class="max-w-[1460px] mx-auto px-3">
       <slot />
     </div>
@@ -9,5 +9,9 @@
 <style scoped>
 .zoom-80 {
   zoom: 80%;
+}
+
+.bg-repeat {
+  background-image: url('/img/background.png');
 }
 </style>
