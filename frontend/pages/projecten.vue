@@ -5,7 +5,7 @@
         <LayoutTaskbar />
         <div data-aos="fade-right" data-aos-delay="50">
           <UiProject
-            image-left
+            reverse
             image-name="personalproject"
             project-name="Individueel Project"
             project-description="
