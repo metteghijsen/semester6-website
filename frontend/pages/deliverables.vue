@@ -45,6 +45,7 @@
             image-name="projectplan"
             deliverable-description="In dit document beschrijf ik mijn persoonlijke projectplan, en beschrijf ik het proces dat ik heb doorlopen bij het samenstellen van dit plan."
             project-type="Personal Project"
+            project-people="individual"
           />
 
           <UiDeliverable
@@ -58,6 +59,7 @@
             image-name="libraryresearch"
             deliverable-description="Dit document presenteert de resultaten van een literatuurstudie die ik heb uitgevoerd om een dieper inzicht te verkrijgen in de huidige designtrends die worden toegepast in portfolio's. "
             project-type="Personal Project"
+            project-people="individual"
           />
 
           <UiDeliverable
@@ -69,6 +71,7 @@
             image-name="colorresearch"
             deliverable-description="Ik heb een onderzoek uitgevoerd naar pastelkleuren. In dit document ga ik hier dieper op in."
             project-type="Personal Project"
+            project-people="individual"
           />
 
           <UiDeliverable
@@ -81,6 +84,7 @@
             image-name="immersion"
             deliverable-description="Dit document beschrijft de uitvoering van de Immersion-onderzoeksmethode op recent afgestudeerde studentenportfolio-websites."
             project-type="Personal Project"
+            project-people="individual"
           />
 
           <UiDeliverable
@@ -93,6 +97,7 @@
             image-name="interviewjordi"
             deliverable-description="In dit document kun je lezen over hoe ik een interview heb uitgevoerd met een student die semester 6 ICT & Media Design succesvol heeft afgerond. "
             project-type="Personal Project"
+            project-people="individual"
           />
 
           <UiDeliverable
@@ -104,6 +109,7 @@
             image-name="wireframing"
             deliverable-description="Dit document biedt inzicht in het proces dat ik heb doorlopen bij het ontwerpen van mijn portfolio-website.  "
             project-type="Personal Project"
+            project-people="individual"
           />
 
           <UiDeliverable
@@ -116,6 +122,7 @@
             image-name="usertesting"
             deliverable-description="In dit document kun je lezen hoe ik gebruikerstesten heb afgenomen op het interactieve prototype van mijn portfolio-website. "
             project-type="Personal Project"
+            project-people="individual"
           />
 
           <UiDeliverable
@@ -129,6 +136,7 @@
             image-name="c4model"
             deliverable-description="Dit document gaat verder in op het C4 model wat ik heb gemaakt voor mijn portfolio-website."
             project-type="Personal Project"
+            project-people="individual"
           />
 
           <UiDeliverable
@@ -141,6 +149,7 @@
             image-name="developmentwebsite"
             deliverable-description="In dit document kun je lezen over het proces dat ik heb doorlopen bij het ontwikkelen van het interactieve prototype van mijn portfolio-website. "
             project-type="Personal Project"
+            project-people="individual"
           />
 
           <!-- <UiDeliverable
@@ -162,6 +171,7 @@
             deliverable-name="Leeswijzer"
             image-name="readingguide"
             deliverable-description="In dit document kun je de iteraties van mijn leeswijzer inzien. "
+            project-people="group"
           />
 
           <UiDeliverable
@@ -172,7 +182,8 @@
             deliverable-name="Poster Session"
             image-name="postersession"
             deliverable-description="Bij de start van ons groepsproject stond het maken van een poster over ons project op de agenda. In dit verslag leg ik uit hoe ik dit heb aangepakt."
-            project-type="Group Project (Grip on Sound)"
+            project-type="Grip on Sound"
+            project-people="group"
           />
 
           <UiDeliverable
@@ -184,7 +195,21 @@
             deliverable-name="Brainstorming"
             image-name="brainstorming"
             deliverable-description="Na de briefing van Teague, hebben we met de groep een brainstorm gedaan om ervoor te zorgen dat we allemaal de opdracht goed begrijpen."
-            project-type="Group Project (Grip on Sound)"
+            project-type="Grip on Sound"
+            project-people="group"
+          />
+
+          <UiDeliverable
+            v-if="selectedLo.includes('lo4') || selectedLo.includes('lo5') || selectedLo.includes('lo7') || selectedLo.length === 0"
+            to="projectplangroup"
+            lo4
+            lo5
+            lo7
+            deliverable-name="Projectplan"
+            image-name="projectplangroup"
+            deliverable-description="Na de briefing van Teague, hebben we met de groep een brainstorm gedaan om ervoor te zorgen dat we allemaal de opdracht goed begrijpen."
+            project-type="Grip on Sound"
+            project-people="group"
           />
         </div>
 

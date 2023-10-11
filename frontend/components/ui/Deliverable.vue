@@ -1,8 +1,16 @@
 <template>
   <NuxtLink :to="`/deliverable/${to}`">
-    <div class="bg-white100 h-[720px] w-[460px] flex flex-col rounded-3xl relative m-0.5 hover:-translate-y-2 transition-all ease-in-out">
-      <div class="flex justify-center">
-        <NuxtImg :src="`/img/deliverables/${imageName}.png`" :alt="imageName" class="w-[443px] m-1.5 rounded-3xl" />
+    <div class="bg-white100 h-[700px] w-[460px] flex flex-col rounded-3xl relative m-0.5 hover:-translate-y-2 transition-all ease-in-out">
+      <div class="relative">
+        <div class="flex justify-center">
+          <NuxtImg :src="`/img/deliverables/${imageName}.png`" :alt="imageName" class="w-[443px] m-1.5 rounded-3xl" />
+        </div>
+        <div v-if="projectType" class="absolute left-3 bottom-3 bg-black50 w-max rounded-2xl h-3 px-2 flex justify-center items-center">
+          <NuxtImg :src="`/img/${projectPeople}.png`" :alt="projectPeople" class="mr-1 h-2.5 flex items-center" />
+          <UiTypography type="p" size="paragraph-extra-small" color="text-white100">
+            {{ projectType }}
+          </UiTypography>
+        </div>
       </div>
       <div class="flex">
         <div class="flex flex-col pl-1.5">
@@ -23,9 +31,6 @@
           </UiTypography>
         </div>
       </div>
-      <UiTypography type="p" size="paragraph-extra-small" class="absolute bottom-2 left-7 italic opacity-40">
-        {{ projectType }}
-      </UiTypography>
     </div>
   </NuxtLink>
 </template>
@@ -47,6 +52,10 @@ export default defineComponent({
       required: true
     },
     projectType: {
+      type: String,
+      required: true
+    },
+    projectPeople: {
       type: String,
       required: true
     },
