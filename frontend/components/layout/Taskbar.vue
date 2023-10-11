@@ -25,7 +25,7 @@
         <div v-else class="bg-darkblue100 h-0.5 rounded-full stripe" />
       </router-link>
 
-      <router-link :to="links[3].to" class="px-2 link" :class="{ 'active-link': isActive(links[3].to) }" target="_blank">
+      <router-link :to="links[3].to" class="px-2 link" :class="{ 'active-link': isActive(links[3].to) }">
         <UiTypography type="p" size="paragraph-small" :class="{ 'font-bold': isActive(links[3].to) }">
           Leeswijzer
         </UiTypography>
@@ -44,7 +44,7 @@ export default {
         { text: 'Home', to: '/' },
         { text: 'Deliverables', to: '/deliverables' },
         { text: 'Projecten', to: '/projecten' },
-        { text: 'Leeswijzer', to: '/documents/leeswijzerv1.pdf' }
+        { text: 'Leeswijzer', to: '/leeswijzer' }
       ]
     }
   },
