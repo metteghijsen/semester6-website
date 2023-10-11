@@ -50,8 +50,6 @@
 
           <UiDeliverable
             v-if="selectedLo.includes('lo1') || selectedLo.includes('lo5') || selectedLo.length === 0"
-
-            lo="lo1 lo5"
             lo1
             lo5
             to="literaturestudy"
@@ -76,7 +74,6 @@
 
           <UiDeliverable
             v-if="selectedLo.includes('lo1') || selectedLo.includes('lo5') || selectedLo.length === 0"
-            lo="lo1 lo5"
             lo1
             lo5
             to="immersion"
@@ -89,7 +86,6 @@
 
           <UiDeliverable
             v-if="selectedLo.includes('lo1') || selectedLo.includes('lo5') || selectedLo.length === 0"
-            lo="lo1 lo5"
             lo1
             lo5
             to="interview"
@@ -113,7 +109,7 @@
           />
 
           <UiDeliverable
-            v-if="selectedLo.includes('lo1') || selectedLo.includes('lo2') || selectedLo.length === 0"
+            v-if="selectedLo.includes('lo1') || selectedLo.includes('lo2') || selectedLo.includes('lo5') || selectedLo.length === 0"
             lo1
             lo2
             lo5
@@ -126,7 +122,20 @@
           />
 
           <UiDeliverable
-            v-if="selectedLo.includes('lo3') || selectedLo.includes('lo5') || selectedLo.length === 0"
+            v-if="selectedLo.includes('lo1') || selectedLo.includes('lo2') || selectedLo.includes('lo5') || selectedLo.length === 0"
+            lo1
+            lo2
+            lo5
+            to="abtesting"
+            deliverable-name="A/B Testing"
+            image-name="abtesting"
+            deliverable-description="In dit document kun je lezen hoe ik A/B testen heb afgenomen op het interactieve prototype van mijn portfolio-website. "
+            project-type="Personal Project"
+            project-people="individual"
+          />
+
+          <UiDeliverable
+            v-if="selectedLo.includes('lo1') || selectedLo.includes('lo3') || selectedLo.includes('lo5') || selectedLo.includes('lo7') || selectedLo.length === 0"
             lo1
             lo3
             lo5
