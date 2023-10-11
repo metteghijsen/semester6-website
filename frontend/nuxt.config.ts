@@ -23,7 +23,10 @@ export default defineNuxtConfig({
 
   // https://nuxt.com/docs/api/configuration/nuxt-config/#vite
   vite: {
-    plugins: [eslintPlugin()],
+    plugins: [eslintPlugin(), {
+      src: '~/plugins/aos.js',
+      mode: 'client'
+    } as any],
     css: {
       preprocessorOptions: {
         scss: {

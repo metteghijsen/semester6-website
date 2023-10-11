@@ -4,8 +4,14 @@
       <div class="h-full overflow-x-hidden">
         <LayoutTaskbar />
         <div class="flex flex-row">
-          <iframe src="/documents/leeswijzerv1.pdf" width="1100px" height="1250px" title="leeswijzer" class="rounded-3xl" />
-          <div class="h-max ml-4 w-[600px] bg-white100 rounded-3xl">
+          <iframe
+            src="/documents/leeswijzerv1.pdf"
+            width="1100px"
+            height="1250px"
+            title="leeswijzer"
+            class="rounded-3xl"
+          />
+          <div class="ml-4 w-[600px] bg-white100 rounded-3xl">
             <div class="m-4">
               <UiTypography type="h3" size="heading3" class="mb-3">
                 Burden of Proof
