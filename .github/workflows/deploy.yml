@@ -24,9 +24,9 @@ jobs:
         uses: SamKirkland/FTP-Deploy-Action@v4.3.4
         with:
           server: ftp.metteghijsen.nl
-          username: metteftp
+          username: metteftp@metteghijsen.nl
           password: ${{ secrets.FTP_PASSWORD }}
           local-dir: ./frontend/dist/
           server-dir: ./s6.metteghijsen.nl/
-          protocol: ftps
+          # protocol: ftps
           dry-run: true
