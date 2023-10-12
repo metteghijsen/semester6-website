@@ -16,7 +16,7 @@ jobs:
         working-directory: ./frontend
         run: npm install
       - name: Building the project
-        run: npx nuxi install
+        run: npx nuxi generate -y
       - name: FTP the output
         uses: SamKirkland/FTP-Deploy-Action@v4.3.4
         with:
