@@ -26,5 +26,6 @@ jobs:
           server: ftp.metteghijsen.nl
           username: metteftp
           password: ${{ secrets.FTP_PASSWORD }}
-          local-dir: .frontend/dist
-          server-dir: ./s6.metteghijsen.nl
+          local-dir: ./frontend/dist/
+          server-dir: ./s6.metteghijsen.nl/
+          dry-run: true
