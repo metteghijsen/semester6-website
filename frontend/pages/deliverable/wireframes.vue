@@ -39,6 +39,16 @@
             </div>
           </div>
         </UiTextbox>
+        <UiTextbox title="Figma iFrame">
+          <iframe
+            title="figma-ontwerp"
+            style="border: 1px solid rgba(0, 0, 0, 0.1);"
+            width="1280"
+            height="720"
+            src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2Fr96scqhURaZI3UIRQgePqu%2FPortfolio-S6%3Ftype%3Ddesign%26node-id%3D0%253A1%26mode%3Ddesign%26t%3DTvSRFXcHF67rghAb-1"
+            allowfullscreen
+          />
+        </UiTextbox>
         <UiTextbox title="Conclusie">
           In het kort, na het praten met Jordi, het bekijken van trends en grondig onderzoek te doen, weet ik nu beter wat er op mijn website moet komen en waarom. Ik snap nu waar docenten op letten en heb mijn website daarop aangepast, met bijvoorbeeld samenvattingen en filters voor de inhoud. Mijn keuzes voor het uiterlijk, zoals zachte kleuren en een simpele stijl, komen voort uit mijn analyse van trends. Jordi's stijl heeft me beïnvloed, maar ik heb ook geleerd van Merlijn om mijn site gebruiksvriendelijker te maken en AI voor afbeeldingen te gebruiken.
         </UiTextbox>
