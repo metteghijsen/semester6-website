@@ -162,6 +162,7 @@
           />
 
           <!-- <UiDeliverable
+            v-if="selectedLo.includes('lo6') || selectedLo.includes('lo7') || selectedLo.length === 0"
             lo6
             lo7
             to="/"
@@ -169,6 +170,7 @@
             image-name="feedbackportfolio"
             deliverable-description="In dit document kun je lezen over de feedbackrondes die ik heb gehad over mijn persoonlijke portfolio. "
             project-type="Personal Project"
+            project-people="individual"
           /> -->
 
           <UiDeliverable
@@ -208,7 +210,7 @@
             project-people="group"
           />
 
-          <UiDeliverable
+          <!-- <UiDeliverable
             v-if="selectedLo.includes('lo4') || selectedLo.includes('lo5') || selectedLo.includes('lo7') || selectedLo.length === 0"
             to="projectplangroup"
             lo4
@@ -219,7 +221,7 @@
             deliverable-description="Na de briefing van Teague, hebben we met de groep een brainstorm gedaan om ervoor te zorgen dat we allemaal de opdracht goed begrijpen."
             project-type="Grip on Sound"
             project-people="group"
-          />
+          /> -->
         </div>
 
         <div class="flex flex-col">
