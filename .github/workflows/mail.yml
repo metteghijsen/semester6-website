@@ -1,8 +1,9 @@
 name: DEPLOY METTEGHIJSEN
 
-on: push
-  branches:
-    - develop
+on: 
+  push:
+    branches:
+      - develop
 
 jobs:
   web-deploy:
