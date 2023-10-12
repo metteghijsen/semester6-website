@@ -47,6 +47,11 @@
           •	<b> Learning outcome 7: Goal-oriented interaction </b> <br>
           You communicate with different stakeholders and team members about the ICT assignment, taking into account an international context.
         </UiTextbox>
+        <div class="flex justify-center">
+          <div class="w-[400px] my-2">
+            <UiButton label="back to overview" primary big arrow to="/deliverables" />
+          </div>
+        </div>
       </div>
     </UiContainer>
     <SectionsFooter />

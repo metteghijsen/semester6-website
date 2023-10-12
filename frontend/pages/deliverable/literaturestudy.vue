@@ -37,6 +37,11 @@
           •	<b> Learning outcome 5: Investigative problem solving </b> <br>
           You formulate sub-questions pertaining to the primary question and answer these using relevant research methods. You use the conclusions of the sub-questions to justify (design) choices. <br><br>
         </UiTextbox>
+        <div class="flex justify-center">
+          <div class="w-[400px] my-2">
+            <UiButton label="back to overview" primary big arrow to="/deliverables" />
+          </div>
+        </div>
       </div>
     </UiContainer>
     <SectionsFooter />

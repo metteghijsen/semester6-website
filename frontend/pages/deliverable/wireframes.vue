@@ -48,6 +48,11 @@
           • <b> Learning outcome 2: User interaction (execution & validation) </b> <br>
           You execute and evaluate the user experience of an interactive product. You document the development process for the stakeholders.
         </UiTextbox>
+        <div class="flex justify-center">
+          <div class="w-[400px] my-2">
+            <UiButton label="back to overview" primary big arrow to="/deliverables" />
+          </div>
+        </div>
       </div>
     </UiContainer>
     <SectionsFooter />

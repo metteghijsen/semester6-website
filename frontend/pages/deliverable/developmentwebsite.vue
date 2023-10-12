@@ -51,6 +51,11 @@
           •	<b> Learning outcome 6: Personal leadership </b> <br>
           You methodically reflect on your professional identity and personal development.
         </UiTextbox>
+        <div class="flex justify-center">
+          <div class="w-[400px] my-2">
+            <UiButton label="back to overview" primary big arrow to="/deliverables" />
+          </div>
+        </div>
       </div>
     </UiContainer>
     <SectionsFooter />
