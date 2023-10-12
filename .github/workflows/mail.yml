@@ -1,6 +1,6 @@
 name: DEPLOY METTEGHIJSEN
 
-on: [push]
+on: push
   branches:
     - develop
 
