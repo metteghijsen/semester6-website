@@ -115,7 +115,6 @@ export default {
     }
   },
   mounted () {
-    console.log('Component mounted')
     window.addEventListener('scroll', this.handleScroll)
   },
   beforeUnmount () {
@@ -124,7 +123,6 @@ export default {
   methods: {
     handleScroll () {
       const scrollY = window.scrollY
-      console.log(window.scrollY)
 
       if (scrollY >= 750 && this.finishedCounting === false) {
         this.finishedCounting = true
