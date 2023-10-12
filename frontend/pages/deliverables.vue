@@ -197,6 +197,19 @@
             project-people="group"
           />
 
+          <!-- <UiDeliverable
+            v-if="selectedLo.includes('lo6') || selectedLo.includes('lo7') || selectedLo.length === 0"
+            to="projectplanning"
+            lo4
+            lo5
+            lo7
+            deliverable-name="Project Planning"
+            image-name="projectplanning"
+            deliverable-description="Hier kun je lezen over de organisatorische stappen die we voorafgaand aan ons groepsproject hebben gemaakt."
+            project-type="Grip on Sound"
+            project-people="group"
+          /> -->
+
           <UiDeliverable
             v-if="selectedLo.includes('lo4') || selectedLo.includes('lo5') || selectedLo.includes('lo7') || selectedLo.length === 0"
             to="brainstorming"
