@@ -32,7 +32,6 @@
   "dependencies": {
     "@nuxtjs/robots": "^3.0.0",
     "@pinia/nuxt": "^0.4.6",
-    "aos": "^2.3.4",
     "pinia": "^2.0.28",
     "purgecss": "^5.0.0",
     "vue3-autocounter": "^1.0.6"
