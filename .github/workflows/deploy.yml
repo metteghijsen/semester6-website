@@ -28,4 +28,5 @@ jobs:
           password: ${{ secrets.FTP_PASSWORD }}
           local-dir: ./frontend/dist/
           server-dir: ./s6.metteghijsen.nl/
+          protocol: ftps
           dry-run: true
