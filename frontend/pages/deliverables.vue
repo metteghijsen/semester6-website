@@ -161,6 +161,18 @@
             project-people="individual"
           />
 
+          <UiDeliverable
+            v-if=" selectedLo.includes('lo3') || selectedLo.includes('lo5') || selectedLo.length === 0"
+            lo3
+            lo5
+            to="pipeline"
+            deliverable-name="Pipeline"
+            image-name="pipeline"
+            deliverable-description="In dit document kun je lezen hoe ik een eigen pipeline heb gebouwd om zo makkelijker documentatie te kunnen uploaden naar mijn portfolio-website."
+            project-type="Personal Project"
+            project-people="individual"
+          />
+
           <!-- <UiDeliverable
             v-if="selectedLo.includes('lo6') || selectedLo.includes('lo7') || selectedLo.length === 0"
             lo6
