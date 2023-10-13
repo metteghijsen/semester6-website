@@ -1,6 +1,6 @@
 <template>
   <div class="bg-black10">
-    <div class="w-full bg-white100 grid grid-cols-4 gap-2 px-[450px] py-[120px]">
+    <div class="w-full bg-white100 grid grid-cols-4 gap-2 px-[450px] lg:px-[400px] py-[120px]">
       <UiLogo image-name="fontys" to="https://www.fontys.nl/Home.htm" />
       <UiLogo image-name="kea" to="https://kea.dk/en/" />
       <UiLogo image-name="livewall" to="https://www.livewall.nl/" />
