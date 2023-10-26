@@ -22,7 +22,7 @@
           <div v-if="lo6" class="rounded-full bg-purple100 w-2 h-2 my-0.5" title="Personal Leadership" />
           <div v-if="lo7" class="rounded-full bg-pink100 w-2 h-2 my-0.5" title="Goal-oriented Interaction" />
         </div>
-        <div class="flex flex-col ml-2.5">
+        <div class="flex flex-col ml-2.5 mr-1.5">
           <UiTypography type="h4" size="heading4">
             {{ deliverableName }}
           </UiTypography>
