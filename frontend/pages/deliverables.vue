@@ -194,6 +194,16 @@
             deliverable-name="Leeswijzer"
             image-name="readingguide"
             deliverable-description="In dit document kun je de iteraties van mijn leeswijzer inzien. "
+          />
+
+          <UiDeliverable
+            v-if="selectedLo.includes('lo4') || selectedLo.includes('lo5') || selectedLo.includes('lo7') || selectedLo.length === 0"
+            to="ddw"
+            lo7
+            deliverable-name="Dutch Design Week"
+            image-name="ddw2"
+            deliverable-description="Van 23 t/m 25 oktober ben ik samen met mijn projectgroep en een Canadese student naar de Dutch Design Week geweest. In dit document kun je hier meer over lezen."
+            project-type="Dutch Design Week (International Project)"
             project-people="group"
           />
 
