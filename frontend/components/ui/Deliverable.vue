@@ -53,11 +53,11 @@ export default defineComponent({
     },
     projectType: {
       type: String,
-      required: true
+      required: false
     },
     projectPeople: {
       type: String,
-      required: true
+      required: false
     },
     to: {
       type: String,
