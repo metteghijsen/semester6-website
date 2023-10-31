@@ -29,6 +29,17 @@
           Van 23 t/m 25 oktober ben ik samen met mijn projectgroep en een Canadese student naar de Dutch Design Week geweest. Daarna moesten we met de inspiratie die we op de DDW hadden opgedaan gebruiken om een product te ontwerpen. Dit mocht alles zijn. In dit document kun je daar meer over lezen."
           />
         </div>
+
+        <div>
+          <UiProject
+            reverse
+            to="deliverable/weyweyweb"
+            image-name="weyweyweb"
+            project-name="Wey Wey Web"
+            project-description="
+          Van 22 t/m 25 november ben ik samen met Fontys naar Malaga geweest, om daar deel te nemen aan de Wey Wey Web conference. Dit is een conferentie gericht op iedereen die UI/UX, ontwerp en development interessant vindt. Hier leg ik uit hoe ik deze trip heb ervaren."
+          />
+        </div>
       </div>
     </UiContainer>
     <SectionsFooter />
