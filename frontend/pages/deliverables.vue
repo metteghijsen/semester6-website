@@ -197,7 +197,7 @@
           />
 
           <UiDeliverable
-            v-if="selectedLo.includes('lo4') || selectedLo.includes('lo5') || selectedLo.includes('lo7') || selectedLo.length === 0"
+            v-if="selectedLo.includes('lo7') || selectedLo.length === 0"
             to="ddw"
             lo7
             deliverable-name="Dutch Design Week"
@@ -205,6 +205,24 @@
             deliverable-description="Van 23 t/m 25 oktober ben ik samen met mijn projectgroep en een Canadese student naar de Dutch Design Week geweest. In dit document kun je hier meer over lezen."
             project-type="Dutch Design Week (International Project)"
             project-people="group"
+          />
+
+          <UiDeliverable
+            v-if="selectedLo.includes('lo7') || selectedLo.length === 0"
+            to="architecturemuseum"
+            lo7
+            deliverable-name="Architecture Museum"
+            image-name="architecturemuseum"
+            deliverable-description="Tijdens de herfstvakantie heb ik een reis gemaakt naar Kopenhagen. Hier heb ik het architectuur museum bekeken. Hier kun je een aantal dingen lezen die me opvielen."
+          />
+
+          <UiDeliverable
+            v-if="selectedLo.includes('lo7') || selectedLo.length === 0"
+            to="designmuseum"
+            lo7
+            deliverable-name="Design Museum"
+            image-name="designmuseum"
+            deliverable-description="Tijdens de herfstvakantie heb ik een reis gemaakt naar Kopenhagen. Hier heb ik het design museum bekeken. Hier kun je een aantal dingen lezen die me opvielen."
           />
 
           <UiDeliverable
@@ -241,6 +259,32 @@
             deliverable-name="Brainstorming"
             image-name="brainstorming"
             deliverable-description="Na de briefing van Teague, hebben we met de groep een brainstorm gedaan om ervoor te zorgen dat we allemaal de opdracht goed begrijpen."
+            project-type="Grip on Sound"
+            project-people="group"
+          />
+
+          <UiDeliverable
+            v-if="selectedLo.includes('lo1') || selectedLo.includes('lo5') || selectedLo.includes('lo7') || selectedLo.length === 0"
+            to="moodboard"
+            lo1
+            lo5
+            lo7
+            deliverable-name="Moodboard UI/UX"
+            image-name="moodboard"
+            deliverable-description="Om inspiratie op te doen voor een ontwerp voor onze app, heb ik samen met Sef een moodboard gemaakt. Hier kun je daar meer over lezen."
+            project-type="Grip on Sound"
+            project-people="group"
+          />
+
+          <UiDeliverable
+            v-if="selectedLo.includes('lo1') || selectedLo.includes('lo5') || selectedLo.includes('lo7') || selectedLo.length === 0"
+            to="survey"
+            lo1
+            lo5
+            lo7
+            deliverable-name="Survey"
+            image-name="survey"
+            deliverable-description="Om erachter te komen hoe gymdocenten het probleem ervaren, en welke oplossingen ze passend zouden vinden, heb ik een enquête afgenomen bij een aantal gymdocenten."
             project-type="Grip on Sound"
             project-people="group"
           />
