@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-white100 w-full rounded-3xl my-2">
+  <div class="bg-white100 dark:bg-slate-800 w-full rounded-3xl my-2">
     <div class="pl-7">
       <UiTypography type="h4" size="heading4" :color="loNameColor" class="pt-8">
         {{ loName }}

@@ -1,5 +1,5 @@
 <template>
-  <button class="w-full rounded-full border-solid py-2 border-4 flex justify-center text-center items-center" :class="selected ? 'bg-' + color : 'bg-white100' " @click="toggleSelected()">
+  <button class="w-full rounded-full border-solid dark:border-slate-700 py-2 border-4 flex justify-center text-center items-center" :class="selected ? 'bg-' + color : 'bg-white100 dark:bg-slate-800' " @click="toggleSelected()">
     <UiTypography type="p" size="button-regular" :color="selected ? 'text-white100' : 'text-' + color">
       {{ label }}
     </UiTypography>

@@ -1,6 +1,6 @@
 <template>
   <div class="overflow-hidden">
-    <div class="bg-white100 w-full rounded-3xl mb-2 flex">
+    <div class="bg-white100 dark:bg-slate-800 w-full rounded-3xl mb-2 flex">
       <div class="pl-7">
         <div v-if="addHeader">
           <UiTypography type="h4" size="heading3" class="pt-8">
@@ -39,7 +39,7 @@
         </UiTypography>
         <UiTypography
           type="p"
-          color="text-black60"
+          color="text-black60 dark:text-white70"
           class="pt-2 pr-4 pb-8"
         >
           <slot />

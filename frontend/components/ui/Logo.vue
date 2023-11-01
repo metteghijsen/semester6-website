@@ -1,7 +1,7 @@
 <template>
   <div class="flex justify-center items-center">
     <NuxtLink :to="to" target="_blank">
-      <NuxtImg :src="`/img/logos/${imageName}.png`" :alt="imageName" class="grayscale hover:grayscale-0 transition-all duration-300 ease-in-out lg:max-h-[100px]" />
+      <NuxtImg :src="`/img/logos/${imageName}.png`" :alt="imageName" class="dark:brightness-0 dark:invert dark:grayscale dark:brightness-100 dark:hover:invert-0 dark:hover:grayscale-0 grayscale hover:grayscale-0 transition-all duration-300 ease-in-out lg:max-h-[100px]" />
     </NuxtLink>
   </div>
 </template>

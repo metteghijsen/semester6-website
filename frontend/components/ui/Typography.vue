@@ -19,7 +19,7 @@ export default defineComponent({
       type: String
     },
     color: {
-      default: 'text-black100',
+      default: 'text-black100 dark:text-white100',
       required: false,
       type: String
     }

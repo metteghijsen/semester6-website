@@ -20,7 +20,7 @@
           </div>
         </div>
         <div class="overflow-hidden">
-          <div class="mt-[350px] w-full h-max rounded-3xl bg-blue40 p-7 flex flex-row">
+          <div class="mt-[350px] w-full h-max rounded-3xl bg-blue40 dark:bg-blue100 p-7 flex flex-row">
             <NuxtImg
               src="/img/mette.png"
               alt="mette"
@@ -39,7 +39,7 @@
               </UiTypography>
             </div>
           </div>
-          <div class="md:grid md:grid-cols-3 md:gap-3 mt-8 bg-white py-7 rounded-3xl overflow-none">
+          <div class="md:grid md:grid-cols-3 md:gap-3 mt-8 bg-white dark:bg-slate-800 py-7 rounded-3xl overflow-none">
             <div class="mb-4 md:mb-0 text-center">
               <UiTypography class="mb-1">
                 Ik heb nu afgerond

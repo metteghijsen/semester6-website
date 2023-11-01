@@ -1,36 +1,36 @@
 <template>
   <div class="justify-center flex mt-8 mb-[100px]">
-    <div class="bg-white100 px-[106px] py-3 flex justify-center rounded-full w-max fixed z-50 shadow-md">
+    <div class="bg-white100 dark:bg-slate-800 px-[106px] py-3 flex justify-center rounded-full w-max fixed z-50 shadow-md">
       <router-link :to="links[0].to" class="px-2 link" :class="{ 'active-link': isActive(links[0].to) }">
         <UiTypography type="p" size="paragraph-small" :class="{ 'font-bold': isActive(links[0].to) }">
           Home
         </UiTypography>
-        <div v-if="isActive(links[0].to)" class="bg-darkblue100 h-0.5 rounded-full" />
-        <div v-else class="bg-darkblue100 h-0.5 rounded-full stripe" />
+        <div v-if="isActive(links[0].to)" class="bg-darkblue100 dark:bg-blue100 h-0.5 rounded-full" />
+        <div v-else class="bg-darkblue100 dark:bg-blue100 h-0.5 rounded-full stripe" />
       </router-link>
 
       <router-link :to="links[1].to" class="px-2 link" :class="{ 'active-link': isActive(links[1].to) }">
         <UiTypography type="p" size="paragraph-small" :class="{ 'font-bold': isActive(links[1].to) }">
           Deliverables
         </UiTypography>
-        <div v-if="isActive(links[1].to)" class="bg-darkblue100 h-0.5 rounded-full" />
-        <div v-else class="bg-darkblue100 h-0.5 rounded-full stripe" />
+        <div v-if="isActive(links[1].to)" class="bg-darkblue100 dark:bg-blue100 h-0.5 rounded-full" />
+        <div v-else class="bg-darkblue100 dark:bg-blue100 h-0.5 rounded-full stripe" />
       </router-link>
 
       <router-link :to="links[2].to" class="px-2 link" :class="{ 'active-link': isActive(links[2].to) }">
         <UiTypography type="p" size="paragraph-small" :class="{ 'font-bold': isActive(links[2].to) }">
           Projecten
         </UiTypography>
-        <div v-if="isActive(links[2].to)" class="bg-darkblue100 h-0.5 rounded-full" />
-        <div v-else class="bg-darkblue100 h-0.5 rounded-full stripe" />
+        <div v-if="isActive(links[2].to)" class="bg-darkblue100 dark:bg-blue100 h-0.5 rounded-full" />
+        <div v-else class="bg-darkblue100 dark:bg-blue100 h-0.5 rounded-full stripe" />
       </router-link>
 
       <router-link :to="links[3].to" class="px-2 link" :class="{ 'active-link': isActive(links[3].to) }">
         <UiTypography type="p" size="paragraph-small" :class="{ 'font-bold': isActive(links[3].to) }">
           Leeswijzer
         </UiTypography>
-        <div v-if="isActive(links[3].to)" class="bg-darkblue100 h-0.5 rounded-full" />
-        <div v-else class="bg-darkblue100 h-0.5 rounded-full stripe" />
+        <div v-if="isActive(links[3].to)" class="bg-darkblue100 dark:bg-blue100 h-0.5 rounded-full" />
+        <div v-else class="bg-darkblue100 dark:bg-blue100 h-0.5 rounded-full stripe" />
       </router-link>
     </div>
   </div>

@@ -77,6 +77,7 @@ export default <Partial<Config>> {
       poppins: 'Poppins'
     }
   },
+  darkMode: 'class',
   plugins: [
 
   ]

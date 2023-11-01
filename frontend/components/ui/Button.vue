@@ -88,10 +88,10 @@ export default defineComponent({
   }
 
   .primary{
-    @apply btn bg-darkblue100 text-white100
+    @apply btn bg-darkblue100 text-white100 dark:bg-blue100
   }
 
   .secondary{
-    @apply btn bg-white100 text-darkblue100 border-solid border-darkblue100 border-4
+    @apply btn bg-white100 text-darkblue100 border-solid border-darkblue100 border-4 dark:bg-slate-700 dark:border-blue100 dark:text-blue100
   }
   </style>

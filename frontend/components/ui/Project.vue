@@ -1,6 +1,6 @@
 <template>
   <NuxtLink :to="to">
-    <div class="bg-white w-full max-h-[524px] flex flex-row rounded-3xl mb-3" :class="reverse ? 'flex-row' : 'flex-row-reverse'">
+    <div class="bg-white dark:bg-slate-800 w-full max-h-[524px] flex flex-row rounded-3xl mb-3" :class="reverse ? 'flex-row' : 'flex-row-reverse'">
       <NuxtImg :src="`/img/projects/${imageName}.png`" :alt="imageName" class="w-full max-w-[500px] max-h-[400px] object-cover my-11 rounded-3xl mx-4" :class="reverse ? 'ml-10' : 'mr-10'" />
       <div class="flex flex-col mx-10">
         <UiTypography type="h3" size="heading3" class="pt-11 pb-1">
