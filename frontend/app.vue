@@ -1,6 +1,6 @@
 <template>
   <NuxtLayout>
-    <NuxtPage />
     <UiScrollToTop />
+    <NuxtPage />
   </NuxtLayout>
 </template>
