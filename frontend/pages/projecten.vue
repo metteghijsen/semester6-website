@@ -1,7 +1,7 @@
 <template>
   <div>
     <UiContainer>
-      <div class="h-full overflow-x-hidden">
+      <div class="h-full ">
         <LayoutTaskbar />
         <!-- <div>
           <UiProject
@@ -20,7 +20,7 @@
           Dit document dient als een uitgebreid verslag van de verschillende stadia die ik heb doorlopen bij het samenstellen van mijn portfolio. Hierin wordt dieper ingegaan op de specifieke stappen en overwegingen die een rol speelden tijdens het onderzoeks-, ontwerp- en realisatieproces van mijn portfolio."
           />
         </div> -->
-        <div>
+        <div v-motion-slide-left>
           <UiProject
             to="deliverable/ddw"
             image-name="ddw"
@@ -30,7 +30,7 @@
           />
         </div>
 
-        <div>
+        <div v-motion-slide-right>
           <UiProject
             reverse
             to="deliverable/weyweyweb"

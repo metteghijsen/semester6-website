@@ -1,9 +1,9 @@
 <template>
   <div>
     <UiContainer>
-      <div class="h-full overflow-x-hidden">
+      <div class="h-full">
         <LayoutTaskbar />
-        <div class="flex flex-row">
+        <div v-motion-slide-bottom class="flex flex-row">
           <iframe
             src="/documents/leeswijzerv1.pdf"
             width="1100px"

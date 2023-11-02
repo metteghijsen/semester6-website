@@ -1,18 +1,18 @@
 <template>
   <NuxtLink :to="`/deliverable/${to}`">
-    <div class="bg-white100 dark:bg-slate-800 h-[700px] w-[460px] flex flex-col rounded-3xl relative m-0.5 hover:-translate-y-2 transition-all ease-in-out">
+    <div v-motion-slide-bottom class="bg-white100 border-slate-200 dark:bg-slate-800 dark:border-slate-600 border-2 h-[700px] w-[460px] flex flex-col rounded-3xl relative m-0.5 custom-hover transition-all ease-in-out">
       <div class="relative">
         <div class="flex justify-center">
-          <NuxtImg :src="`/img/deliverables/${imageName}.png`" :alt="imageName" class="w-[443px] m-1.5 rounded-3xl" />
+          <NuxtImg :src="`/img/deliverables/${imageName}.png`" :alt="imageName" class="w-max rounded-t-3xl" />
         </div>
-        <div v-if="projectType" class="absolute left-3 bottom-3 bg-black50 w-max rounded-2xl h-3 px-2 flex justify-center items-center">
+        <div v-if="projectType" class="absolute left-2 bottom-2 bg-black50 w-max rounded-2xl h-3 px-2 flex justify-center items-center">
           <NuxtImg :src="`/img/${projectPeople}.png`" :alt="projectPeople" class="mr-1 h-2.5 flex items-center" />
           <UiTypography type="p" size="paragraph-extra-small" color="text-white100">
             {{ projectType }}
           </UiTypography>
         </div>
       </div>
-      <div class="flex">
+      <div class="flex mt-1.5">
         <div class="flex flex-col pl-1.5">
           <div v-if="lo1" class="rounded-full bg-red100 w-2 h-2 my-0.5" title="UI (Analysis & Advice)" />
           <div v-if="lo2" class="rounded-full bg-orange100 w-2 h-2 my-0.5" title="UI (Execution & Validation)" />
@@ -73,3 +73,9 @@ export default defineComponent({
   }
 })
 </script>
+
+<style scoped>
+.custom-hover:hover {
+  transform: translateY(-12px) !important;
+}
+</style>

@@ -1,5 +1,5 @@
 <template>
-  <div class="overflow-hidden">
+  <div v-motion-slide-bottom>
     <div class="bg-white100 dark:bg-slate-800 w-full rounded-3xl mb-2 flex">
       <div class="pl-7">
         <div v-if="addHeader">

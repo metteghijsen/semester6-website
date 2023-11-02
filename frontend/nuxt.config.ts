@@ -45,7 +45,8 @@ export default defineNuxtConfig({
     '@nuxt/image-edge', // https://v1.image.nuxtjs.org/configuration
     '@vueuse/nuxt', // https://vueuse.org/functions.html
     'nuxt-security',
-    '@nuxtjs/robots'
+    '@nuxtjs/robots',
+    '@vueuse/motion/nuxt'
   ],
 
   runtimeConfig: {

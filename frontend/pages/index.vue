@@ -1,13 +1,13 @@
 <template>
   <div>
     <UiContainer>
-      <div class="overflow-x-hidden">
+      <div>
         <LayoutTaskbar />
-        <div class="px-[200px] pt-11 flex flex-col">
+        <div class="px-[200px] pt-[160px] flex flex-col">
           <UiTypography type="h1" size="heading1">
             Mette Ghijsen
           </UiTypography>
-          <UiTypography type="h2" size="heading2" class="pb-6">
+          <UiTypography type="h3" size="heading3" class="pb-6">
             S6 Advanced Media Design, Research Based
           </UiTypography>
           <div class="flex justify-start w-[900px]">
@@ -19,8 +19,8 @@
             </div>
           </div>
         </div>
-        <div class="overflow-hidden">
-          <div class="mt-[350px] w-full h-max rounded-3xl bg-blue40 dark:bg-blue100 p-7 flex flex-row">
+        <div>
+          <div v-motion-slide-bottom class="mt-[350px] w-full h-max rounded-3xl bg-blue40 dark:bg-blue100 p-7 flex flex-row">
             <NuxtImg
               src="/img/mette.png"
               alt="mette"
@@ -39,7 +39,7 @@
               </UiTypography>
             </div>
           </div>
-          <div class="md:grid md:grid-cols-3 md:gap-3 mt-8 bg-white dark:bg-slate-800 py-7 rounded-3xl overflow-none">
+          <div v-motion-slide-visible-once-bottom class="md:grid md:grid-cols-3 md:gap-3 mt-8 bg-white dark:bg-slate-800 py-7 rounded-3xl overflow-none">
             <div class="mb-4 md:mb-0 text-center">
               <UiTypography class="mb-1">
                 Ik heb nu afgerond
@@ -124,7 +124,7 @@ export default {
     handleScroll () {
       const scrollY = window.scrollY
 
-      if (scrollY >= 750 && this.finishedCounting === false) {
+      if (scrollY >= 500 && this.finishedCounting === false) {
         this.finishedCounting = true
         this.start()
       }

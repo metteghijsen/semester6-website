@@ -30,7 +30,6 @@ export default {
       this.isDarkMode = !this.isDarkMode
       // Update localStorage met de nieuwe waarde van isDarkMode
       localStorage.setItem('darkMode', JSON.stringify(this.isDarkMode))
-      console.log(this.isDarkMode)
       if (this.isDarkMode) {
         document.documentElement.classList.add('dark')
       } else {
