@@ -1,9 +1,8 @@
 <template>
   <div>
     <UiContainer>
-      <div class="h-full overflow-x-hidden">
+      <div>
         <LayoutTaskbar />
-
         <div class="pb-4">
           <div class="flex flex-row">
             <div class="w-[450px] pr-1" title="You analyse the user, the user interaction and the user experience, also taking state of the art interactive technologies into account. You select a suitable design process to be able to advise on UX interventions based on a validated UX design.">

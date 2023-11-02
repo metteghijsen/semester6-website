@@ -1,7 +1,7 @@
 <template>
   <div>
     <UiContainer>
-      <div class="h-full overflow-x-hidden">
+      <div class="h-full ">
         <LayoutTaskbar />
         <UiTextbox
           add-header

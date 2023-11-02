@@ -1,7 +1,7 @@
 <template>
   <div>
     <UiContainer>
-      <div class="h-full overflow-x-hidden">
+      <div class="h-full ">
         <LayoutTaskbar />
         <UiTextbox add-header header="Color Research" title="Inleiding" lo1 lo5>
           Dit onderzoek heeft als doel de impact van pastelkleuren in webdevelopment op de gebruikerservaring te analyseren. Eerder voerde ik een trendanalyse uit om inspiratie op te doen voor de ontwikkeling van mijn portfolio, waarbij opviel dat pastelkleuren een prominente trend zijn in modern webdesign. Pastelkleuren zijn zachte, minder verzadigde tinten van kleuren die bekend staan om hun rustgevende en esthetische aantrekkingskracht.    Dit document presenteert de resultaten van een literatuurstudie die ik heb uitgevoerd om een dieper inzicht te verkrijgen in de huidige designtrends die worden toegepast in portfolio's. Het hoofddoel van dit onderzoek was om inspiratie op te doen voor het ontwikkelen van mijn eigen portfolio. Als onderzoeker heb ik verschillende bronnen grondig bestudeerd en relevante inzichten en bevindingen verzameld.
