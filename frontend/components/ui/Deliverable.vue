@@ -1,6 +1,6 @@
 <template>
   <NuxtLink :to="`/deliverable/${to}`">
-    <div v-motion-slide-bottom class="bg-white100 border-slate-200 dark:bg-slate-800 dark:border-slate-600 border-2 h-[700px] w-[460px] flex flex-col rounded-3xl relative m-0.5 custom-hover transition-all ease-in-out">
+    <div class="bg-white100 border-slate-200 dark:bg-slate-800 dark:border-slate-600 border-2 h-[700px] w-[460px] flex flex-col rounded-3xl relative m-0.5 custom-hover transition-all ease-in-out">
       <div class="relative">
         <div class="flex justify-center">
           <NuxtImg :src="`/img/deliverables/${imageName}.png`" :alt="imageName" class="w-max rounded-t-3xl" />
