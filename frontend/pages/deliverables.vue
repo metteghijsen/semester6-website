@@ -33,7 +33,7 @@
           </div>
         </div>
 
-        <div class="md:grid md:grid-cols-3 md:gap-1">
+        <div v-motion-slide-bottom class="md:grid md:grid-cols-3 md:gap-1">
           <UiDeliverable
             v-if="selectedLo.includes('lo4') || selectedLo.includes('lo5') || selectedLo.includes('lo7') || selectedLo.length === 0"
             lo4
@@ -236,6 +236,19 @@
             project-people="group"
           />
 
+          <UiDeliverable
+            v-if="selectedLo.includes('lo4') || selectedLo.includes('lo5') || selectedLo.includes('lo7') || selectedLo.length === 0"
+            to="projectplangroup"
+            lo4
+            lo5
+            lo7
+            deliverable-name="Projectplan"
+            image-name="projectplangroup"
+            deliverable-description="Na de briefing van Teague, hebben we met de groep een brainstorm gedaan om ervoor te zorgen dat we allemaal de opdracht goed begrijpen."
+            project-type="Grip on Sound"
+            project-people="group"
+          />
+
           <!-- <UiDeliverable
             v-if="selectedLo.includes('lo6') || selectedLo.includes('lo7') || selectedLo.length === 0"
             to="projectplanning"
@@ -288,18 +301,44 @@
             project-people="group"
           />
 
-          <!-- <UiDeliverable
-            v-if="selectedLo.includes('lo4') || selectedLo.includes('lo5') || selectedLo.includes('lo7') || selectedLo.length === 0"
-            to="projectplangroup"
-            lo4
+          <UiDeliverable
+            v-if="selectedLo.includes('lo1') || selectedLo.includes('lo5') || selectedLo.includes('lo7') || selectedLo.length === 0"
+            to="expertinterview"
+            lo1
             lo5
             lo7
-            deliverable-name="Projectplan"
-            image-name="projectplangroup"
-            deliverable-description="Na de briefing van Teague, hebben we met de groep een brainstorm gedaan om ervoor te zorgen dat we allemaal de opdracht goed begrijpen."
+            deliverable-name="Expert Interview"
+            image-name="expertinterview"
+            deliverable-description="Om erachter te komen hoe we het bewustzijn van gehoorsbeschadigingen het beste kunenn verhoren, heb ik een hoorspecialist geïnterviewd."
             project-type="Grip on Sound"
             project-people="group"
-          /> -->
+          />
+
+          <UiDeliverable
+            v-if="selectedLo.includes('lo1') || selectedLo.includes('lo5') || selectedLo.includes('lo7') || selectedLo.length === 0"
+            to="requirements"
+            lo1
+            lo5
+            lo7
+            deliverable-name="Requirements"
+            image-name="requirements"
+            deliverable-description="Om erachter te komen hoe gymdocenten het probleem ervaren, en welke oplossingen ze passend zouden vinden, heb ik een enquête afgenomen bij een aantal gymdocenten."
+            project-type="Grip on Sound"
+            project-people="group"
+          />
+
+          <UiDeliverable
+            v-if="selectedLo.includes('lo1') || selectedLo.includes('lo5') || selectedLo.includes('lo7') || selectedLo.length === 0"
+            to="moscow"
+            lo1
+            lo5
+            lo7
+            deliverable-name="MoSCoW"
+            image-name="moscow"
+            deliverable-description="Om erachter te komen hoe gymdocenten het probleem ervaren, en welke oplossingen ze passend zouden vinden, heb ik een enquête afgenomen bij een aantal gymdocenten."
+            project-type="Grip on Sound"
+            project-people="group"
+          />
         </div>
 
         <div class="flex flex-col">
