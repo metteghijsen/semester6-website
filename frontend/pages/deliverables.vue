@@ -309,7 +309,7 @@
             lo7
             deliverable-name="Expert Interview"
             image-name="expertinterview"
-            deliverable-description="Om erachter te komen hoe we het bewustzijn van gehoorsbeschadigingen het beste kunenn verhoren, heb ik een hoorspecialist geïnterviewd."
+            deliverable-description="Om erachter te komen hoe we het bewustzijn van gehoorsbeschadigingen het beste kunnen verhogen, heb ik een hoorspecialist geïnterviewd."
             project-type="Grip on Sound"
             project-people="group"
           />
@@ -322,7 +322,7 @@
             lo7
             deliverable-name="Requirements"
             image-name="requirements"
-            deliverable-description="Om erachter te komen hoe gymdocenten het probleem ervaren, en welke oplossingen ze passend zouden vinden, heb ik een enquête afgenomen bij een aantal gymdocenten."
+            deliverable-description="Om erachter te komen welke functies de gebruiker graag in de app wilt, hebben we een lijst met requirements opgesteld."
             project-type="Grip on Sound"
             project-people="group"
           />
@@ -335,7 +335,7 @@
             lo7
             deliverable-name="MoSCoW"
             image-name="moscow"
-            deliverable-description="Om erachter te komen hoe gymdocenten het probleem ervaren, en welke oplossingen ze passend zouden vinden, heb ik een enquête afgenomen bij een aantal gymdocenten."
+            deliverable-description="Om erachter te komen welke requirements we het beste kunnen implementeren, hebben we de MoSCoW methode uitgevoerd."
             project-type="Grip on Sound"
             project-people="group"
           />
