@@ -4,13 +4,13 @@
       <div>
         <LayoutTaskbar />
         <div class="px-[200px] pt-[160px] flex flex-col">
-          <UiTypography type="h1" size="heading1">
+          <UiTypography v-motion-slide-bottom type="h1" size="heading1">
             Mette Ghijsen
           </UiTypography>
-          <UiTypography type="h3" size="heading3" class="pb-6">
+          <UiTypography v-motion-slide-bottom type="h3" size="heading3" class="pb-6">
             S6 Advanced Media Design, Research Based
           </UiTypography>
-          <div class="flex justify-start w-[900px]">
+          <div v-motion-slide-bottom class="flex justify-start w-[900px]">
             <div class="w-[400px] my-2 mr-2">
               <UiButton label="deliverables" primary big arrow to="/deliverables" />
             </div>
@@ -20,7 +20,7 @@
           </div>
         </div>
         <div>
-          <div v-motion-slide-bottom class="mt-[350px] w-full h-max rounded-3xl bg-blue40 dark:bg-blue100 p-7 flex flex-row">
+          <div v-motion-slide-visible-once-bottom class="mt-[350px] w-full h-max rounded-3xl bg-blue40 dark:bg-blue100 p-7 flex flex-row">
             <NuxtImg
               src="/img/mette.png"
               alt="mette"
