@@ -242,7 +242,7 @@
             lo4
             lo5
             lo7
-            deliverable-name="Projectplan"
+            deliverable-name="❗Projectplan"
             image-name="projectplangroup"
             deliverable-description="Na de briefing van Teague, hebben we met de groep een brainstorm gedaan om ervoor te zorgen dat we allemaal de opdracht goed begrijpen."
             project-type="Grip on Sound"
@@ -294,7 +294,7 @@
             lo1
             lo5
             lo7
-            deliverable-name="Survey"
+            deliverable-name="❗Survey"
             image-name="survey"
             deliverable-description="Om erachter te komen hoe gymdocenten het probleem ervaren, en welke oplossingen ze passend zouden vinden, heb ik een enquête afgenomen bij een aantal gymdocenten."
             project-type="Grip on Sound"
@@ -307,7 +307,7 @@
             lo1
             lo5
             lo7
-            deliverable-name="Expert Interview"
+            deliverable-name="❗Expert Interview"
             image-name="expertinterview"
             deliverable-description="Om erachter te komen hoe we het bewustzijn van gehoorsbeschadigingen het beste kunnen verhogen, heb ik een hoorspecialist geïnterviewd."
             project-type="Grip on Sound"
