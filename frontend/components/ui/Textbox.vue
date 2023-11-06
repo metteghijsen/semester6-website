@@ -9,19 +9,19 @@
             </UiTypography>
             <div class="flex flex-row mr-2 mt-3">
               <div v-if="library">
-                <NuxtImg src="img/methods/library.png" class="h-8 m-1" />
+                <NuxtImg src="img/methods/library.png" class="h-8 m-1" title="Library Research" />
               </div>
               <div v-if="field">
-                <NuxtImg src="img/methods/field.png" class="h-8 m-1" />
+                <NuxtImg src="img/methods/field.png" class="h-8 m-1" title="Field Research" />
               </div>
               <div v-if="showroom">
-                <NuxtImg src="img/methods/showroom.png" class="h-8 m-1" />
+                <NuxtImg src="img/methods/showroom.png" class="h-8 m-1" title="Showroom Research" />
               </div>
               <div v-if="workshop">
-                <NuxtImg src="img/methods/workshop.png" class="h-8 m-1" />
+                <NuxtImg src="img/methods/workshop.png" class="h-8 m-1" title="Workshop Research" />
               </div>
               <div v-if="lab">
-                <NuxtImg src="img/methods/lab.png" class="h-8 m-1" />
+                <NuxtImg src="img/methods/lab.png" class="h-8 m-1" title="Lab Research" />
               </div>
             </div>
           </div>
