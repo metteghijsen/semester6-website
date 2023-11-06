@@ -10,6 +10,7 @@
           lo1
           lo2
           lo5
+          lab
         >
           Eerder heb ik in Figma wireframes gemaakt van mijn portfolio website. Deze heb ik interactief proberen te maken. Om mijn designkeuzes te valideren heb ik gebruikerstesten uitgevoerd op deze interactieve prototypes. In dit document neem ik je mee in de resultaten van deze gebruikerstest, en geef ik toelichting bij de beslissingen die ik heb gemaakt op basis van waardevolle feedback die ik heb ontvangen.
         </UiTextbox>

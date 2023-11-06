@@ -3,7 +3,14 @@
     <UiContainer>
       <div class="h-full ">
         <LayoutTaskbar />
-        <UiTextbox add-header header="Interview" title="Inleiding" lo1 lo5>
+        <UiTextbox
+          add-header
+          header="Interview"
+          title="Inleiding"
+          lo1
+          lo5
+          field
+        >
           In dit document kun je lezen over hoe ik een interview heb uitgevoerd met een student die semester 6 ICT & Media Design succesvol heeft afgerond (Jordi Franssen). Het doel van dit interview is om erachter te komen hoe ik een portfolio kan ontwikkelen dat niet alleen mijn prestaties weerspiegelt, maar ook een moeiteloze en verhelderende ervaring biedt voor mijn beoordelaars.
         </UiTextbox>
         <UiTextbox

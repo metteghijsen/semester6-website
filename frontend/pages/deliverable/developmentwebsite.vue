@@ -10,6 +10,7 @@
           lo2
           lo3
           lo6
+          workshop
         >
           Om mijn werk voor docenten gemakkelijk en interactief te presenteren, heb ik een prototype van mijn portfolio gemaakt in Nuxt. In dit verslag leg ik uit hoe ik te werk ben gegaan.
         </UiTextbox>

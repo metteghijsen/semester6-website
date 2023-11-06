@@ -10,6 +10,7 @@
           lo1
           lo2
           lo5
+          lab
         >
           Ik vond zelf de manier waarop ik het type van mijn deliverable aangaf, enigszins onduidelijk. Om deze reden heb ik besloten om dit aan te passen. Om mijn nieuwe ontwerp te valideren, heb ik A/B testing uitgevoerd.
         </UiTextbox>

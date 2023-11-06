@@ -10,6 +10,7 @@
           lo1
           lo5
           lo7
+          field
         >
           Voor ons project, Grip op Geluid, staat het centraal om bewustzijn te genereren omtrent gehoorschade tijdens gymlessen en docenten te ondersteunen bij het vinden van een geschikte oplossing in de vorm van een app. Met als doel inzicht te verkrijgen in de ervaringen van gymdocenten met dit probleem en welke oplossingen zij als passend beschouwen, heb ik een enquête afgenomen onder een selecte groep gymdocenten.
         </UiTextbox>

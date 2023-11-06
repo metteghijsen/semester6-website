@@ -10,6 +10,7 @@
           lo4
           lo5
           lo7
+          workshop
         >
           Op donderdag 5 oktober vond een overleg plaats met Teague, een teamlid van Grip op Geluid. Aangezien onze stakeholder, Dennis, zich op dat moment in Afrika bevond, nam Teague deel aan de vergadering met als doel ons te informeren over het project waar we dit semester aan gaan werken. De Teague was tijdens de meeting enigszins onduidelijk, wat resulteerde in beperkte uitwisseling van informatie. Om een beter begrip te krijgen van onze opdracht en de inzichten uit de vergadering, hebben we op maandag 9 oktober een brainstormsessie gehouden. Daarnaast hebben we geprobeerd een voorlopige planning op te stellen om een start te kunnen maken met het opstellen van het projectplan.
         </UiTextbox>

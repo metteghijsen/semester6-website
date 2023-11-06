@@ -9,6 +9,8 @@
           title="Inleiding"
           lo3
           lo5
+          workshop
+          library
         >
           Als ik projecten wilde uploaden naar mijn website, deed ik dit door mijn website te builden, en deze bestanden met behulp van FileZilla in een FTP server te slepen. Dit proces was niet alleen tijdrovend, maar ook vatbaar voor fouten. Het selecteren van bestanden was handmatig, wat gemakkelijk leidde tot het kiezen van de verkeerde map. Bovendien duurde het wachten op zowel het builden als het uploaden van mijn bestanden vaak meer dan 10 minuten. Omdat ik vond dat dit sneller en efficiënter zou moeten kunnen, heb ik besloten een deployment pipeline te implementeren.
         </UiTextbox>

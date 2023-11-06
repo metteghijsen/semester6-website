@@ -3,7 +3,14 @@
     <UiContainer>
       <div class="h-full ">
         <LayoutTaskbar />
-        <UiTextbox add-header header="Poster Session" title="Inleiding" lo6 lo7>
+        <UiTextbox
+          add-header
+          header="Poster Session"
+          title="Inleiding"
+          lo6
+          lo7
+          workshop
+        >
           Bij de start van ons groepsproject stond het maken van een poster over ons project op de agenda. In dit verslag leg ik uit hoe ik dit heb aangepakt.
         </UiTextbox>
         <UiTextbox

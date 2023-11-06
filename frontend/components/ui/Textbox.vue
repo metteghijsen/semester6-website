@@ -3,9 +3,28 @@
     <div class="bg-white100 dark:bg-slate-800 w-full rounded-3xl mb-2 flex">
       <div class="pl-7">
         <div v-if="addHeader">
-          <UiTypography type="h4" size="heading3" class="pt-8">
-            {{ header }}
-          </UiTypography>
+          <div class="flex justify-between">
+            <UiTypography type="h4" size="heading3" class="pt-8">
+              {{ header }}
+            </UiTypography>
+            <div class="flex flex-row mr-2 mt-3">
+              <div v-if="library">
+                <NuxtImg src="img/methods/library.png" class="h-8 m-1" />
+              </div>
+              <div v-if="field">
+                <NuxtImg src="img/methods/field.png" class="h-8 m-1" />
+              </div>
+              <div v-if="showroom">
+                <NuxtImg src="img/methods/showroom.png" class="h-8 m-1" />
+              </div>
+              <div v-if="workshop">
+                <NuxtImg src="img/methods/workshop.png" class="h-8 m-1" />
+              </div>
+              <div v-if="lab">
+                <NuxtImg src="img/methods/lab.png" class="h-8 m-1" />
+              </div>
+            </div>
+          </div>
           <div class="flex flex-row">
             <div v-if="lo1">
               <UiLearningOutcomeBullet color="red100" bg-color="red40" label="User Interaction (Analysis & Advice)" title="You analyse the user, the user interaction and the user experience, also taking state of the art interactive technologies into account. You select a suitable design process to be able to advise on UX interventions based on a validated UX design." />
@@ -82,7 +101,12 @@ export default defineComponent({
     lo4: Boolean,
     lo5: Boolean,
     lo6: Boolean,
-    lo7: Boolean
+    lo7: Boolean,
+    library: Boolean,
+    lab: Boolean,
+    showroom: Boolean,
+    field: Boolean,
+    workshop: Boolean
   }
 })
 </script>

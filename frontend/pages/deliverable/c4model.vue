@@ -11,6 +11,7 @@
           lo3
           lo5
           lo7
+          workshop
         >
           Voor het ontwikkelen van mijn website wil ik gebruik maken van Nuxt3 in combinatie met Tailwind. Om te bepalen hoe mijn site er softwarematig uit gaat zien, heeft Bardt mij geadviseerd om een C4 model te maken. In dit document kun je lezen hoe ik dit C4 model heb opgesteld, en welke feedback ik heb ontvangen van Bardt.
         </UiTextbox>

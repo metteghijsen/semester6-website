@@ -10,6 +10,7 @@
           lo1
           lo5
           lo7
+          workshop
         >
           Voor ons project 'Grip op Geluid' staan we voor de uitdaging om een applicatie te ontwerpen die gymdocenten ondersteunt bij het bewust worden van geluidsoverlast tijdens gymlessen en bij het nemen van passende maatregelen. Om onze creativiteit te prikkelen en alvast wat ideeën op te doen voor de user interface, hebben mijn projectpartner Sef en ik gezamenlijk een moodboard samengesteld.
         </UiTextbox>

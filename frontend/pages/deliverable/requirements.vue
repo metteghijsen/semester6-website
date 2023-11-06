@@ -10,6 +10,7 @@
           lo1
           lo5
           lo7
+          workshop
         >
           Om de gewenste functies in de app te bepalen, hebben we in samenwerking met Dennis (onze stakeholder) een lijst met requirements opgesteld.
         </UiTextbox>

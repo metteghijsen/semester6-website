@@ -3,7 +3,14 @@
     <UiContainer>
       <div class="h-full ">
         <LayoutTaskbar />
-        <UiTextbox add-header header="Immersion" title="Inleiding" lo1 lo5>
+        <UiTextbox
+          add-header
+          header="Immersion"
+          title="Inleiding"
+          lo1
+          lo5
+          field
+        >
           In dit document beschrijf ik de uitvoering van de Immersion onderzoeksmethode op een reeks portfolio-websites. Mijn selectie omvatte specifiek websites van voormalige studenten die dit semester succesvol hebben afgerond. Tijdens dit onderzoek lag de focus voornamelijk op de bruikbaarheid van deze websites. Ik analyseerde welke elementen deze studenten gebruikten, hoe ze ervoor kozen om hun werk te presenteren en op welke manier de navigatie op de site was vormgegeven.
         </UiTextbox>
         <UiTextbox
