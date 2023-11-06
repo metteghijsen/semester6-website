@@ -294,7 +294,7 @@
             lo1
             lo5
             lo7
-            deliverable-name="❗Survey"
+            deliverable-name="Survey"
             image-name="survey"
             deliverable-description="Om erachter te komen hoe gymdocenten het probleem ervaren, en welke oplossingen ze passend zouden vinden, heb ik een enquête afgenomen bij een aantal gymdocenten."
             project-type="Grip on Sound"
