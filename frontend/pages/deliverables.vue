@@ -277,19 +277,6 @@
 
           <UiDeliverable
             v-if="selectedLo.includes('lo1') || selectedLo.includes('lo5') || selectedLo.includes('lo7') || selectedLo.length === 0"
-            to="moodboard"
-            lo1
-            lo5
-            lo7
-            deliverable-name="Moodboard UI/UX"
-            image-name="moodboard"
-            deliverable-description="Om inspiratie op te doen voor een ontwerp voor onze app, heb ik samen met Sef een moodboard gemaakt. Hier kun je daar meer over lezen."
-            project-type="Grip on Sound"
-            project-people="group"
-          />
-
-          <UiDeliverable
-            v-if="selectedLo.includes('lo1') || selectedLo.includes('lo5') || selectedLo.includes('lo7') || selectedLo.length === 0"
             to="survey"
             lo1
             lo5
@@ -307,9 +294,22 @@
             lo1
             lo5
             lo7
-            deliverable-name="❗Expert Interview"
+            deliverable-name="Expert Interview"
             image-name="expertinterview"
-            deliverable-description="Om erachter te komen hoe we het bewustzijn van gehoorsbeschadigingen het beste kunnen verhogen, heb ik een hoorspecialist geïnterviewd."
+            deliverable-description="Om erachter te komen hoe we het bewustzijn van gehoorsbeschadigingen het beste kunnen verhogen, heb ik samen met een collega van Grip op Geluid een geluidsspecialist geïnterviewd."
+            project-type="Grip on Sound"
+            project-people="group"
+          />
+
+          <UiDeliverable
+            v-if="selectedLo.includes('lo1') || selectedLo.includes('lo5') || selectedLo.includes('lo7') || selectedLo.length === 0"
+            to="moodboard"
+            lo1
+            lo5
+            lo7
+            deliverable-name="Moodboard UI/UX"
+            image-name="moodboard"
+            deliverable-description="Om inspiratie op te doen voor een ontwerp voor onze app, heb ik samen met Sef een moodboard gemaakt. Hier kun je daar meer over lezen."
             project-type="Grip on Sound"
             project-people="group"
           />
