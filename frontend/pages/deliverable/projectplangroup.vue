@@ -5,47 +5,73 @@
         <LayoutTaskbar />
         <UiTextbox
           add-header
-          header="Personal Project Plan"
+          header="Group Project Plan"
           title="Inleiding"
           lo4
           lo5
           lo7
         >
-          Dit semester moet ik een portfolio website maken om mijn werk in te presenteren. Docenten zullen deze website gebruiken om mij te beoordelen, dus is het belangrijk dat deze prettig en gebruiksvriendelijk is. In dit document beschrijf ik mijn persoonlijke projectplan, en beschrijf ik het proces dat ik heb doorlopen bij het samenstellen van dit plan.
+          Vanaf begin 2023 vereist een nieuwe wet in Nederland dat basisschoolkinderen minstens twee uur per week lichamelijke opvoeding krijgen. Dit betekent dat leraren lichamelijke opvoeding meer tijd in gymzalen moeten doorbrengen. Het geluidsniveau in gymzalen is echter vaak hoger dan 90 dB(A) tijdens een achturige werkdag, en daardoor lopen gymdocenten veel hoorschade op. Het is onze taak om een app te ontwikkelen die het bewustzijn vergroot en gymdocenten ondersteunt bij het reguleren van hun blootstelling aan geluid.
         </UiTextbox>
         <UiTextbox
-          add-image
-          image-name="cmdmethods"
-          title="Samenvatting"
+          title="Proces & Iteraties"
         >
-          Het belangrijkste doel van mijn persoonlijk projectplan is om mijn portfolio-websiteproject voor de komende drie weken te sturen en goed te plannen. Ondanks mijn natuurlijke neiging om direct aan het ontwerp te beginnen, realiseer ik me dat dit semester een onderzoekende aanpak vereist. Daarom heb ik onderzoeksvragen en -methoden zorgvuldig geformuleerd met behulp van het CMD Method Pack.
-          <br><br>Tijdens het proces heb ik twee keer feedback gekregen van Constanze, wat mijn projectaanpak heeft versterkt. Ze benadrukte het belang van het demonstreren van de kwaliteit van mijn werk in de portfolio en moedigde diepgaander onderzoek aan. Ze suggereerde ook bibliografisch onderzoek als aanvullende methode. Daarnaast heeft ze waardevolle feedback gegeven over een grafiek die ik had gemaakt, waarin ik mijn projectstappen beschreef.
-
+          Van het projectplan heb ik een deel van hoofdstuk 1, heel hoofdstuk 2, en hoofdstuk 3.1 en 3.2 geschreven. <br><br>
+          Versie 1.0
           <div class="flex flex-row">
             <div class="w-max my-2 mr-4">
               <UiButton
-                label="bekijk PDF"
+                label="bekijk projectplan versie 1.0"
                 primary
                 regular
                 arrow
-                to="/documents/projectplandocumentatie.pdf"
-                target="_blank"
-              />
-            </div>
-            <div class="w-max my-2">
-              <UiButton
-                label="bekijk projectplan"
-                primary
-                regular
-                arrow
-                to="/documents/personalprojectplan_v1_2_metteghijsen.pdf"
+                to="/documents/ProjectplanGroup2v1.pdf"
                 target="_blank"
               />
             </div>
           </div>
-        </UiTextbox>
-        <UiTextbox title="Conclusie">
-          Het opstellen van mijn Personal Project Plan was essentieel om de koers van mijn project te bepalen en een duidelijk plan te creëren voor de komende drie weken. Door de waardevolle feedback van Constanze kreeg ik een beter idee op welke elementen ik me het beste kon focussen, vooral met betrekking tot het aantonen van de kwaliteit van mijn werk in mijn portfolio. Kortom, mijn Personal Project Plan voelt als een professionele leidraad die mij helpt om een goed ontworpen en gebruiksvriendelijk portfolio samen te stellen.
+
+          Versie 1.1
+          <div class="flex flex-row">
+            <div class="w-max my-2 mr-4">
+              <UiButton
+                label="bekijk projectplan versie 1.1"
+                primary
+                regular
+                arrow
+                to="/documents/ProjectplanGroup2v1.1.pdf"
+                target="_blank"
+              />
+            </div>
+          </div>
+
+          Versie 1.2
+          <div class="flex flex-row">
+            <div class="w-max my-2 mr-4">
+              <UiButton
+                label="bekijk projectplan versie 1.2"
+                primary
+                regular
+                arrow
+                to="/documents/ProjectplanGroup2v1.2.pdf"
+                target="_blank"
+              />
+            </div>
+          </div>
+
+          Versie 1.3
+          <div class="flex flex-row">
+            <div class="w-max my-2 mr-4">
+              <UiButton
+                label="bekijk projectplan versie 1.3"
+                primary
+                regular
+                arrow
+                to="/documents/ProjectplanGroup2v1.3.pdf"
+                target="_blank"
+              />
+            </div>
+          </div>
         </UiTextbox>
         <UiTextbox title="Leeruitkomsten">
           •	<b> Learning outcome 4: Future-oriented organisation </b> <br>

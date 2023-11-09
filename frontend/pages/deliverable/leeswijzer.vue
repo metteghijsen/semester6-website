@@ -29,6 +29,20 @@
               />
             </div>
           </div>
+
+          Versie 1.1
+          <div class="flex flex-row">
+            <div class="w-max my-2 mr-4">
+              <UiButton
+                label="bekijk leeswijzer versie 1.1"
+                primary
+                regular
+                arrow
+                to="/documents/leeswijzerv1.1.pdf"
+                target="_blank"
+              />
+            </div>
+          </div>
         </UiTextbox>
         <UiTextbox title="Leeruitkomsten">
           •	<b> Learning outcome 4: Future-oriented organisation </b> <br>

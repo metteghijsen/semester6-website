@@ -85,7 +85,7 @@
                   ref="deliverableCounter"
                   :start-amount="0"
                   separator=""
-                  :end-amount="15"
+                  :end-amount="24"
                   :duration="1.5"
                   :autoinit="false"
                 />

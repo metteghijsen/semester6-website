@@ -242,25 +242,12 @@
             lo4
             lo5
             lo7
-            deliverable-name="❗Projectplan"
+            deliverable-name="Projectplan"
             image-name="projectplangroup"
-            deliverable-description="Na de briefing van Teague, hebben we met de groep een brainstorm gedaan om ervoor te zorgen dat we allemaal de opdracht goed begrijpen."
+            deliverable-description="Om de opdracht meer context te geven en effectief te communiceren met elkaar, onze docenten en de stakeholders over de planning voor de komende weken, hebben we een projectplan opgesteld. "
             project-type="Grip on Sound"
             project-people="group"
           />
-
-          <!-- <UiDeliverable
-            v-if="selectedLo.includes('lo6') || selectedLo.includes('lo7') || selectedLo.length === 0"
-            to="projectplanning"
-            lo4
-            lo5
-            lo7
-            deliverable-name="Project Planning"
-            image-name="projectplanning"
-            deliverable-description="Hier kun je lezen over de organisatorische stappen die we voorafgaand aan ons groepsproject hebben gemaakt."
-            project-type="Grip on Sound"
-            project-people="group"
-          /> -->
 
           <UiDeliverable
             v-if="selectedLo.includes('lo4') || selectedLo.includes('lo5') || selectedLo.includes('lo7') || selectedLo.length === 0"
@@ -342,11 +329,11 @@
 
           <UiDeliverable
             v-if="selectedLo.includes('lo1') || selectedLo.includes('lo5') || selectedLo.includes('lo7') || selectedLo.length === 0"
-            to="moscow"
+            to="paperprototyping"
             lo1
             lo5
             lo7
-            deliverable-name="❗Paper prototyping"
+            deliverable-name="Paper prototyping"
             image-name="paperprototyping"
             deliverable-description="Om de requirements op een laagdrempelige manier te visualiseren, heb ik een paper prototype van de app gemaakt."
             project-type="Grip on Sound"
