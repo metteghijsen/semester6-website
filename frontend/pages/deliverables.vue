@@ -339,6 +339,19 @@
             project-type="Grip on Sound"
             project-people="group"
           />
+
+          <UiDeliverable
+            v-if="selectedLo.includes('lo1') || selectedLo.includes('lo5') || selectedLo.includes('lo7') || selectedLo.length === 0"
+            to="moscow"
+            lo1
+            lo5
+            lo7
+            deliverable-name="❗Paper prototyping"
+            image-name="paperprototyping"
+            deliverable-description="Om de requirements op een laagdrempelige manier te visualiseren, heb ik een paper prototype van de app gemaakt."
+            project-type="Grip on Sound"
+            project-people="group"
+          />
         </div>
 
         <div class="flex flex-col">
