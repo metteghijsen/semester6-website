@@ -3,24 +3,24 @@
     <UiContainer>
       <div class="h-full ">
         <LayoutTaskbar />
-        <!-- <div>
+        <div v-motion-slide-left>
           <UiProject
-            reverse
             image-name="personalproject"
             project-name="Individueel Project"
             project-description="
           Dit document dient als een uitgebreid verslag van de verschillende stadia die ik heb doorlopen bij het samenstellen van mijn portfolio. Hierin wordt dieper ingegaan op de specifieke stappen en overwegingen die een rol speelden tijdens het onderzoeks-, ontwerp- en realisatieproces van mijn portfolio."
           />
-        </div> -->
-        <!-- <div>
+        </div>
+        <div v-motion-slide-right>
           <UiProject
-            image-name="personalproject"
+            reverse
+            image-name="griponsound"
             project-name="Grip on Sound"
             project-description="
           Dit document dient als een uitgebreid verslag van de verschillende stadia die ik heb doorlopen bij het samenstellen van mijn portfolio. Hierin wordt dieper ingegaan op de specifieke stappen en overwegingen die een rol speelden tijdens het onderzoeks-, ontwerp- en realisatieproces van mijn portfolio."
           />
-        </div> -->
-        <div v-motion-slide-left>
+        </div>
+        <div v-motion-slide-visible-left>
           <UiProject
             to="deliverable/ddw"
             image-name="ddw"
@@ -30,7 +30,7 @@
           />
         </div>
 
-        <div v-motion-slide-right>
+        <div v-motion-slide-visible-right>
           <UiProject
             reverse
             to="deliverable/weyweyweb"
