@@ -5,7 +5,7 @@
         <LayoutTaskbar />
         <div v-motion-slide-left>
           <UiProject
-            to="deliverable/ddw"
+            to="/deliverable/ddw"
             image-name="ddw"
             project-name="Dutch Design Week"
             project-description="
@@ -15,7 +15,7 @@
         <div v-motion-slide-right>
           <UiProject
             reverse
-            to="project/griponsound"
+            to="/project/griponsound"
             image-name="griponsound"
             project-name="Grip on Sound"
             project-description="Het geluidsniveau in gymzalen is vaak hoger dan 90 dB(A) tijdens een achturige werkdag, en daardoor lopen gymdocenten veel hoorschade op. Het is onze taak om een app te ontwikkelen die het bewustzijn vergroot en gymdocenten ondersteunt bij het reguleren van hun blootstelling aan geluid. "
@@ -23,7 +23,7 @@
         </div>
         <div v-motion-slide-visible-left>
           <UiProject
-            to="project/personalproject"
+            to="/project/personalproject"
             image-name="personalproject"
             project-name="Personal project"
             project-description="
