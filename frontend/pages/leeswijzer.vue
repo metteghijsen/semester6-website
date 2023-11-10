@@ -5,7 +5,7 @@
         <LayoutTaskbar />
         <div v-motion-slide-bottom class="flex flex-row">
           <iframe
-            src="/documents/leeswijzerv1.1.pdf"
+            src="/documents/leeswijzerv1.2.pdf"
             width="1100px"
             height="1250px"
             title="leeswijzer"
@@ -15,20 +15,18 @@
             <div class="m-4">
               <!-- Loop over de leeruitkomsten -->
               <div v-for="(outcome, index) in outcomes" :key="index">
-                <UiTypography :type="'h4'" :size="'heading4'" :color="outcome.color" class="mt-5 flex flex-row">
+                <UiTypography :type="'h4'" :size="'heading4'" :color="outcome.color" class="mt-5 flex flex-row cursor-pointer select-none" @click="toggleLearningOutcome(index)">
                   {{ outcome.title }}
                   <NuxtImg
                     v-if="outcome.show === false"
                     :src="outcome.iconFalse"
-                    class="w-3 cursor-pointer"
-                    @click="toggleLearningOutcome(index)"
+                    class="w-3"
                   />
 
                   <NuxtImg
                     v-if="outcome.show === true"
                     :src="outcome.iconTrue"
-                    class="w-3 cursor-pointer"
-                    @click="toggleLearningOutcome(index)"
+                    class="w-3"
                   />
                 </UiTypography>
 
