@@ -4,6 +4,7 @@
       <div class="h-full ">
         <LayoutTaskbar />
         <UiTextbox
+          workshop
           add-header
           header="Paper prototyping"
           title="Inleiding"
