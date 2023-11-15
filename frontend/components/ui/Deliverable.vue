@@ -6,7 +6,12 @@
           <NuxtImg :src="`/img/deliverables/${imageName}.png`" :alt="imageName" class="w-max rounded-t-3xl" />
         </div>
         <div v-if="projectType" class="absolute left-2 bottom-2 bg-black50 w-max rounded-2xl h-3 px-2 flex justify-center items-center">
-          <NuxtImg :src="`/img/${projectPeople}.png`" :alt="projectPeople" class="mr-1 h-2.5 flex items-center" />
+          <div v-if="projectPeople === 'individual'" class="mr-1 h-2.5 flex items-center">
+            <User2 color="white" class="h-2.5" />
+          </div>
+          <div v-if="projectPeople === 'group'" class="mr-1 h-2.5 flex items-center">
+            <Users2 color="white" class="h-2.5" />
+          </div>
           <UiTypography type="p" size="paragraph-extra-small" color="text-white100">
             {{ projectType }}
           </UiTypography>
@@ -35,7 +40,12 @@
   </NuxtLink>
 </template>
 
-<script lang="ts">
+<script setup>
+import { User2, Users2 } from 'lucide-vue-next'
+
+</script>
+
+<script>
 export default defineComponent({
   name: 'Deliverable',
   props: {

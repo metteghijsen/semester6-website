@@ -10,7 +10,9 @@
         {{ label }}
       </UiTypography>
     </div>
-    <img v-if="arrow === true" src="/img/arrow-right.png" alt="arrow-right" class="w-4 ml-2">
+    <div v-if="arrow === true">
+      <ArrowRight color="white" class="ml-2" />
+    </div>
   </a>
 
   <NuxtLink v-else-if="type === 'router-link'" :to="to" class="primary" :class="{primary : primary, secondary: secondary, big: big, regular: regular}">
@@ -24,7 +26,9 @@
         {{ label }}
       </UiTypography>
     </div>
-    <img v-if="arrow === true" src="/img/arrow-right.png" alt="arrow-right" class="w-4 ml-2">
+    <div v-if="arrow === true">
+      <ArrowRight color="white" class="ml-2" />
+    </div>
   </NuxtLink>
 
   <button v-else class="primary" :class="{primary : primary, secondary: secondary, big: big, regular: regular}" @click="$emit('click')">
@@ -38,11 +42,18 @@
         {{ label }}
       </UiTypography>
     </div>
-    <img v-if="arrow === true" src="/img/arrow-right.png" alt="arrow-right" class="w-4 ml-2">
+    <div v-if="arrow === true">
+      <ArrowRight color="white" class="ml-2" />
+    </div>
   </button>
 </template>
 
-<script lang="ts">
+<script setup>
+import { ArrowRight } from 'lucide-vue-next'
+
+</script>
+
+<script>
 export default defineComponent({
   props: {
     to: {

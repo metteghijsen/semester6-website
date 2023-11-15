@@ -17,17 +17,13 @@
               <div v-for="(outcome, index) in outcomes" :key="index">
                 <UiTypography :type="'h4'" :size="'heading4'" :color="outcome.color" class="mt-5 flex flex-row cursor-pointer select-none" @click="toggleLearningOutcome(index)">
                   {{ outcome.title }}
-                  <NuxtImg
-                    v-if="outcome.show === false"
-                    :src="outcome.iconFalse"
-                    class="w-3"
-                  />
+                  <div v-if="outcome.show === false">
+                    <ChevronRight class="dark:text-white100 text-black100" />
+                  </div>
 
-                  <NuxtImg
-                    v-if="outcome.show === true"
-                    :src="outcome.iconTrue"
-                    class="w-3"
-                  />
+                  <div v-if="outcome.show === true">
+                    <ChevronDown class="dark:text-white100 text-black100" />
+                  </div>
                 </UiTypography>
 
                 <div v-if="outcome.show === true">
@@ -48,6 +44,11 @@
   </div>
 </template>
 
+<script setup>
+import { ChevronRight, ChevronDown } from 'lucide-vue-next'
+
+</script>
+
 <script>
 export default {
   data () {
@@ -56,8 +57,6 @@ export default {
         {
           title: 'UI (Analysis & Advice)',
           color: 'text-red100',
-          iconTrue: 'img/chevron-down.png',
-          iconFalse: 'img/chevron-right.png',
           links: [
             { to: '/deliverable/literaturestudy', text: '• Trendanalyse' },
             { to: '/deliverable/colorresearch', text: '• Color Research' },
@@ -79,8 +78,6 @@ export default {
         {
           title: 'UI (Execution & Validation)',
           color: 'text-orange100',
-          iconTrue: 'img/chevron-down.png',
-          iconFalse: 'img/chevron-right.png',
           links: [
             { to: '/deliverable/wireframes', text: '• Wireframing' },
             { to: '/deliverable/usertesting', text: '• Usertesting' },
@@ -92,8 +89,6 @@ export default {
         {
           title: 'Software Design & Realisation',
           color: 'text-yellow100',
-          iconTrue: 'img/chevron-down.png',
-          iconFalse: 'img/chevron-right.png',
           links: [
             { to: '/deliverable/developmentwebsite', text: '• Development Website' },
             { to: '/deliverable/c4model', text: '• C4 model' },
@@ -104,8 +99,6 @@ export default {
         {
           title: 'Future Oriented Organisation',
           color: 'text-green100',
-          iconTrue: 'img/chevron-down.png',
-          iconFalse: 'img/chevron-right.png',
           links: [
             { to: '/deliverable/projectplan', text: '• Projectplan' },
             { to: '/deliverable/leeswijzer', text: '• Leeswijzer' },
@@ -117,8 +110,6 @@ export default {
         {
           title: 'Investigative Problem Solving',
           color: 'text-blue100',
-          iconTrue: 'img/chevron-down.png',
-          iconFalse: 'img/chevron-right.png',
           links: [
             { to: '/deliverable/projectplan', text: '• Projectplan' },
             { to: '/deliverable/literaturestudy', text: '• Trendanalyse' },
@@ -144,8 +135,6 @@ export default {
         {
           title: 'Personal Leadership',
           color: 'text-purple100',
-          iconTrue: 'img/chevron-down.png',
-          iconFalse: 'img/chevron-right.png',
           links: [
             { to: '/deliverable/leeswijzer', text: '• Leeswijzer' },
             { to: '/deliverable/developmentwebsite', text: '• Development Website' },
@@ -156,8 +145,6 @@ export default {
         {
           title: 'Goal-oriented Interaction',
           color: 'text-pink100',
-          iconTrue: 'img/chevron-down.png',
-          iconFalse: 'img/chevron-right.png',
           links: [
             { to: '/deliverable/projectplan', text: '• Projectplan' },
             { to: '/deliverable/c4model', text: '• C4 model' },

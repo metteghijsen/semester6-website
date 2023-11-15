@@ -2,10 +2,10 @@
   <div>
     <button class="fixed top-4 right-4" @click="toggleDarkMode">
       <div v-if="isDarkMode == false">
-        <NuxtImg src="img/lightmode.png" />
+        <Sun class="h-3 w-3" />
       </div>
       <div v-if="isDarkMode == true">
-        <NuxtImg src="img/darkmode.png" />
+        <Moon class="h-3 w-3" color="white" />
       </div>
     </button>
     <div :class="{ 'dark': isDarkMode }">
@@ -13,6 +13,11 @@
     </div>
   </div>
 </template>
+
+<script setup>
+import { Sun, Moon } from 'lucide-vue-next'
+
+</script>
 
 <script>
 export default {
