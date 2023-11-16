@@ -1,9 +1,20 @@
 <template>
   <NuxtLink :to="`/deliverable/${to}`">
     <div class="bg-white100 border-slate-200 dark:bg-slate-800 dark:border-slate-600 border-2 h-[700px] w-[460px] flex flex-col rounded-3xl relative m-0.5 custom-hover transition-all ease-in-out">
-      <div class="relative">
+      <!-- Skeleton Loader -->
+      <div v-if="!loaded" class="skeleton-loader bg-black20 dark:bg-slate-500 rounded-t-3xl aspect-square" />
+      <!-- Actual content -->
+      <div v-else class="relative">
         <div class="flex justify-center">
-          <NuxtImg :src="`/img/deliverables/${imageName}.png`" :alt="imageName" class="w-max rounded-t-3xl" />
+          <NuxtImg
+            v-if="loaded"
+            quality="30"
+            loading="lazy"
+            :placeholder="'/img/loading.gif'"
+            :src="`/img/deliverables/${imageName}.png`"
+            :alt="imageName"
+            class="w-max rounded-t-3xl"
+          />
         </div>
         <div v-if="projectType" class="absolute left-2 bottom-2 bg-black50 w-max rounded-2xl h-3 px-2 flex justify-center items-center">
           <div v-if="projectPeople === 'individual'" class="mr-1 h-2.5 flex items-center">
@@ -41,8 +52,14 @@
 </template>
 
 <script setup>
+import { ref } from 'vue'
 import { User2, Users2 } from 'lucide-vue-next'
 
+const loaded = ref(false)
+
+setTimeout(() => {
+  loaded.value = true
+}, 2000) // Simulating a 2-second delay for loading content
 </script>
 
 <script>
@@ -87,5 +104,21 @@ export default defineComponent({
 <style scoped>
 .custom-hover:hover {
   transform: translateY(-12px) !important;
+}
+
+.skeleton-loader {
+  height: 70%;
+  width: 100%;
+  aspect-ratio: 1/1;
+  animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    opacity: 0.6;
+  }
+  50% {
+    opacity: 1;
+  }
 }
 </style>
