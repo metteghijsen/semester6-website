@@ -107,7 +107,7 @@ export default defineComponent({
 }
 
 .skeleton-loader {
-  height: 70%;
+  height: 65%;
   width: 100%;
   aspect-ratio: 1/1;
   animation: pulse 1.5s infinite;
