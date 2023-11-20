@@ -10,7 +10,6 @@
             v-if="loaded"
             quality="30"
             loading="lazy"
-            :placeholder="'/img/loading.gif'"
             :src="`/img/deliverables/${imageName}.png`"
             :alt="imageName"
             class="w-max rounded-t-3xl"
@@ -80,11 +79,13 @@ export default defineComponent({
     },
     projectType: {
       type: String,
-      required: false
+      required: false,
+      default: ''
     },
     projectPeople: {
       type: String,
-      required: false
+      required: false,
+      default: ''
     },
     to: {
       type: String,
