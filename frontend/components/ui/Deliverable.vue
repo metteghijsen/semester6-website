@@ -8,9 +8,7 @@
         <div class="flex justify-center">
           <NuxtImg
             v-if="loaded"
-            quality="30"
-            loading="lazy"
-            :src="`/img/deliverables/${imageName}.png`"
+            :src="require(`/img/deliverables/${imageName}.png`)"
             :alt="imageName"
             class="w-max rounded-t-3xl"
           />
