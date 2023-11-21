@@ -51,14 +51,15 @@
 </template>
 
 <script setup>
-import { ref } from 'vue'
+import { onMounted, ref } from 'vue'
 import { User2, Users2 } from 'lucide-vue-next'
 
 const loaded = ref(false)
 
-setTimeout(() => {
+onMounted(() => {
   loaded.value = true
-}, 2000) // Simulating a 2-second delay for loading content
+})
+
 </script>
 
 <script>
