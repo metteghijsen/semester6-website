@@ -6,12 +6,12 @@
       <!-- Actual content -->
       <div v-else class="relative">
         <div class="flex justify-center">
-          <NuxtImg
+          <img
             v-if="loaded"
-            :src="require(`/img/deliverables/${imageName}.png`)"
+            :src="`/img/deliverables/${imageName}.png`"
             :alt="imageName"
             class="w-max rounded-t-3xl"
-          />
+          >
         </div>
         <div v-if="projectType" class="absolute left-2 bottom-2 bg-black50 w-max rounded-2xl h-3 px-2 flex justify-center items-center">
           <div v-if="projectPeople === 'individual'" class="mr-1 h-2.5 flex items-center">

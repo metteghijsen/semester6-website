@@ -7,6 +7,7 @@
           add-header
           header="Immersion"
           title="Inleiding"
+          personal
           lo1
           lo5
           field

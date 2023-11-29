@@ -26,6 +26,12 @@
             </div>
           </div>
           <div class="flex flex-row">
+            <div v-if="personal">
+              <UiLearningOutcomeBullet color="black100" bg-color="white60" label="Personal Project" title="pp" />
+            </div>
+            <div v-if="griponsound">
+              <UiLearningOutcomeBullet color="black100" bg-color="white60" label="Grip on Sound" />
+            </div>
             <div v-if="lo1">
               <UiLearningOutcomeBullet color="red100" bg-color="red40" label="User Interaction (Analysis & Advice)" title="You analyse the user, the user interaction and the user experience, also taking state of the art interactive technologies into account. You select a suitable design process to be able to advise on UX interventions based on a validated UX design." />
             </div>
@@ -95,6 +101,8 @@ export default defineComponent({
     },
     addHeader: Boolean,
     addImage: Boolean,
+    personal: Boolean,
+    griponsound: Boolean,
     lo1: Boolean,
     lo2: Boolean,
     lo3: Boolean,

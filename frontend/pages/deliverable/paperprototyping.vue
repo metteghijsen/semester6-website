@@ -8,6 +8,7 @@
           add-header
           header="Paper prototyping"
           title="Inleiding"
+          griponsound
           lo1
           lo5
           lo7

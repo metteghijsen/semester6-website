@@ -7,6 +7,7 @@
           add-header
           header="Color Research"
           title="Inleiding"
+          personal
           lo1
           lo5
           library

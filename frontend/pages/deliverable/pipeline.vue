@@ -7,6 +7,7 @@
           add-header
           header="Pipeline"
           title="Inleiding"
+          personal
           lo3
           lo5
           workshop

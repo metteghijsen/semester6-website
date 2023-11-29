@@ -7,6 +7,7 @@
           add-header
           header="Wireframing"
           title="Inleiding"
+          personal
           lo1
           lo2
           workshop

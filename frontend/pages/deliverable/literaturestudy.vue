@@ -7,6 +7,7 @@
           add-header
           header="Literature Study / Trend Analysis"
           title="Inleiding"
+          personal
           lo1
           lo5
           library
