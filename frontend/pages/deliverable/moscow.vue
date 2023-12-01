@@ -7,6 +7,7 @@
           add-header
           header="MoSCoW"
           title="Inleiding"
+          griponsound
           lo1
           lo5
           lo7

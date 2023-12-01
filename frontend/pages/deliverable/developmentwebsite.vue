@@ -7,6 +7,7 @@
           add-header
           header="Development Website"
           title="Inleiding"
+          personal
           lo2
           lo3
           lo6

@@ -7,6 +7,7 @@
           add-header
           header="Poster Session"
           title="Inleiding"
+          griponsound
           lo6
           lo7
           workshop

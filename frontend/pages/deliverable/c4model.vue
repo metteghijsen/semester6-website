@@ -7,6 +7,7 @@
           add-header
           header="C4 Model"
           title="Inleiding"
+          personal
           lo1
           lo3
           lo5

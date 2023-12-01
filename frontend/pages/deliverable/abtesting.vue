@@ -7,6 +7,7 @@
           add-header
           header="A/B Testing"
           title="Inleiding"
+          personal
           lo1
           lo2
           lo5

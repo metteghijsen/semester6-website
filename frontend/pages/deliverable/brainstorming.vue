@@ -7,6 +7,7 @@
           add-header
           header="Brainstorming"
           title="Inleiding"
+          griponsound
           lo4
           lo5
           lo7

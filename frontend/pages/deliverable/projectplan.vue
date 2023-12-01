@@ -7,6 +7,7 @@
           add-header
           header="Personal Project Plan"
           title="Inleiding"
+          personal
           lo4
           lo5
           lo7
