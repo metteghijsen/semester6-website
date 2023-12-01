@@ -339,6 +339,15 @@
             project-type="Grip on Sound"
             project-people="group"
           />
+
+          <UiDeliverable
+            v-if="selectedLo.includes('lo7') || selectedLo.length === 0"
+            to="weyweyweb"
+            lo7
+            deliverable-name="Wey Wey Web Malaga"
+            image-name="weyweyweb"
+            deliverable-description="Van 22 t/m 25 november ben ik naar de Wey Wey Web conferentie in Malaga geweest. In dit document kun je meer lezen over de talks en workshops die ik heb gevolgd, en wat ik hiervan geleerd heb."
+          />
         </div>
 
         <div class="flex flex-col">

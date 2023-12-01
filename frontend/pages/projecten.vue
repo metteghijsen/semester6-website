@@ -30,17 +30,16 @@
           Dit document dient als een uitgebreid verslag van de verschillende stadia die ik heb doorlopen bij het samenstellen van mijn portfolio. Hierin wordt dieper ingegaan op de specifieke stappen en overwegingen die een rol speelden tijdens het onderzoeks-, ontwerp- en realisatieproces van mijn portfolio."
           />
         </div>
-
-        <!-- <div v-motion-slide-visible-right>
+        <div v-motion-slide-visible-right>
           <UiProject
             reverse
             to="deliverable/weyweyweb"
             image-name="weyweyweb"
             project-name="Wey Wey Web"
             project-description="
-          Van 22 t/m 25 november ben ik samen met Fontys naar Malaga geweest, om daar deel te nemen aan de Wey Wey Web conference. Dit is een conferentie gericht op iedereen die UI/UX, ontwerp en development interessant vindt. Hier leg ik uit hoe ik deze trip heb ervaren."
+          Van 22 t/m 25 november ben ik samen met Fontys naar Málaga geweest, om daar deel te nemen aan de Wey Wey Web conference. Dit is een conferentie gericht op iedereen die UI/UX, ontwerp en development interessant vindt. Hier leg ik uit hoe ik deze trip heb ervaren."
           />
-        </div> -->
+        </div>
       </div>
     </UiContainer>
     <SectionsFooter />
