@@ -341,6 +341,20 @@
           />
 
           <UiDeliverable
+            v-if="selectedLo.includes('lo1') || selectedLo.includes('lo5') || selectedLo.includes('lo6') || selectedLo.includes('lo7') || selectedLo.length === 0"
+            to="brandguide"
+            lo1
+            lo5
+            lo6
+            lo7
+            deliverable-name="Brandguide Noise Control"
+            image-name="brandguide"
+            deliverable-description="Om al onze verschillende ontwerpen en ideeën samen te voegen, hebben Luc en ik gewerkt aan het opstellen van een brandguide. "
+            project-type="Grip on Sound"
+            project-people="group"
+          />
+
+          <UiDeliverable
             v-if="selectedLo.includes('lo7') || selectedLo.length === 0"
             to="weyweyweb"
             lo7
