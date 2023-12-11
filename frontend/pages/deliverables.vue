@@ -348,6 +348,19 @@
             image-name="weyweyweb"
             deliverable-description="Van 22 t/m 25 november ben ik naar de Wey Wey Web conferentie in Malaga geweest. In dit document kun je meer lezen over de talks en workshops die ik heb gevolgd, en wat ik hiervan geleerd heb."
           />
+
+          <UiDeliverable
+            v-if="selectedLo.includes('lo1') || selectedLo.includes('lo2') || selectedLo.includes('lo5') || selectedLo.length === 0"
+            lo1
+            lo2
+            lo5
+            to="abctesting"
+            deliverable-name="A/B/C Testing"
+            image-name="abctesting"
+            deliverable-description="Om te bepalen welk ontwerp van de Daily Dose pagina het meest geschikt is om te implementeren, heb ik een A/B/C test afgenomen."
+            project-type="Grip on Sound"
+            project-people="group"
+          />
         </div>
 
         <div class="flex flex-col">
