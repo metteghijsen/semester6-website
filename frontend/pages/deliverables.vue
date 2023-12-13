@@ -341,6 +341,18 @@
           />
 
           <UiDeliverable
+            v-if="selectedLo.includes('lo1') || selectedLo.includes('lo2') || selectedLo.length === 0"
+            to="wireframinggos"
+            lo1
+            lo2
+            deliverable-name="Wireframing"
+            image-name="wireframing2"
+            deliverable-description="Om ons concept te visualiseren en een idee te krijgen van hoe we de app visueel willen presenteren, besloten we aparte wireframes te maken die we later zouden combineren tot een definitieve versie."
+            project-type="Grip on Sound"
+            project-people="group"
+          />
+
+          <UiDeliverable
             v-if="selectedLo.includes('lo1') || selectedLo.includes('lo5') || selectedLo.length === 0"
             lo1
             lo5
