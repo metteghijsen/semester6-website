@@ -341,6 +341,18 @@
           />
 
           <UiDeliverable
+            v-if="selectedLo.includes('lo1') || selectedLo.includes('lo5') || selectedLo.length === 0"
+            lo1
+            lo5
+            to="colorresearch2"
+            deliverable-name="Color Research"
+            image-name="colorresearch2"
+            deliverable-description="Om erachter te komen welke kleuren we het beste kunnen gebruiken in onze app, heb ik een kleuronderzoek uitgevoerd."
+            project-type="Grip on Sound"
+            project-people="group"
+          />
+
+          <UiDeliverable
             v-if="selectedLo.includes('lo1') || selectedLo.includes('lo5') || selectedLo.includes('lo6') || selectedLo.includes('lo7') || selectedLo.length === 0"
             to="brandguide"
             lo1
