@@ -57,9 +57,6 @@
             allowfullscreen
           />
         </UiTextbox>
-        <UiTextbox title="Conclusie">
-          In het kort, na het praten met Jordi, het bekijken van trends en grondig onderzoek te doen, weet ik nu beter wat er op mijn website moet komen en waarom. Ik snap nu waar docenten op letten en heb mijn website daarop aangepast, met bijvoorbeeld samenvattingen en filters voor de inhoud. Mijn keuzes voor het uiterlijk, zoals zachte kleuren en een simpele stijl, komen voort uit mijn analyse van trends. Jordi's stijl heeft me beïnvloed, maar ik heb ook geleerd van Merlijn om mijn site gebruiksvriendelijker te maken en AI voor afbeeldingen te gebruiken.
-        </UiTextbox>
         <UiTextbox title="Leeruitkomsten">
           • <b> Learning outcome 1: User interaction (analysis & advice) </b> <br>
           You analyse the user, the interaction, and the user experience, also taking state of the art interactive technologies into account. You select a suitable design process to be able to advise on UX interventions based on a validated UX design. <br>
