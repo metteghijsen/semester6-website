@@ -387,6 +387,18 @@
             project-type="Grip on Sound"
             project-people="group"
           />
+
+          <UiDeliverable
+            v-if="selectedLo.includes('lo6') || selectedLo.length === 0"
+            lo6
+            to="peerfeedback"
+            deliverable-name="Peer Feedback"
+            image-name="peerfeedback"
+            deliverable-description="Om te reflecteren op mijn eigen werkhouding en om te kijken of we als projectgroep onze houding kunnen verbeteren, heb ik een peer review sessie georganiseerd.
+       "
+            project-type="Grip on Sound"
+            project-people="group"
+          />
         </div>
 
         <div class="flex flex-col">
