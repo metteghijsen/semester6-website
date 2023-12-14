@@ -345,7 +345,7 @@
             to="wireframinggos"
             lo1
             lo2
-            deliverable-name="Wireframing"
+            deliverable-name="Wireframing (pre-brandguide)"
             image-name="wireframing2"
             deliverable-description="Om ons concept te visualiseren en een idee te krijgen van hoe we de app visueel willen presenteren, besloten we aparte wireframes te maken die we later zouden combineren tot een definitieve versie."
             project-type="Grip on Sound"
@@ -385,6 +385,18 @@
             deliverable-name="Wey Wey Web Malaga"
             image-name="weyweyweb"
             deliverable-description="Van 22 t/m 25 november ben ik naar de Wey Wey Web conferentie in Malaga geweest. In dit document kun je meer lezen over de talks en workshops die ik heb gevolgd, en wat ik hiervan geleerd heb."
+          />
+
+          <UiDeliverable
+            v-if="selectedLo.includes('lo1') || selectedLo.includes('lo2') || selectedLo.length === 0"
+            to="wireframing2"
+            lo1
+            lo2
+            deliverable-name="Wireframing (na brandguide)"
+            image-name="wireframing3"
+            deliverable-description="Nadat Luc en ik de brandguide hadden opgesteld, en ik de componenten had samengesteld, werd het tijd om één groot design te maken om alle ideeën te combineren."
+            project-type="Grip on Sound"
+            project-people="group"
           />
 
           <UiDeliverable
