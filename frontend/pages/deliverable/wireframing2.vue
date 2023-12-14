@@ -7,7 +7,7 @@
           add-header
           header="Wireframing"
           title="Inleiding"
-          personal
+          griponsound
           lo1
           lo2
           workshop
