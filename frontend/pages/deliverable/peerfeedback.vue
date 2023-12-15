@@ -9,7 +9,7 @@
           title="Inleiding"
           griponsound
           lo7
-          workshop
+          showroom
         >
           Om te reflecteren op mijn eigen werkhouding en om te kijken of we als projectgroep onze houding kunnen verbeteren, heb ik een peer review sessie georganiseerd. Deze heeft plaatsgevonden op school, en hebben we gedocumenteerd in Miro.
         </UiTextbox>
