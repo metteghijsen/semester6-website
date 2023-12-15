@@ -35,196 +35,6 @@
 
         <div v-motion-slide-bottom class="md:grid md:grid-cols-3 md:gap-1">
           <UiDeliverable
-            v-if="selectedLo.includes('lo4') || selectedLo.includes('lo5') || selectedLo.includes('lo7') || selectedLo.length === 0"
-            lo4
-            lo5
-            lo7
-            to="projectplan"
-            deliverable-name="Projectplan"
-            image-name="projectplan"
-            deliverable-description="In dit document beschrijf ik mijn persoonlijke projectplan, en beschrijf ik het proces dat ik heb doorlopen bij het samenstellen van dit plan."
-            project-type="Personal Project"
-            project-people="individual"
-          />
-
-          <UiDeliverable
-            v-if="selectedLo.includes('lo1') || selectedLo.includes('lo5') || selectedLo.length === 0"
-            lo1
-            lo5
-            to="literaturestudy"
-            deliverable-name="Trend Analyse"
-            image-name="libraryresearch"
-            deliverable-description="Dit document presenteert de resultaten van een literatuurstudie die ik heb uitgevoerd om een dieper inzicht te verkrijgen in de huidige designtrends die worden toegepast in portfolio's. "
-            project-type="Personal Project"
-            project-people="individual"
-          />
-
-          <UiDeliverable
-            v-if="selectedLo.includes('lo1') || selectedLo.includes('lo5') || selectedLo.length === 0"
-            lo1
-            lo5
-            to="colorresearch"
-            deliverable-name="Color Research"
-            image-name="colorresearch"
-            deliverable-description="Ik heb een onderzoek uitgevoerd naar pastelkleuren. In dit document ga ik hier dieper op in."
-            project-type="Personal Project"
-            project-people="individual"
-          />
-
-          <UiDeliverable
-            v-if="selectedLo.includes('lo1') || selectedLo.includes('lo5') || selectedLo.length === 0"
-            lo1
-            lo5
-            to="immersion"
-            deliverable-name="Immersion"
-            image-name="immersion"
-            deliverable-description="Dit document beschrijft de uitvoering van de Immersion-onderzoeksmethode op recent afgestudeerde studentenportfolio-websites."
-            project-type="Personal Project"
-            project-people="individual"
-          />
-
-          <UiDeliverable
-            v-if="selectedLo.includes('lo1') || selectedLo.includes('lo5') || selectedLo.length === 0"
-            lo1
-            lo5
-            to="interview"
-            deliverable-name="Interview"
-            image-name="interviewjordi"
-            deliverable-description="In dit document kun je lezen over hoe ik een interview heb uitgevoerd met een student die semester 6 ICT & Media Design succesvol heeft afgerond. "
-            project-type="Personal Project"
-            project-people="individual"
-          />
-
-          <UiDeliverable
-            v-if="selectedLo.includes('lo1') || selectedLo.includes('lo2') || selectedLo.length === 0"
-            lo1
-            lo2
-            to="wireframes"
-            deliverable-name="Wireframing"
-            image-name="wireframing"
-            deliverable-description="Dit document biedt inzicht in het proces dat ik heb doorlopen bij het ontwerpen van mijn portfolio-website.  "
-            project-type="Personal Project"
-            project-people="individual"
-          />
-
-          <UiDeliverable
-            v-if="selectedLo.includes('lo1') || selectedLo.includes('lo2') || selectedLo.includes('lo5') || selectedLo.length === 0"
-            lo1
-            lo2
-            lo5
-            to="usertests"
-            deliverable-name="Usertesting"
-            image-name="usertesting"
-            deliverable-description="In dit document kun je lezen hoe ik gebruikerstesten heb afgenomen op het interactieve prototype van mijn portfolio-website. "
-            project-type="Personal Project"
-            project-people="individual"
-          />
-
-          <UiDeliverable
-            v-if="selectedLo.includes('lo1') || selectedLo.includes('lo2') || selectedLo.includes('lo5') || selectedLo.length === 0"
-            lo1
-            lo2
-            lo5
-            to="abtesting"
-            deliverable-name="A/B Testing"
-            image-name="abtesting"
-            deliverable-description="In dit document kun je lezen hoe ik A/B testen heb afgenomen op het interactieve prototype van mijn portfolio-website. "
-            project-type="Personal Project"
-            project-people="individual"
-          />
-
-          <UiDeliverable
-            v-if="selectedLo.includes('lo1') || selectedLo.includes('lo3') || selectedLo.includes('lo5') || selectedLo.includes('lo7') || selectedLo.length === 0"
-            lo1
-            lo3
-            lo5
-            lo7
-            to="c4model"
-            deliverable-name="C4 Model"
-            image-name="c4model"
-            deliverable-description="Dit document gaat verder in op het C4 model wat ik heb gemaakt voor mijn portfolio-website."
-            project-type="Personal Project"
-            project-people="individual"
-          />
-
-          <UiDeliverable
-            v-if="selectedLo.includes('lo2') || selectedLo.includes('lo3') || selectedLo.includes('lo6') || selectedLo.length === 0"
-            lo2
-            lo3
-            lo6
-            to="developmentwebsite"
-            deliverable-name="Development Website"
-            image-name="developmentwebsite"
-            deliverable-description="In dit document kun je lezen over het proces dat ik heb doorlopen bij het ontwikkelen van het interactieve prototype van mijn portfolio-website. "
-            project-type="Personal Project"
-            project-people="individual"
-          />
-
-          <UiDeliverable
-            v-if=" selectedLo.includes('lo3') || selectedLo.includes('lo5') || selectedLo.length === 0"
-            lo3
-            lo5
-            to="pipeline"
-            deliverable-name="Pipeline"
-            image-name="pipeline"
-            deliverable-description="In dit document kun je lezen hoe ik een eigen pipeline heb gebouwd om zo makkelijker documentatie te kunnen uploaden naar mijn portfolio-website."
-            project-type="Personal Project"
-            project-people="individual"
-          />
-
-          <!-- <UiDeliverable
-            v-if="selectedLo.includes('lo6') || selectedLo.includes('lo7') || selectedLo.length === 0"
-            lo6
-            lo7
-            to="/"
-            deliverable-name="Feedback personal project"
-            image-name="feedbackportfolio"
-            deliverable-description="In dit document kun je lezen over de feedbackrondes die ik heb gehad over mijn persoonlijke portfolio. "
-            project-type="Personal Project"
-            project-people="individual"
-          /> -->
-
-          <UiDeliverable
-            v-if="selectedLo.includes('lo4') || selectedLo.includes('lo5') || selectedLo.includes('lo7') || selectedLo.length === 0"
-            to="leeswijzer"
-            lo4
-            lo5
-            lo7
-            deliverable-name="Leeswijzer"
-            image-name="readingguide"
-            deliverable-description="In dit document kun je de iteraties van mijn leeswijzer inzien. "
-          />
-
-          <UiDeliverable
-            v-if="selectedLo.includes('lo7') || selectedLo.length === 0"
-            to="ddw"
-            lo7
-            deliverable-name="Dutch Design Week"
-            image-name="ddw2"
-            deliverable-description="Van 23 t/m 25 oktober ben ik samen met mijn projectgroep en een Canadese student naar de Dutch Design Week geweest. In dit document kun je hier meer over lezen."
-            project-type="Dutch Design Week (International Project)"
-            project-people="group"
-          />
-
-          <UiDeliverable
-            v-if="selectedLo.includes('lo7') || selectedLo.length === 0"
-            to="architecturemuseum"
-            lo7
-            deliverable-name="Architecture Museum"
-            image-name="architecturemuseum"
-            deliverable-description="Tijdens de herfstvakantie heb ik een reis gemaakt naar Kopenhagen. Hier heb ik het architectuur museum bekeken. Hier kun je een aantal dingen lezen die me opvielen."
-          />
-
-          <UiDeliverable
-            v-if="selectedLo.includes('lo7') || selectedLo.length === 0"
-            to="designmuseum"
-            lo7
-            deliverable-name="Design Museum"
-            image-name="designmuseum"
-            deliverable-description="Tijdens de herfstvakantie heb ik een reis gemaakt naar Kopenhagen. Hier heb ik het design museum bekeken. Hier kun je een aantal dingen lezen die me opvielen."
-          />
-
-          <UiDeliverable
             v-if="selectedLo.includes('lo6') || selectedLo.includes('lo7') || selectedLo.length === 0"
             to="postersession"
             lo6
@@ -379,15 +189,6 @@
           />
 
           <UiDeliverable
-            v-if="selectedLo.includes('lo7') || selectedLo.length === 0"
-            to="weyweyweb"
-            lo7
-            deliverable-name="Wey Wey Web Malaga"
-            image-name="weyweyweb"
-            deliverable-description="Van 22 t/m 25 november ben ik naar de Wey Wey Web conferentie in Malaga geweest. In dit document kun je meer lezen over de talks en workshops die ik heb gevolgd, en wat ik hiervan geleerd heb."
-          />
-
-          <UiDeliverable
             v-if="selectedLo.includes('lo1') || selectedLo.includes('lo2') || selectedLo.length === 0"
             lo1
             lo2
@@ -395,7 +196,7 @@
             deliverable-name="Components"
             image-name="components"
             deliverable-description="Om ervoor te zorgen dat de designs van de hele projectgroep ongeveer dezelfde stijl aanhouden, heb ik een aantal componenten samengesteld.
-       "
+         "
             project-type="Grip on Sound"
             project-people="group"
           />
@@ -432,7 +233,7 @@
             deliverable-name="Peer Feedback"
             image-name="peerfeedback"
             deliverable-description="Om te reflecteren op mijn eigen werkhouding en om te kijken of we als projectgroep onze houding kunnen verbeteren, heb ik een peer review sessie georganiseerd.
-       "
+         "
             project-type="Grip on Sound"
             project-people="group"
           />

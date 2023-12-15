@@ -3,14 +3,14 @@
     <UiContainer>
       <div>
         <LayoutTaskbar />
-        <div class="px-[200px] pt-[160px] flex flex-col">
-          <UiTypography v-motion-slide-bottom type="h1" size="heading1">
+        <!-- <div v-motion-slide-bottom class="px-[200px] py-[160px] flex flex-col bg-white100 dark:bg-slate-800 dark:border-slate-600 rounded-3xl">
+          <UiTypography type="h1" size="heading1">
             Mette Ghijsen
           </UiTypography>
-          <UiTypography v-motion-slide-bottom type="h3" size="heading3" class="pb-6">
+          <UiTypography type="h3" size="heading3" class="pb-6">
             S6 Advanced Media Design, Research Based
           </UiTypography>
-          <div v-motion-slide-bottom class="flex justify-start w-[900px]">
+          <div class="flex justify-start w-[900px]">
             <div class="w-[400px] my-2 mr-2">
               <UiButton label="deliverables" primary big arrow to="/deliverables" />
             </div>
@@ -18,16 +18,53 @@
               <UiButton label="leeswijzer" secondary big to="/leeswijzer" />
             </div>
           </div>
-        </div>
+        </div> -->
         <div>
-          <div v-motion-slide-visible-once-bottom class="mt-[350px] w-full h-max rounded-3xl bg-blue40 dark:bg-blue100 p-7 flex flex-row">
+          <div v-motion-slide-left>
+            <UiProject
+              to="/internationalproject"
+              image-name="ddw"
+              project-name="Dutch Design Week"
+              project-description="
+            Van 23 t/m 25 oktober ben ik samen met mijn projectgroep en een Canadese student naar de Dutch Design Week geweest. Daarna moesten we met de inspiratie die we op de DDW hadden opgedaan gebruiken om een product te ontwerpen. Dit mocht alles zijn. In dit document kun je daar meer over lezen."
+            />
+          </div>
+          <div v-motion-slide-right>
+            <UiProject
+              reverse
+              to="/groupproject"
+              image-name="griponsound"
+              project-name="Grip on Sound"
+              project-description="Het geluidsniveau in gymzalen is vaak hoger dan 90 dB(A) tijdens een achturige werkdag, en daardoor lopen gymdocenten veel hoorschade op. Het is onze taak om een app te ontwikkelen die het bewustzijn vergroot en gymdocenten ondersteunt bij het reguleren van hun blootstelling aan geluid. "
+            />
+          </div>
+          <div v-motion-slide-visible-left>
+            <UiProject
+              to="/individualproject"
+              image-name="personalproject"
+              project-name="Personal project"
+              project-description="
+            Dit document dient als een uitgebreid verslag van de verschillende stadia die ik heb doorlopen bij het samenstellen van mijn portfolio. Hierin wordt dieper ingegaan op de specifieke stappen en overwegingen die een rol speelden tijdens het onderzoeks-, ontwerp- en realisatieproces van mijn portfolio."
+            />
+          </div>
+          <div v-motion-slide-visible-right>
+            <UiProject
+              reverse
+              to="/internationalproject"
+              image-name="weyweyweb"
+              project-name="Wey Wey Web"
+              project-description="
+            Van 22 t/m 25 november ben ik samen met Fontys naar Málaga geweest, om daar deel te nemen aan de Wey Wey Web conference. Dit is een conferentie gericht op iedereen die UI/UX, ontwerp en development interessant vindt. Hier leg ik uit hoe ik deze trip heb ervaren."
+            />
+          </div>
+          <div v-motion-slide-bottom class="mt-8 w-full h-max rounded-3xl bg-blue40 dark:bg-blue100 flex flex-row">
             <NuxtImg
               src="/img/mette.png"
               alt="mette"
-              class="rounded-3xl max-w-[600px] mr-4"
+              class="rounded-l-3xl w-full mr-4"
             />
 
-            <div>
+            <div class="p-7">
               <UiTypography type="h3" size="heading3" class="mb-2">
                 Nice to meet you!
               </UiTypography>

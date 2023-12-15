@@ -1,57 +1,90 @@
 <template>
-  <div class="justify-center flex mt-8 mb-[100px]">
-    <div class="bg-white100 dark:bg-slate-800 px-[106px] py-3 flex justify-center rounded-full w-max fixed z-50 shadow-md">
-      <router-link :to="links[0].to" class="px-2 link" :class="{ 'active-link': isActive(links[0].to) }">
-        <UiTypography type="p" size="paragraph-small" :class="{ 'font-bold': isActive(links[0].to) }">
-          Home
-        </UiTypography>
-        <div v-if="isActive(links[0].to)" class="bg-darkblue100 dark:bg-blue100 h-0.5 rounded-full" />
-        <div v-else class="bg-darkblue100 dark:bg-blue100 h-0.5 rounded-full stripe" />
-      </router-link>
+  <div>
+    <div class="justify-center flex mb-[150px]">
+      <div class="bg-white100 border-b-slate-200 dark:bg-slate-800 dark:border-b-slate-600 border-b-3 py-5 flex flex-row items-center flex-wrap w-full fixed top-0 z-40">
+        <NuxtLink to="/">
+          <UiTypography type="p" size="heading4" class="font-bold px-8 mr-[800px]">
+            Mette Ghijsen
+          </UiTypography>
+        </NuxtLink>
+        <router-link
+          v-for="(link, index) in links"
+          :key="index"
+          :to="link.to"
+          class="px-2 link"
+          :class="{ 'active-link': isActive(link.to) }"
+        >
+          <UiTypography type="p" size="paragraph-small" :class="{ 'font-bold': isActive(link.to) }">
+            {{ link.text }}
+          </UiTypography>
+          <div
+            v-if="isActive(link.to)"
+            class="bg-darkblue100 dark:bg-blue100 h-0.5 rounded-full"
+          />
+          <div
+            v-else
+            class="bg-darkblue100 dark:bg-blue100 h-0.5 rounded-full stripe"
+          />
+        </router-link>
+      </div>
+    </div>
 
-      <router-link :to="links[1].to" class="px-2 link" :class="{ 'active-link': isActive(links[1].to) }">
-        <UiTypography type="p" size="paragraph-small" :class="{ 'font-bold': isActive(links[1].to) }">
-          Deliverables
-        </UiTypography>
-        <div v-if="isActive(links[1].to)" class="bg-darkblue100 dark:bg-blue100 h-0.5 rounded-full" />
-        <div v-else class="bg-darkblue100 dark:bg-blue100 h-0.5 rounded-full stripe" />
-      </router-link>
+    <button class="z-50 fixed top-5 right-[160px]" @click="toggleDarkMode">
+      <div v-if="isDarkMode == false">
+        <Sun class="h-3 w-3" />
+      </div>
+      <div v-if="isDarkMode == true">
+        <Moon class="h-3 w-3" color="white" />
+      </div>
+    </button>
 
-      <router-link :to="links[2].to" class="px-2 link" :class="{ 'active-link': isActive(links[2].to) }">
-        <UiTypography type="p" size="paragraph-small" :class="{ 'font-bold': isActive(links[2].to) }">
-          Projecten
-        </UiTypography>
-        <div v-if="isActive(links[2].to)" class="bg-darkblue100 dark:bg-blue100 h-0.5 rounded-full" />
-        <div v-else class="bg-darkblue100 dark:bg-blue100 h-0.5 rounded-full stripe" />
-      </router-link>
+    <NuxtLink to="https://github.com/metteghijsen/semester6-website" class="z-50 fixed top-5 right-[205px]">
+      <div v-if="isDarkMode == false">
+        <Github class="h-3 w-3" />
+      </div>
+      <div v-if="isDarkMode == true">
+        <Github class="h-3 w-3" color="white" />
+      </div>
+    </NuxtLink>
 
-      <router-link :to="links[3].to" class="px-2 link" :class="{ 'active-link': isActive(links[3].to) }">
-        <UiTypography type="p" size="paragraph-small" :class="{ 'font-bold': isActive(links[3].to) }">
-          Leeswijzer
-        </UiTypography>
-        <div v-if="isActive(links[3].to)" class="bg-darkblue100 dark:bg-blue100 h-0.5 rounded-full" />
-        <div v-else class="bg-darkblue100 dark:bg-blue100 h-0.5 rounded-full stripe" />
-      </router-link>
+    <div :class="{ 'dark': isDarkMode }">
+      <div class="transition-colors ease-in-out delay-150">
+        <slot />
+      </div>
     </div>
   </div>
 </template>
 
-<script>
-export default {
-  computed: {
-    links () {
-      return [
-        { text: 'Home', to: '/' },
-        { text: 'Deliverables', to: '/deliverables' },
-        { text: 'Projecten', to: '/projecten' },
-        { text: 'Leeswijzer', to: '/leeswijzer' }
-      ]
-    }
-  },
-  methods: {
-    isActive (route) {
-      return this.$route.path === route
-    }
+<script setup>
+import { ref } from 'vue'
+import { Sun, Moon, Github } from 'lucide-vue-next'
+
+const isDarkMode = ref(false)
+
+const links = [
+  { text: 'Deliverables', to: '/deliverables' },
+  { text: 'Leeswijzer', to: '/leeswijzer' },
+  { text: 'Individual project', to: '/individualproject' },
+  { text: 'Group project', to: '/groupproject' },
+  { text: 'International project', to: '/internationalproject' }
+]
+
+const isActive = (route) => {
+  if (process.client) {
+    return window.location.pathname === route
+  }
+  return false
+}
+
+const toggleDarkMode = () => {
+  isDarkMode.value = !isDarkMode.value
+
+  localStorage.setItem('darkMode', JSON.stringify(isDarkMode.value))
+
+  if (isDarkMode.value) {
+    document.documentElement.classList.add('dark')
+  } else {
+    document.documentElement.classList.remove('dark')
   }
 }
 </script>
@@ -67,9 +100,10 @@ export default {
   transition: width 0.4s;
 }
 
-.link:hover .stripe{
+.link:hover .stripe {
   width: 100%;
   transition: width 0.4s;
   transition-timing-function: ease-in-out;
+  opacity: 80%;
 }
 </style>

@@ -172,17 +172,29 @@
             project-people="individual"
           />
 
-          <!-- <UiDeliverable
-            v-if="selectedLo.includes('lo6') || selectedLo.includes('lo7') || selectedLo.length === 0"
-            lo6
-            lo7
-            to="/"
-            deliverable-name="Feedback personal project"
-            image-name="feedbackportfolio"
-            deliverable-description="In dit document kun je lezen over de feedbackrondes die ik heb gehad over mijn persoonlijke portfolio. "
+          <UiDeliverable
+            v-if=" selectedLo.includes('lo3') || selectedLo.includes('lo5') || selectedLo.length === 0"
+            lo3
+            lo5
+            to="darkmode"
+            deliverable-name="Darkmode"
+            image-name="darkmode"
+            deliverable-description="Om mezelf uit te dagen, en me verder te verdiepen in de mogelijkheden van Tailwind en Nuxt, heb ik besloten een dark theme te implementeren in mijn website."
             project-type="Personal Project"
             project-people="individual"
-          /> -->
+          />
+
+          <!-- <UiDeliverable
+              v-if="selectedLo.includes('lo6') || selectedLo.includes('lo7') || selectedLo.length === 0"
+              lo6
+              lo7
+              to="/"
+              deliverable-name="Feedback personal project"
+              image-name="feedbackportfolio"
+              deliverable-description="In dit document kun je lezen over de feedbackrondes die ik heb gehad over mijn persoonlijke portfolio. "
+              project-type="Personal Project"
+              project-people="individual"
+            /> -->
 
           <UiDeliverable
             v-if="selectedLo.includes('lo4') || selectedLo.includes('lo5') || selectedLo.includes('lo7') || selectedLo.length === 0"
@@ -193,248 +205,6 @@
             deliverable-name="Leeswijzer"
             image-name="readingguide"
             deliverable-description="In dit document kun je de iteraties van mijn leeswijzer inzien. "
-          />
-
-          <UiDeliverable
-            v-if="selectedLo.includes('lo7') || selectedLo.length === 0"
-            to="ddw"
-            lo7
-            deliverable-name="Dutch Design Week"
-            image-name="ddw2"
-            deliverable-description="Van 23 t/m 25 oktober ben ik samen met mijn projectgroep en een Canadese student naar de Dutch Design Week geweest. In dit document kun je hier meer over lezen."
-            project-type="Dutch Design Week (International Project)"
-            project-people="group"
-          />
-
-          <UiDeliverable
-            v-if="selectedLo.includes('lo7') || selectedLo.length === 0"
-            to="architecturemuseum"
-            lo7
-            deliverable-name="Architecture Museum"
-            image-name="architecturemuseum"
-            deliverable-description="Tijdens de herfstvakantie heb ik een reis gemaakt naar Kopenhagen. Hier heb ik het architectuur museum bekeken. Hier kun je een aantal dingen lezen die me opvielen."
-          />
-
-          <UiDeliverable
-            v-if="selectedLo.includes('lo7') || selectedLo.length === 0"
-            to="designmuseum"
-            lo7
-            deliverable-name="Design Museum"
-            image-name="designmuseum"
-            deliverable-description="Tijdens de herfstvakantie heb ik een reis gemaakt naar Kopenhagen. Hier heb ik het design museum bekeken. Hier kun je een aantal dingen lezen die me opvielen."
-          />
-
-          <UiDeliverable
-            v-if="selectedLo.includes('lo6') || selectedLo.includes('lo7') || selectedLo.length === 0"
-            to="postersession"
-            lo6
-            lo7
-            deliverable-name="Poster Session"
-            image-name="postersession"
-            deliverable-description="Bij de start van ons groepsproject stond het maken van een poster over ons project op de agenda. In dit verslag leg ik uit hoe ik dit heb aangepakt."
-            project-type="Grip on Sound"
-            project-people="group"
-          />
-
-          <UiDeliverable
-            v-if="selectedLo.includes('lo4') || selectedLo.includes('lo5') || selectedLo.includes('lo7') || selectedLo.length === 0"
-            to="projectplangroup"
-            lo4
-            lo5
-            lo7
-            deliverable-name="Projectplan"
-            image-name="projectplangroup"
-            deliverable-description="Om de opdracht meer context te geven en effectief te communiceren met elkaar, onze docenten en de stakeholders over de planning voor de komende weken, hebben we een projectplan opgesteld. "
-            project-type="Grip on Sound"
-            project-people="group"
-          />
-
-          <UiDeliverable
-            v-if="selectedLo.includes('lo4') || selectedLo.includes('lo5') || selectedLo.includes('lo7') || selectedLo.length === 0"
-            to="brainstorming"
-            lo4
-            lo5
-            lo7
-            deliverable-name="Brainstorming"
-            image-name="brainstorming"
-            deliverable-description="Na de briefing van Teague, hebben we met de groep een brainstorm gedaan om ervoor te zorgen dat we allemaal de opdracht goed begrijpen."
-            project-type="Grip on Sound"
-            project-people="group"
-          />
-
-          <UiDeliverable
-            v-if="selectedLo.includes('lo1') || selectedLo.includes('lo5') || selectedLo.includes('lo7') || selectedLo.length === 0"
-            to="survey"
-            lo1
-            lo5
-            lo7
-            deliverable-name="Survey"
-            image-name="survey"
-            deliverable-description="Om erachter te komen hoe gymdocenten het probleem ervaren, en welke oplossingen ze passend zouden vinden, heb ik een enquête afgenomen bij een aantal gymdocenten."
-            project-type="Grip on Sound"
-            project-people="group"
-          />
-
-          <UiDeliverable
-            v-if="selectedLo.includes('lo1') || selectedLo.includes('lo5') || selectedLo.includes('lo7') || selectedLo.length === 0"
-            to="expertinterview"
-            lo1
-            lo5
-            lo7
-            deliverable-name="Expert Interview"
-            image-name="expertinterview"
-            deliverable-description="Om erachter te komen hoe we het bewustzijn van gehoorsbeschadigingen het beste kunnen verhogen, heb ik samen met een collega van Grip op Geluid een geluidsspecialist geïnterviewd."
-            project-type="Grip on Sound"
-            project-people="group"
-          />
-
-          <UiDeliverable
-            v-if="selectedLo.includes('lo1') || selectedLo.includes('lo5') || selectedLo.includes('lo7') || selectedLo.length === 0"
-            to="moodboard"
-            lo1
-            lo5
-            lo7
-            deliverable-name="Moodboard UI/UX"
-            image-name="moodboard"
-            deliverable-description="Om inspiratie op te doen voor een ontwerp voor onze app, heb ik samen met Sef een moodboard gemaakt. Hier kun je daar meer over lezen."
-            project-type="Grip on Sound"
-            project-people="group"
-          />
-
-          <UiDeliverable
-            v-if="selectedLo.includes('lo1') || selectedLo.includes('lo5') || selectedLo.includes('lo7') || selectedLo.length === 0"
-            to="requirements"
-            lo1
-            lo5
-            lo7
-            deliverable-name="Requirements"
-            image-name="requirements"
-            deliverable-description="Om erachter te komen welke functies de gebruiker graag in de app wilt, hebben we een lijst met requirements opgesteld."
-            project-type="Grip on Sound"
-            project-people="group"
-          />
-
-          <UiDeliverable
-            v-if="selectedLo.includes('lo1') || selectedLo.includes('lo5') || selectedLo.includes('lo7') || selectedLo.length === 0"
-            to="moscow"
-            lo1
-            lo5
-            lo7
-            deliverable-name="MoSCoW"
-            image-name="moscow"
-            deliverable-description="Om erachter te komen welke requirements we het beste kunnen implementeren, hebben we de MoSCoW methode uitgevoerd."
-            project-type="Grip on Sound"
-            project-people="group"
-          />
-
-          <UiDeliverable
-            v-if="selectedLo.includes('lo1') || selectedLo.includes('lo5') || selectedLo.includes('lo7') || selectedLo.length === 0"
-            to="paperprototyping"
-            lo1
-            lo5
-            lo7
-            deliverable-name="Paper prototyping"
-            image-name="paperprototyping"
-            deliverable-description="Om de requirements op een laagdrempelige manier te visualiseren, heb ik een paper prototype van de app gemaakt."
-            project-type="Grip on Sound"
-            project-people="group"
-          />
-
-          <UiDeliverable
-            v-if="selectedLo.includes('lo1') || selectedLo.includes('lo2') || selectedLo.length === 0"
-            to="wireframinggos"
-            lo1
-            lo2
-            deliverable-name="Wireframing (pre-brandguide)"
-            image-name="wireframing2"
-            deliverable-description="Om ons concept te visualiseren en een idee te krijgen van hoe we de app visueel willen presenteren, besloten we aparte wireframes te maken die we later zouden combineren tot een definitieve versie."
-            project-type="Grip on Sound"
-            project-people="group"
-          />
-
-          <UiDeliverable
-            v-if="selectedLo.includes('lo1') || selectedLo.includes('lo5') || selectedLo.length === 0"
-            lo1
-            lo5
-            to="colorresearch2"
-            deliverable-name="Color Research"
-            image-name="colorresearch2"
-            deliverable-description="Om erachter te komen welke kleuren we het beste kunnen gebruiken in onze app, heb ik een kleuronderzoek uitgevoerd."
-            project-type="Grip on Sound"
-            project-people="group"
-          />
-
-          <UiDeliverable
-            v-if="selectedLo.includes('lo1') || selectedLo.includes('lo5') || selectedLo.includes('lo6') || selectedLo.includes('lo7') || selectedLo.length === 0"
-            to="brandguide"
-            lo1
-            lo5
-            lo6
-            lo7
-            deliverable-name="Brandguide Noise Control"
-            image-name="brandguide"
-            deliverable-description="Om al onze verschillende ontwerpen en ideeën samen te voegen, hebben Luc en ik gewerkt aan het opstellen van een brandguide. "
-            project-type="Grip on Sound"
-            project-people="group"
-          />
-
-          <UiDeliverable
-            v-if="selectedLo.includes('lo7') || selectedLo.length === 0"
-            to="weyweyweb"
-            lo7
-            deliverable-name="Wey Wey Web Malaga"
-            image-name="weyweyweb"
-            deliverable-description="Van 22 t/m 25 november ben ik naar de Wey Wey Web conferentie in Malaga geweest. In dit document kun je meer lezen over de talks en workshops die ik heb gevolgd, en wat ik hiervan geleerd heb."
-          />
-
-          <UiDeliverable
-            v-if="selectedLo.includes('lo1') || selectedLo.includes('lo2') || selectedLo.length === 0"
-            lo1
-            lo2
-            to="components"
-            deliverable-name="Components"
-            image-name="components"
-            deliverable-description="Om ervoor te zorgen dat de designs van de hele projectgroep ongeveer dezelfde stijl aanhouden, heb ik een aantal componenten samengesteld.
-       "
-            project-type="Grip on Sound"
-            project-people="group"
-          />
-
-          <UiDeliverable
-            v-if="selectedLo.includes('lo1') || selectedLo.includes('lo2') || selectedLo.length === 0"
-            to="wireframing2"
-            lo1
-            lo2
-            deliverable-name="Wireframing (na brandguide)"
-            image-name="wireframing3"
-            deliverable-description="Nadat Luc en ik de brandguide hadden opgesteld, en ik de componenten had samengesteld, werd het tijd om één groot design te maken om alle ideeën te combineren."
-            project-type="Grip on Sound"
-            project-people="group"
-          />
-
-          <UiDeliverable
-            v-if="selectedLo.includes('lo1') || selectedLo.includes('lo2') || selectedLo.includes('lo5') || selectedLo.length === 0"
-            lo1
-            lo2
-            lo5
-            to="abctesting"
-            deliverable-name="A/B/C Testing"
-            image-name="abctesting"
-            deliverable-description="Om te bepalen welk ontwerp van de Daily Dose pagina het meest geschikt is om te implementeren, heb ik een A/B/C test afgenomen."
-            project-type="Grip on Sound"
-            project-people="group"
-          />
-
-          <UiDeliverable
-            v-if="selectedLo.includes('lo6') || selectedLo.length === 0"
-            lo6
-            to="peerfeedback"
-            deliverable-name="Peer Feedback"
-            image-name="peerfeedback"
-            deliverable-description="Om te reflecteren op mijn eigen werkhouding en om te kijken of we als projectgroep onze houding kunnen verbeteren, heb ik een peer review sessie georganiseerd.
-       "
-            project-type="Grip on Sound"
-            project-people="group"
           />
         </div>
 
@@ -454,20 +224,22 @@
 </template>
 
 <script>
-
 export default {
   data () {
     return {
-      selectedLo: [] // Hier worden de geselecteerde learning outcomes opgeslagen in een array
+      selectedLo: [] // Here, store the selected learning outcomes in an array
     }
+  },
+  beforeUnmount () {
+    // Save the scroll position to a cookie before the component is destroyed
+    document.cookie = `scrollTop=${window.scrollY}; path=/`
   },
   methods: {
     filterLearningOutcome (selectedLo) {
-      // Voeg de geselecteerde LO toe aan de array
+      // Add or remove the selected LO from the array
       if (!this.selectedLo.includes(selectedLo)) {
         this.selectedLo.push(selectedLo)
       } else {
-        // Verwijder de LO als deze al is geselecteerd (toggle)
         const index = this.selectedLo.indexOf(selectedLo)
         if (index !== -1) {
           this.selectedLo.splice(index, 1)
