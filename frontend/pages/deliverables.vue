@@ -454,20 +454,22 @@
 </template>
 
 <script>
-
 export default {
   data () {
     return {
-      selectedLo: [] // Hier worden de geselecteerde learning outcomes opgeslagen in een array
+      selectedLo: [] // Here, store the selected learning outcomes in an array
     }
+  },
+  beforeUnmount () {
+    // Save the scroll position to a cookie before the component is destroyed
+    document.cookie = `scrollTop=${window.scrollY}; path=/`
   },
   methods: {
     filterLearningOutcome (selectedLo) {
-      // Voeg de geselecteerde LO toe aan de array
+      // Add or remove the selected LO from the array
       if (!this.selectedLo.includes(selectedLo)) {
         this.selectedLo.push(selectedLo)
       } else {
-        // Verwijder de LO als deze al is geselecteerd (toggle)
         const index = this.selectedLo.indexOf(selectedLo)
         if (index !== -1) {
           this.selectedLo.splice(index, 1)
