@@ -102,7 +102,8 @@ export default {
           links: [
             { to: '/deliverable/developmentwebsite', text: '• Development Website' },
             { to: '/deliverable/c4model', text: '• C4 model' },
-            { to: '/deliverable/pipeline', text: '• Pipeline' }
+            { to: '/deliverable/pipeline', text: '• Pipeline' },
+            { to: '/deliverable/darkmode', text: '• Darkmode' }
           ],
           show: false
         },
@@ -130,6 +131,7 @@ export default {
             { to: '/deliverable/abtesting', text: '• A/B Testing' },
             { to: '/deliverable/c4model', text: '• C4 model' },
             { to: '/deliverable/pipeline', text: '• Pipeline' },
+            { to: '/deliverable/darkmode', text: '• Darkmode' },
             { to: '/deliverable/leeswijzer', text: '• Leeswijzer' },
             { to: '/deliverable/brainstorming', text: '• Brainstorming' },
             { to: '/deliverable/projectplangroup', text: '• Projectplan Group' },

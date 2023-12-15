@@ -172,6 +172,18 @@
             project-people="individual"
           />
 
+          <UiDeliverable
+            v-if=" selectedLo.includes('lo3') || selectedLo.includes('lo5') || selectedLo.length === 0"
+            lo3
+            lo5
+            to="darkmode"
+            deliverable-name="Darkmode"
+            image-name="darkmode"
+            deliverable-description="Om mezelf uit te dagen, en me verder te verdiepen in de mogelijkheden van Tailwind en Nuxt, heb ik besloten een dark theme te implementeren in mijn website."
+            project-type="Personal Project"
+            project-people="individual"
+          />
+
           <!-- <UiDeliverable
             v-if="selectedLo.includes('lo6') || selectedLo.includes('lo7') || selectedLo.length === 0"
             lo6
