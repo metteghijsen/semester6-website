@@ -18,7 +18,7 @@
           Research Based Learning
         </UiTypography>
         <UiTypography type="p" size="paragraph">
-          Mette Ghijsen © 2023
+          Mette Ghijsen © 2023-2024
         </UiTypography>
       </div>
       <div>
