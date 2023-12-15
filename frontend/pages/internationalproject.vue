@@ -41,8 +41,6 @@
             deliverable-name="Dutch Design Week"
             image-name="ddw2"
             deliverable-description="Van 23 t/m 25 oktober ben ik samen met mijn projectgroep en een Canadese student naar de Dutch Design Week geweest. In dit document kun je hier meer over lezen."
-            project-type="Dutch Design Week (International Project)"
-            project-people="group"
           />
 
           <UiDeliverable

@@ -101,7 +101,7 @@ export default defineComponent({
 })
 </script>
 
-<style scoped>
+<style>
 .custom-hover:hover {
   transform: translateY(-12px) !important;
 }

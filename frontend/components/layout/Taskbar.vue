@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="justify-center flex mb-[150px]">
+    <div class="justify-center flex mb-[135px]">
       <div class="bg-white100 border-b-slate-200 dark:bg-slate-800 dark:border-b-slate-600 border-b-2 py-5 flex flex-row items-center flex-wrap w-full fixed top-0 z-40">
         <NuxtLink to="/">
           <UiTypography type="p" size="heading4" class="font-bold px-8 mr-[800px]">
@@ -30,20 +30,20 @@
     </div>
 
     <button class="z-50 fixed top-5 right-[160px]" @click="toggleDarkMode">
-      <div v-if="isDarkMode == false">
-        <Sun class="h-3 w-3" />
-      </div>
       <div v-if="isDarkMode == true">
         <Moon class="h-3 w-3" color="white" />
+      </div>
+      <div v-else>
+        <Sun class="h-3 w-3" />
       </div>
     </button>
 
     <NuxtLink to="https://github.com/metteghijsen/semester6-website" class="z-50 fixed top-5 right-[205px]">
-      <div v-if="isDarkMode == false">
-        <Github class="h-3 w-3" />
-      </div>
       <div v-if="isDarkMode == true">
         <Github class="h-3 w-3" color="white" />
+      </div>
+      <div v-else>
+        <Github class="h-3 w-3" />
       </div>
     </NuxtLink>
 

@@ -11,13 +11,15 @@
   zoom: 80%;
 }
 .gradient-background-light {
-  background: linear-gradient(-45deg, #fce2da, #ffe3ed, #d5f4ff, #d6fff5);
+  background: linear-gradient(-45deg, #ffdace, #ffd2e1, #c4efff, #c0ffef);
   background-size: 400% 400%;
-  animation: gradient 15s ease infinite;
+  animation: gradient 10s ease infinite;
 }
 
 .dark .gradient-background-light {
-  background: linear-gradient(-45deg, #4d1a0b, #4d021f, #003447, #005a47)
+  background: linear-gradient(-45deg, #212b3a, #284429, #22273b, #39233b);
+  background-size: 400% 400%;
+  animation: gradient 5s ease infinite;
 }
 
 @keyframes gradient {
