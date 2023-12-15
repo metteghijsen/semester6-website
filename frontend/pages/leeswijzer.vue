@@ -71,7 +71,13 @@ export default {
             { to: '/deliverable/moodboard', text: '• Moodboard UI/UX' },
             { to: '/deliverable/requirements', text: '• Requirements' },
             { to: '/deliverable/moscow', text: '• MoSCoW' },
-            { to: '/deliverable/paperprototyping', text: '• Paper prototyping' }
+            { to: '/deliverable/paperprototyping', text: '• Paper prototyping' },
+            { to: '/deliverable/wireframinggos', text: '• Wireframing' },
+            { to: '/deliverable/colorresearch2', text: '• Color Research' },
+            { to: '/deliverable/brandguide', text: '• Brandguide' },
+            { to: '/deliverable/components', text: '• Components' },
+            { to: '/deliverable/wireframing2', text: '• Wireframing' },
+            { to: '/deliverable/abctesting', text: '• A/B/C Testing' }
           ],
           show: true
         },
@@ -82,7 +88,11 @@ export default {
             { to: '/deliverable/wireframes', text: '• Wireframing' },
             { to: '/deliverable/usertesting', text: '• Usertesting' },
             { to: '/deliverable/abtesting', text: '• A/B Testing' },
-            { to: '/deliverable/developmentwebsite', text: '• Development Website' }
+            { to: '/deliverable/developmentwebsite', text: '• Development Website' },
+            { to: '/deliverable/wireframinggos', text: '• Wireframing' },
+            { to: '/deliverable/components', text: '• Components' },
+            { to: '/deliverable/wireframing2', text: '• Wireframing' },
+            { to: '/deliverable/abctesting', text: '• A/B/C Testing' }
           ],
           show: false
         },
@@ -128,7 +138,11 @@ export default {
             { to: '/deliverable/moodboard', text: '• Moodboard UI/UX' },
             { to: '/deliverable/requirements', text: '• Requirements' },
             { to: '/deliverable/moscow', text: '• MoSCoW' },
-            { to: '/deliverable/paperprototyping', text: '• Paper prototyping' }
+            { to: '/deliverable/paperprototyping', text: '• Paper prototyping' },
+            { to: '/deliverable/colorresearch2', text: '• Color Research' },
+            { to: '/deliverable/brandguide', text: '• Brandguide' },
+            { to: '/deliverable/components', text: '• Components' },
+            { to: '/deliverable/abctesting', text: '• A/B/C Testing' }
           ],
           show: false
         },
@@ -138,7 +152,8 @@ export default {
           links: [
             { to: '/deliverable/leeswijzer', text: '• Leeswijzer' },
             { to: '/deliverable/developmentwebsite', text: '• Development Website' },
-            { to: '/deliverable/postersession', text: '• Poster Session' }
+            { to: '/deliverable/postersession', text: '• Poster Session' },
+            { to: '/deliverable/peerfeedback', text: '• Peer feedback' }
           ],
           show: false
         },
@@ -160,7 +175,9 @@ export default {
             { to: '/deliverable/moodboard', text: '• Moodboard UI/UX' },
             { to: '/deliverable/requirements', text: '• Requirements' },
             { to: '/deliverable/moscow', text: '• MoSCoW' },
-            { to: '/deliverable/paperprototyping', text: '• Paper prototyping' }
+            { to: '/deliverable/paperprototyping', text: '• Paper prototyping' },
+            { to: '/deliverable/brandguide', text: '• Brandguide' },
+            { to: '/deliverable/weyweyweb', text: '• Wey Wey Web Malaga' }
           ],
           show: false
         }
