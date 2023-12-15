@@ -74,7 +74,8 @@ export default <Partial<Config>> {
     },
     fontFamily: {
       montserrat: 'Montserrat',
-      poppins: 'Poppins'
+      poppins: 'Poppins',
+      inter: 'Inter'
     }
   },
   darkMode: 'class',

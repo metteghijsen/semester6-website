@@ -129,8 +129,32 @@ html, body {
 }
 
 @font-face {
-    font-family: 'Poppins';
-    src: url('/fonts/Montserrat-Regular.woff') format('woff');
+    font-family: 'Inter';
+    src: url('/fonts/Inter-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('/fonts/Inter-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('/fonts/Inter-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('/fonts/Inter-Medium.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -138,7 +162,15 @@ html, body {
 
 @font-face {
     font-family: 'Poppins';
-    src: url('/fonts/Montserrat-Bold.woff') format('woff');
+    src: url('/fonts/Poppins-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('/fonts/Poppins-Bold.woff') format('woff');
     font-weight: bold;
     font-style: normal;
     font-display: swap;

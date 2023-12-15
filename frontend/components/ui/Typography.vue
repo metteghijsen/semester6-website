@@ -32,12 +32,8 @@ export default defineComponent({
         @apply font-poppins font-bold
       }
 
-      .font-secondary{
-        @apply font-montserrat font-bold
-      }
-
       .font-button{
-        @apply font-montserrat font-bold uppercase
+        @apply font-poppins font-bold uppercase
       }
 
       /* Headings */
@@ -51,11 +47,11 @@ export default defineComponent({
       }
 
       .heading3{
-        @apply font-secondary md:text-[34px] text-[26px] leading-[38px]
+        @apply font-primary md:text-[34px] text-[26px] leading-[38px]
       }
 
       .heading4{
-        @apply font-secondary md:text-[24px] text-[18px] leading-[28px]
+        @apply font-primary md:text-[24px] text-[18px] leading-[28px]
       }
 
       /* Paragraphs */
@@ -65,11 +61,11 @@ export default defineComponent({
       }
 
       .paragraph-small{
-        @apply font-montserrat md:text-[20px] text-[16px] leading-[24px]
+        @apply font-poppins md:text-[20px] text-[16px] leading-[24px]
       }
 
       .paragraph-extra-small{
-        @apply font-montserrat md:text-[16px] text-[12px] leading-[20px]
+        @apply font-poppins md:text-[16px] text-[12px] leading-[20px]
       }
 
       /* Button fonts */

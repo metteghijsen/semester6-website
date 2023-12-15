@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="justify-center flex mb-[150px]">
-      <div class="bg-white100 border-b-slate-200 dark:bg-slate-800 dark:border-b-slate-600 border-b-3 py-5 flex flex-row items-center flex-wrap w-full fixed top-0 z-40">
+      <div class="bg-white100 border-b-slate-200 dark:bg-slate-800 dark:border-b-slate-600 border-b-2 py-5 flex flex-row items-center flex-wrap w-full fixed top-0 z-40">
         <NuxtLink to="/">
           <UiTypography type="p" size="heading4" class="font-bold px-8 mr-[800px]">
             Mette Ghijsen
