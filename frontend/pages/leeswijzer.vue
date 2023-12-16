@@ -103,7 +103,8 @@ export default {
             { to: '/deliverable/developmentwebsite', text: '• Development Website' },
             { to: '/deliverable/c4model', text: '• C4 model' },
             { to: '/deliverable/pipeline', text: '• Pipeline' },
-            { to: '/deliverable/darkmode', text: '• Darkmode' }
+            { to: '/deliverable/darkmode', text: '• Darkmode' },
+            { to: '/deliverable/lucide', text: '• Lucide icons' }
           ],
           show: false
         },
@@ -132,6 +133,7 @@ export default {
             { to: '/deliverable/c4model', text: '• C4 model' },
             { to: '/deliverable/pipeline', text: '• Pipeline' },
             { to: '/deliverable/darkmode', text: '• Darkmode' },
+            { to: '/deliverable/lucide', text: '• Lucide icons' },
             { to: '/deliverable/leeswijzer', text: '• Leeswijzer' },
             { to: '/deliverable/brainstorming', text: '• Brainstorming' },
             { to: '/deliverable/projectplangroup', text: '• Projectplan Group' },

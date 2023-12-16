@@ -172,6 +172,30 @@
             project-people="individual"
           />
 
+          <UiDeliverable
+            v-if=" selectedLo.includes('lo3') || selectedLo.includes('lo5') || selectedLo.length === 0"
+            lo3
+            lo5
+            to="darkmode"
+            deliverable-name="Dark theme"
+            image-name="darkmode"
+            deliverable-description="Om mezelf uit te dagen, en me verder te verdiepen in de mogelijkheden van Tailwind en Nuxt, heb ik besloten een dark theme te implementeren in mijn website."
+            project-type="Personal Project"
+            project-people="individual"
+          />
+
+          <UiDeliverable
+            v-if=" selectedLo.includes('lo3') || selectedLo.includes('lo5') || selectedLo.length === 0"
+            lo3
+            lo5
+            to="lucide"
+            deliverable-name="Lucide Icons"
+            image-name="lucide"
+            deliverable-description="Om mijn workflow te verbeteren, en mijn site er beter uit te laten zien, heb ik besloten om Lucide Icons te integreren. Dit is een veelzijdige icoonbibliotheek die tijdens een gesprek met Luc ter sprake kwam."
+            project-type="Personal Project"
+            project-people="individual"
+          />
+
           <!-- <UiDeliverable
             v-if="selectedLo.includes('lo6') || selectedLo.includes('lo7') || selectedLo.length === 0"
             lo6
