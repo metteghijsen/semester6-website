@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-black10 dark:bg-slate-700 ">
+  <div :class="[darkModeClass, 'gradient-background-light']">
     <div class="w-full bg-white100 dark:bg-slate-800 grid grid-cols-4 gap-2 px-[450px] lg:px-[400px] py-[120px]">
       <UiLogo image-name="fontys" to="https://www.fontys.nl/Home.htm" />
       <UiLogo image-name="kea" to="https://kea.dk/en/" />
@@ -47,3 +47,32 @@
     </div>
   </div>
 </template>
+
+<style scoped>
+.zoom-80{
+  zoom: 80%;
+}
+.gradient-background-light {
+  background: linear-gradient(-45deg, #ffdace, #ffd2e1, #c4efff, #c0ffef);
+  background-size: 200% 200%;
+  animation: gradient 10s ease infinite;
+}
+
+.dark .gradient-background-light {
+  background: linear-gradient(-45deg, #212b3a, #046d4a, #22273b, #64046d);
+  background-size: 250% 250%;
+  animation: gradient 20s ease infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+</style>
