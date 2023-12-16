@@ -11,7 +11,7 @@
             title="leeswijzer"
             class="rounded-3xl"
           />
-          <div class="ml-4 w-[600px] h-max bg-white100 dark:bg-slate-800 rounded-3xl">
+          <div class="ml-4 w-[600px] h-max bg-white100 border-slate-200 dark:bg-slate-800 dark:border-slate-600 border-2 rounded-3xl">
             <div class="m-4">
               <!-- Loop over de leeruitkomsten -->
               <div v-for="(outcome, index) in outcomes" :key="index">
