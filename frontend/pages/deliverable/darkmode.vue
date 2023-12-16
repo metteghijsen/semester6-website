@@ -29,8 +29,10 @@
           Hoewel mijn oorspronkelijke streven was om de gestructureerde aanpak van Luc te volgen, bood de implementatie van Tailwind dark mode een pragmatische oplossing die naadloos aansloot bij mijn bestaande website. Het toevoegen van een dark mode switch component en het oplossen van uitdagingen met de scrollbar leidden tot een succesvolle implementatie van het dark theme, zonder het risico van verstoring van mijn bestaande site.
         </UiTextbox>
         <UiTextbox title="Leeruitkomsten">
-          •	<b> Learning outcome 7: Goal-oriented interaction </b> <br>
-          You communicate with different stakeholders and team members about the ICT assignment, taking into account an international context.
+          •	<b> Learning outcome 3: Software design and realisation</b> <br>
+          You create & design software with existing components or libraries using predetermined quality criteria and version control. <br><br>
+          •	<b> Learning outcome 5: Investigative problem solving </b> <br>
+          You formulate sub-questions pertaining to the primary question and answer these using relevant research methods. You use the conclusions of the sub-questions to justify (design) choices. <br>
         </UiTextbox>
         <div class="flex justify-center">
           <div class="w-[400px] my-2">
