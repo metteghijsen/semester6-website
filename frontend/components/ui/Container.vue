@@ -12,14 +12,14 @@
 }
 .gradient-background-light {
   background: linear-gradient(-45deg, #ffdace, #ffd2e1, #c4efff, #c0ffef);
-  background-size: 400% 400%;
+  background-size: 200% 200%;
   animation: gradient 10s ease infinite;
 }
 
 .dark .gradient-background-light {
-  background: linear-gradient(-45deg, #212b3a, #284429, #22273b, #39233b);
-  background-size: 400% 400%;
-  animation: gradient 5s ease infinite;
+  background: linear-gradient(-45deg, #212b3a, #046d4a, #22273b, #64046d);
+  background-size: 250% 250%;
+  animation: gradient 20s ease infinite;
 }
 
 @keyframes gradient {
