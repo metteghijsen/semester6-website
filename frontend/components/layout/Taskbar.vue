@@ -61,11 +61,17 @@ import { Sun, Moon, Github } from 'lucide-vue-next'
 
 const isDarkMode = ref(false)
 
-// Check localStorage for dark mode preference on component mount
 onMounted(() => {
   const storedDarkMode = localStorage.getItem('darkMode')
   if (storedDarkMode) {
     isDarkMode.value = JSON.parse(storedDarkMode)
+
+    // Apply dark mode styles after the component is mounted
+    if (isDarkMode.value) {
+      document.documentElement.classList.add('dark')
+    } else {
+      document.documentElement.classList.remove('dark')
+    }
   }
 })
 
