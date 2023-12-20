@@ -7,7 +7,29 @@
             Mette Ghijsen
           </UiTypography>
         </NuxtLink>
-        <div class="flex justify-end w-full items-center">
+        <div class="flex justify-end w-full">
+          <div v-if="isMenu == true">
+            <button class="lg:hidden p-1 mr-10 dark:hover:bg-slate-700 hover:bg-slate-100 rounded-md ease-in-out transition-colors" @click="toggleMenu">
+              <div v-if="isDarkMode == true">
+                <X class="h-3 w-3" color="white" />
+              </div>
+              <div v-else>
+                <X class="h-3 w-3" />
+              </div>
+            </button>
+          </div>
+          <div v-else>
+            <button class="lg:hidden p-1 mr-10 dark:hover:bg-slate-700 hover:bg-slate-100 rounded-md ease-in-out transition-colors" @click="toggleMenu">
+              <div v-if="isDarkMode == true">
+                <Menu class="h-3 w-3" color="white" />
+              </div>
+              <div v-else>
+                <Menu class="h-3 w-3" />
+              </div>
+            </button>
+          </div>
+        </div>
+        <div class="hidden lg:flex lg:justify-end lg:w-full lg:items-center">
           <router-link
             v-for="(link, index) in links"
             :key="index"
@@ -15,7 +37,7 @@
             class="px-2 link"
             :class="{ 'active-link': isActive(link.to) }"
           >
-            <UiTypography type="p" size="paragraph-small" :class="{ 'font-bold': isActive(link.to) }" class="">
+            <UiTypography type="p" size="paragraph-small" :class="{ 'font-bold': isActive(link.to) }" class="whitespace-nowrap">
               {{ link.text }}
             </UiTypography>
             <div
@@ -51,7 +73,44 @@
 
     <div :class="{ 'dark': isDarkMode }">
       <div class="transition-colors ease-in-out delay-150">
-        <slot />
+        <div v-if="!isMenu">
+          <slot />
+        </div>
+        <div v-else>
+          <div v-if="isMenu" class="top-12 flex justify-center items-center flex-col z-30 left-0 absolute w-full bg-white100 border-b-slate-200 dark:bg-slate-800 dark:border-b-slate-600">
+            <router-link
+              v-for="(link, index) in links"
+              :key="index"
+              :to="link.to"
+              class="link dark:hover:bg-slate-700 hover:bg-slate-100 py-5 w-full border-b-slate-200 dark:border-b-slate-600 border-b-2 text-center"
+              @click="toggleMenu"
+            >
+              <UiTypography type="p" size="paragraph-small">
+                {{ link.text }}
+              </UiTypography>
+            </router-link>
+
+            <div class="flex justify-center items-center w-full pb-[200px]">
+              <NuxtLink to="https://github.com/metteghijsen/semester6-website" class="p-1 hover:bg-slate-100  dark:hover:bg-slate-700 rounded-md ease-in-out transition-colors">
+                <div v-if="isDarkMode == true">
+                  <Github class="h-3 w-3" color="white" />
+                </div>
+                <div v-else>
+                  <Github class="h-3 w-3" />
+                </div>
+              </NuxtLink>
+
+              <button class="p-1 my-4 dark:hover:bg-slate-700 hover:bg-slate-100 rounded-md ease-in-out transition-colors" @click="toggleDarkMode">
+                <div v-if="isDarkMode == true">
+                  <Moon class="h-3 w-3" color="white" />
+                </div>
+                <div v-else>
+                  <Sun class="h-3 w-3" />
+                </div>
+              </button>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -59,9 +118,10 @@
 
 <script setup>
 import { ref, onMounted } from 'vue'
-import { Sun, Moon, Github } from 'lucide-vue-next'
+import { Sun, Moon, Github, Menu, X } from 'lucide-vue-next'
 
 const isDarkMode = ref(false)
+const isMenu = ref(false)
 
 onMounted(() => {
   const storedDarkMode = localStorage.getItem('darkMode')
@@ -103,6 +163,17 @@ const toggleDarkMode = () => {
     document.documentElement.classList.remove('dark')
   }
 }
+
+const toggleMenu = () => {
+  isMenu.value = !isMenu.value
+
+  if (isMenu.value) {
+    document.body.classList.add('overflow-hidden')
+  } else {
+    document.body.classList.remove('overflow-hidden')
+  }
+}
+
 </script>
 
 <style scoped>
