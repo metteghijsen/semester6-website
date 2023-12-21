@@ -2,8 +2,13 @@
   <div>
     <div class="justify-center flex mb-[135px]">
       <div class="bg-white100 border-b-slate-200 dark:bg-slate-800 dark:border-b-slate-600 border-b-2 py-4 flex flex-row items-center w-full fixed top-0 z-40">
-        <NuxtLink to="/">
-          <UiTypography type="p" size="heading4" class="font-bold px-8 whitespace-nowrap">
+        <NuxtLink v-if="isMenu==true" @click="toggleMenu">
+          <UiTypography type="p" size="heading4" class="font-bold pl-8 whitespace-nowrap">
+            Mette Ghijsen
+          </UiTypography>
+        </NuxtLink>
+        <NuxtLink v-else to="/">
+          <UiTypography type="p" size="heading4" class="font-bold pl-8 whitespace-nowrap">
             Mette Ghijsen
           </UiTypography>
         </NuxtLink>
@@ -77,7 +82,7 @@
           <slot />
         </div>
         <div v-else>
-          <div v-if="isMenu" class="top-12 flex justify-center items-center flex-col z-30 left-0 absolute w-full bg-white100 border-b-slate-200 dark:bg-slate-800 dark:border-b-slate-600">
+          <div v-if="isMenu" class="lg:hidden top-12 flex justify-center items-center flex-col z-30 left-0 fixed w-full bg-white100 border-b-slate-200 dark:bg-slate-800 dark:border-b-slate-600">
             <router-link
               v-for="(link, index) in links"
               :key="index"
@@ -90,7 +95,7 @@
               </UiTypography>
             </router-link>
 
-            <div class="flex justify-center items-center w-full pb-[200px]">
+            <div class="flex justify-center items-center w-full">
               <NuxtLink to="https://github.com/metteghijsen/semester6-website" class="p-1 hover:bg-slate-100  dark:hover:bg-slate-700 rounded-md ease-in-out transition-colors">
                 <div v-if="isDarkMode == true">
                   <Github class="h-3 w-3" color="white" />

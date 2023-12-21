@@ -1,6 +1,6 @@
 <template>
   <NuxtLink :to="`/deliverable/${to}`">
-    <div class="bg-white100 border-slate-200 dark:bg-slate-800 dark:border-slate-600 border-2 h-[700px] w-[460px] flex flex-col rounded-3xl relative m-0.5 custom-hover transition-all ease-in-out">
+    <div class="bg-white100 border-slate-200 dark:bg-slate-800 dark:border-slate-600 border-2 md:h-[700px] max-h-[700px] pb-4 lg:pb-0 md:pb-0 max-w-[460px] flex flex-col rounded-3xl relative m-0.5 custom-hover transition-all ease-in-out">
       <!-- Skeleton Loader -->
       <div v-if="!loaded" class="skeleton-loader bg-black20 dark:bg-slate-500 rounded-t-3xl aspect-square" />
       <!-- Actual content -->

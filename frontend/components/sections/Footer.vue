@@ -1,15 +1,17 @@
 <template>
   <div :class="[darkModeClass, 'gradient-background-light']">
-    <div class="w-full bg-white100 dark:bg-slate-800 grid grid-cols-4 gap-2 px-[450px] lg:px-[400px] py-[120px]">
-      <UiLogo image-name="fontys" to="https://www.fontys.nl/Home.htm" />
-      <UiLogo image-name="kea" to="https://kea.dk/en/" />
-      <UiLogo image-name="livewall" to="https://www.livewall.nl/" />
-      <UiLogo image-name="sogeti" to="https://www.sogeti.nl/" />
+    <div class="flex justify-center">
+      <div class="w-full bg-white100 dark:bg-slate-800 grid xl:grid-cols-4 lg:grid-cols-2 md:grid-cols-2 gap-2 lg:px-[400px] px-[200px] py-[120px]">
+        <UiLogo image-name="fontys" to="https://www.fontys.nl/Home.htm" />
+        <UiLogo image-name="kea" to="https://kea.dk/en/" />
+        <UiLogo image-name="livewall" to="https://www.livewall.nl/" />
+        <UiLogo image-name="sogeti" to="https://www.sogeti.nl/" />
 
-      <UiLogo image-name="9292" to="https://9292.nl/" class="p-4" />
-      <UiLogo image-name="warnermusic" to="https://www.wmg.com/" />
-      <UiLogo image-name="partou" to="https://www.werkenbijpartou.nl/?utm_source=googleads&utm_campaign=18773651246&utm_medium=ad&utm_content=670754134683&utm_term=werken+bij+partou&gclid=Cj0KCQjw06-oBhC6ARIsAGuzdw0MH2NWr98Skszax908DrasgF6UXzMTW2UV8SCRp436CjrR_p6BBcQaAvYkEALw_wcB" />
-      <UiLogo image-name="salvemundi" to="https://www.salvemundi.nl" />
+        <UiLogo image-name="9292" to="https://9292.nl/" class="p-4" />
+        <UiLogo image-name="warnermusic" to="https://www.wmg.com/" />
+        <UiLogo image-name="partou" to="https://www.werkenbijpartou.nl/?utm_source=googleads&utm_campaign=18773651246&utm_medium=ad&utm_content=670754134683&utm_term=werken+bij+partou&gclid=Cj0KCQjw06-oBhC6ARIsAGuzdw0MH2NWr98Skszax908DrasgF6UXzMTW2UV8SCRp436CjrR_p6BBcQaAvYkEALw_wcB" />
+        <UiLogo image-name="salvemundi" to="https://www.salvemundi.nl" />
+      </div>
     </div>
     <div class="flex flex-row justify-evenly py-[120px]">
       <div>

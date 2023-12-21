@@ -3,7 +3,7 @@
     <UiContainer>
       <div>
         <LayoutTaskbar />
-        <div v-motion-slide-bottom class="md:grid md:grid-cols-2 md:gap-1">
+        <div v-motion-slide-bottom class="grid md:grid-cols-2 md:gap-1 grid-cols-1 gap-0.5">
           <UiProject
             to="/groupproject"
             image-name="griponsound"
@@ -33,11 +33,11 @@
           />
         </div>
         <div>
-          <div v-motion-slide-visible-once-bottom class="mt-4 w-full h-max rounded-3xl bg-blue40 dark:bg-blue100 flex flex-row">
+          <div v-motion-slide-visible-once-bottom class="mt-4 w-full h-max rounded-3xl bg-blue40 dark:bg-blue100 flex lg:flex-row flex-col">
             <NuxtImg
               src="/img/mette.png"
               alt="mette"
-              class="rounded-l-3xl w-full mr-4"
+              class="lg:rounded-l-3xl rounded-t-3xl w-full mr-4 object-cover"
             />
 
             <div class="p-7">

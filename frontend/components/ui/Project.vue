@@ -1,7 +1,7 @@
 <template>
   <NuxtLink :to="to">
-    <div class="bg-white100 border-slate-200 dark:bg-slate-800 dark:border-slate-600 border-2 h-[700px] w-[680px] flex flex-col items-center rounded-3xl mb-3 custom-hover transition-all ease-in-out">
-      <NuxtImg :src="`/img/projects/${imageName}.png`" :alt="imageName" class="aspect-video w-full max-h-[400px] mb-4 rounded-t-3xl" />
+    <div class="bg-white100 border-slate-200 dark:bg-slate-800 dark:border-slate-600 border-2 lg:h-[700px] md:max-w-[680px] flex flex-col items-center rounded-3xl mb-3 custom-hover transition-all ease-in-out">
+      <NuxtImg :src="`/img/projects/${imageName}.png`" :alt="imageName" class="object-cover aspect-video w-full max-h-[400px] mb-4 rounded-t-3xl" />
       <div class="flex flex-col mx-10">
         <UiTypography type="h3" size="heading3" class="pb-1">
           {{ projectName }}

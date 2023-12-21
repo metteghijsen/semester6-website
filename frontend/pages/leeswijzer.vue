@@ -3,15 +3,14 @@
     <UiContainer>
       <div class="h-full">
         <LayoutTaskbar />
-        <div v-motion-slide-bottom class="flex flex-row">
+        <div v-motion-slide-bottom class="flex lg:flex-row flex-col items-center lg:items-start">
           <iframe
-            src="/documents/leeswijzerv1.3.pdf"
-            width="1100px"
-            height="1250px"
+            src="/documents/leeswijzerv1.3.pdf#zoom=FitW"
             title="leeswijzer"
-            class="rounded-3xl"
+            class="rounded-3xl lg:w-[1100px] lg:h-[1250px] h-[900px] w-full"
+            width="100%"
           />
-          <div class="ml-4 w-[600px] h-max bg-white100 border-slate-200 dark:bg-slate-800 dark:border-slate-600 border-2 rounded-3xl">
+          <div class="lg:ml-4 lg:max-w-[500px] mt-8 lg:mt-0 w-full h-max bg-white100 border-slate-200 dark:bg-slate-800 dark:border-slate-600 border-2 rounded-3xl">
             <div class="m-4">
               <!-- Loop over de leeruitkomsten -->
               <div v-for="(outcome, index) in outcomes" :key="index">
