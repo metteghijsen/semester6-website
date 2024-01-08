@@ -33,7 +33,7 @@
           </div>
         </div>
 
-        <div class="flex justify-center">
+        <div class="flex justify-center flex-col">
           <div v-motion-slide-bottom class="grid lg:grid-cols-3 gap-1 md:grid-cols-2 grid-cols-1">
             <UiDeliverable
               v-if="selectedLo.includes('lo6') || selectedLo.includes('lo7') || selectedLo.length === 0"

@@ -33,7 +33,7 @@
           </div>
         </div>
 
-        <div class="flex justify-center">
+        <div class="flex justify-center flex-col">
           <div v-motion-slide-bottom class="grid lg:grid-cols-3 gap-1 md:grid-cols-2 grid-cols-1">
             <UiDeliverable
               v-if="selectedLo.includes('lo4') || selectedLo.includes('lo5') || selectedLo.includes('lo7') || selectedLo.length === 0"
@@ -456,8 +456,7 @@
               to="peerfeedback"
               deliverable-name="Peer Feedback"
               image-name="peerfeedback"
-              deliverable-description="Om te reflecteren op mijn eigen werkhouding en om te kijken of we als projectgroep onze houding kunnen verbeteren, heb ik een peer review sessie georganiseerd.
-       "
+              deliverable-description="Om te reflecteren op mijn eigen werkhouding en om te kijken of we als projectgroep onze houding kunnen verbeteren, heb ik een peer review sessie georganiseerd."
               project-type="Grip on Sound"
               project-people="group"
             />
