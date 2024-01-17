@@ -196,6 +196,18 @@
               project-type="Personal Project"
               project-people="individual"
             />
+
+            <UiDeliverable
+              v-if=" selectedLo.includes('lo3') || selectedLo.includes('lo5') || selectedLo.length === 0"
+              lo3
+              lo5
+              to="responsive"
+              deliverable-name="Responsiveness"
+              image-name="responsive"
+              deliverable-description="Omdat ik meer van de development leeruitkomst wilde laten zien, kreeg ik het advies van mijn semestercoach om mijn portfolio website responsive te maken. Met de kennis die ik tijdens mijn stage heb opgedaan, ben ik deze uitdaging aangegaan."
+              project-type="Personal Project"
+              project-people="individual"
+            />
           </div>
 
           <div class="flex flex-col">
