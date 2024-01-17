@@ -462,6 +462,29 @@
             />
 
             <UiDeliverable
+              v-if="selectedLo.includes('lo6') || selectedLo.length === 0"
+              lo6
+              to="Retrospective"
+              deliverable-name="Retrospective"
+              image-name="retrospective"
+              deliverable-description="Om te reflecteren op ons groepswerk, hebben we na elke sprint een retrospective georganiseerd."
+              project-type="Grip on Sound"
+              project-people="group"
+            />
+
+            <UiDeliverable
+              v-if="selectedLo.includes('lo4') || selectedLo.includes('lo7') || selectedLo.length === 0"
+              to="adviesrapport"
+              lo4
+              lo7
+              deliverable-name="Adviesrapport"
+              image-name="adviesrapport"
+              deliverable-description="Om de stakeholder goed te informeren over onze bezigheden gedurende de afgelopen 12 weken, hebben ik samen met de projectgroep een adviesrapport opgesteld."
+              project-type="Grip on Sound"
+              project-people="group"
+            />
+
+            <UiDeliverable
               v-if=" selectedLo.includes('lo3') || selectedLo.includes('lo5') || selectedLo.length === 0"
               lo3
               lo5
