@@ -488,6 +488,18 @@
               v-if=" selectedLo.includes('lo3') || selectedLo.includes('lo5') || selectedLo.length === 0"
               lo3
               lo5
+              to="vueautocounter"
+              deliverable-name="Vue Autocounter"
+              image-name="vueautocounter"
+              deliverable-description="Om mijn developmentvaardigheden te verbeteren, en mijn website meer eigen te maken, heb ik geprobeerd om een autocounter toe te voegen op de homepagina. "
+              project-type="Personal Project"
+              project-people="individual"
+            />
+
+            <UiDeliverable
+              v-if=" selectedLo.includes('lo3') || selectedLo.includes('lo5') || selectedLo.length === 0"
+              lo3
+              lo5
               to="responsive"
               deliverable-name="Responsiveness"
               image-name="responsive"
