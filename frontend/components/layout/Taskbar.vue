@@ -145,7 +145,7 @@ onMounted(() => {
 const links = [
   { text: 'Deliverables', to: '/deliverables' },
   { text: 'Leeswijzer', to: '/leeswijzer' },
-  { text: 'Individual project', to: '/individualproject' },
+  { text: 'Personal project', to: '/individualproject' },
   { text: 'Group project', to: '/groupproject' },
   { text: 'International project', to: '/internationalproject' }
 ]
