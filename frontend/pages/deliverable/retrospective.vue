@@ -27,7 +27,7 @@
               class="w-full h-[600px] mt-4 rounded-3xl"
               width="768"
               height="432"
-              src="https://miro.com/app/live-embed/uXjVNcKDVh8=/?moveToViewport=7174,3578,6168,4560&embedId=594885623361"
+              src="https://miro.com/app/live-embed/uXjVNcKDVh8=/?moveToViewport=-3402,3650,6130,2773&embedId=367266930927"
               frameborder="0"
               scrolling="no"
               allow="fullscreen; clipboard-read; clipboard-write"
