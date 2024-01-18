@@ -208,6 +208,18 @@
               project-type="Personal Project"
               project-people="individual"
             />
+
+            <UiDeliverable
+              v-if=" selectedLo.includes('lo3') || selectedLo.includes('lo5') || selectedLo.length === 0"
+              lo3
+              lo5
+              to="apiexperiment"
+              deliverable-name="API Experiment"
+              image-name="apiexperiment"
+              deliverable-description="Om mijn kennis over Vue uit te breiden, heb ik besloten om te experimenteren met het gebruiken van API’s. Ik heb een POC (Proof of Concept) gemaakt met de Dog API."
+              project-type="Personal Project"
+              project-people="individual"
+            />
           </div>
 
           <div class="flex flex-col">
