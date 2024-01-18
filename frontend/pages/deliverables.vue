@@ -419,8 +419,7 @@
               to="components"
               deliverable-name="Components"
               image-name="components"
-              deliverable-description="Om ervoor te zorgen dat de designs van de hele projectgroep ongeveer dezelfde stijl aanhouden, heb ik een aantal componenten samengesteld.
-       "
+              deliverable-description="Om ervoor te zorgen dat de designs van de hele projectgroep ongeveer dezelfde stijl aanhouden, heb ik een aantal componenten samengesteld."
               project-type="Grip on Sound"
               project-people="group"
             />
@@ -446,6 +445,19 @@
               deliverable-name="A/B/C Testing"
               image-name="abctesting"
               deliverable-description="Om te bepalen welk ontwerp van de Daily Dose pagina het meest geschikt is om te implementeren, heb ik een A/B/C test afgenomen."
+              project-type="Grip on Sound"
+              project-people="group"
+            />
+
+            <UiDeliverable
+              v-if="selectedLo.includes('lo1') || selectedLo.includes('lo2') || selectedLo.includes('lo5') || selectedLo.length === 0"
+              lo1
+              lo2
+              lo5
+              to="usertesting"
+              deliverable-name="Usertesting"
+              image-name="usertesting2"
+              deliverable-description="Samen met Juliën heb ik een gebruikerstest opgezet in Maze om de UI van onze Noise Control app te optimaliseren. Tijdens deze test hebben we de eerste versie van onze UI getest met behulp van vragen en scenario’s."
               project-type="Grip on Sound"
               project-people="group"
             />

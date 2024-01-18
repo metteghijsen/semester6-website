@@ -236,13 +236,25 @@
             />
 
             <UiDeliverable
+              v-if="selectedLo.includes('lo1') || selectedLo.includes('lo2') || selectedLo.includes('lo5') || selectedLo.length === 0"
+              lo1
+              lo2
+              lo5
+              to="usertesting"
+              deliverable-name="Usertesting"
+              image-name="usertesting2"
+              deliverable-description="Samen met Juliën heb ik een gebruikerstest opgezet in Maze om de UI van onze Noise Control app te optimaliseren. Tijdens deze test hebben we de eerste versie van onze UI getest met behulp van vragen en scenario’s."
+              project-type="Grip on Sound"
+              project-people="group"
+            />
+
+            <UiDeliverable
               v-if="selectedLo.includes('lo6') || selectedLo.length === 0"
               lo6
               to="peerfeedback"
               deliverable-name="Peer Feedback"
               image-name="peerfeedback"
-              deliverable-description="Om te reflecteren op mijn eigen werkhouding en om te kijken of we als projectgroep onze houding kunnen verbeteren, heb ik een peer review sessie georganiseerd.
-       "
+              deliverable-description="Om te reflecteren op mijn eigen werkhouding en om te kijken of we als projectgroep onze houding kunnen verbeteren, heb ik een peer review sessie georganiseerd."
               project-type="Grip on Sound"
               project-people="group"
             />
