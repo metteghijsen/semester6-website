@@ -262,7 +262,7 @@
             <UiDeliverable
               v-if="selectedLo.includes('lo6') || selectedLo.length === 0"
               lo6
-              to="Retrospective"
+              to="retrospective"
               deliverable-name="Retrospective"
               image-name="retrospective"
               deliverable-description="Om te reflecteren op ons groepswerk, hebben we na elke sprint een retrospective georganiseerd."
@@ -277,7 +277,7 @@
               lo7
               deliverable-name="Adviesrapport"
               image-name="adviesrapport"
-              deliverable-description="Om de stakeholder goed te informeren over onze bezigheden gedurende de afgelopen 12 weken, hebben ik samen met de projectgroep een adviesrapport opgesteld."
+              deliverable-description="Om de stakeholder goed te informeren over onze bezigheden gedurende de afgelopen 12 weken, heb ik samen met de projectgroep een adviesrapport opgesteld."
               project-type="Grip on Sound"
               project-people="group"
             />

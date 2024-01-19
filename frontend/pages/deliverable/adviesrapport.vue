@@ -11,7 +11,7 @@
           lo4
           lo7
         >
-          Om de stakeholder goed te informeren over onze bezigheden gedurende de afgelopen 12 weken, hebben ik samen met de projectgroep een adviesrapport opgesteld.
+          Om de stakeholder goed te informeren over onze bezigheden gedurende de afgelopen 12 weken, heb ik samen met de projectgroep een adviesrapport opgesteld.
         </UiTextbox>
         <UiTextbox
           title="Proces & Iteraties"
