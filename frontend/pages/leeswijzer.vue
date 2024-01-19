@@ -5,7 +5,7 @@
         <LayoutTaskbar />
         <div v-motion-slide-bottom class="flex lg:flex-row flex-col items-center lg:items-start">
           <iframe
-            src="/documents/leeswijzerv1.3.pdf#zoom=FitW"
+            src="/documents/leeswijzerv1.4.pdf#zoom=FitW"
             title="leeswijzer"
             class="rounded-3xl lg:w-[1100px] lg:h-[1250px] h-[900px] w-full"
             width="100%"
