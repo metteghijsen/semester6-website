@@ -18,7 +18,9 @@
           title="Proces & Iteraties"
         >
           Van het projectplan heb ik een deel van hoofdstuk 1, heel hoofdstuk 2, en hoofdstuk 3.1 en 3.2 geschreven. <br><br>
-          Versie 1.0
+
+          <b>Versie 1.0</b><br>
+          Eerste opzet.
           <div class="flex flex-row">
             <div class="w-max my-2 mr-4">
               <UiButton
@@ -31,8 +33,9 @@
               />
             </div>
           </div>
-
-          Versie 1.1
+          <br><br>
+          <b>Versie 1.1</b><br>
+          Aanpassingen gemaakt na een feedbackronde van Bardt.
           <div class="flex flex-row">
             <div class="w-max my-2 mr-4">
               <UiButton
@@ -45,8 +48,9 @@
               />
             </div>
           </div>
-
-          Versie 1.2
+          <br><br>
+          <b>Versie 1.2</b><br>
+          Ongebruikte onderzoeksmethoden en spelfouten weggehaald.
           <div class="flex flex-row">
             <div class="w-max my-2 mr-4">
               <UiButton
@@ -59,8 +63,9 @@
               />
             </div>
           </div>
-
-          Versie 1.3
+          <br><br>
+          <b>Versie 1.3</b><br>
+          Aanpassingen gemaakt na een feedbackronde van Dennis.
           <div class="flex flex-row">
             <div class="w-max my-2 mr-4">
               <UiButton

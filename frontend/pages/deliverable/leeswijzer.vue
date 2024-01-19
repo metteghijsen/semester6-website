@@ -16,7 +16,8 @@
         <UiTextbox
           title="Iteraties"
         >
-          Versie 1.0
+          <b>Versie 1.0 (29-09-2023)</b><br>
+          Eerste opzet.
           <div class="flex flex-row">
             <div class="w-max my-2 mr-4">
               <UiButton
@@ -29,8 +30,9 @@
               />
             </div>
           </div>
-
-          Versie 1.1
+          <br><br>
+          <b>Versie 1.1 (9-11-2023)</b><br>
+          Extra deliverables, en documentatie groepsproject toegevoegd.
           <div class="flex flex-row">
             <div class="w-max my-2 mr-4">
               <UiButton
@@ -43,8 +45,9 @@
               />
             </div>
           </div>
-
-          Versie 1.2
+          <br><br>
+          <b>Versie 1.2 (10-11-2023)</b><br>
+          Conclusie & reflectie geschreven bij personal project.
           <div class="flex flex-row">
             <div class="w-max my-2 mr-4">
               <UiButton
@@ -57,8 +60,9 @@
               />
             </div>
           </div>
-
-          Versie 1.3
+          <br><br>
+          <b>Versie 1.3 (15-12-2023)</b><br>
+          Extra deliverables toegevoegd.
           <div class="flex flex-row">
             <div class="w-max my-2 mr-4">
               <UiButton
@@ -67,6 +71,21 @@
                 regular
                 arrow
                 to="/documents/leeswijzerv1.3.pdf"
+                target="_blank"
+              />
+            </div>
+          </div>
+          <br><br>
+          <b>Versie 1.4 (19-01-2024)</b><br>
+          Extra deliverables toegevoegd. Conclusie & reflectie geschreven bij group project.
+          <div class="flex flex-row">
+            <div class="w-max my-2 mr-4">
+              <UiButton
+                label="bekijk leeswijzer versie 1.4"
+                primary
+                regular
+                arrow
+                to="/documents/leeswijzerv1.4.pdf"
                 target="_blank"
               />
             </div>
