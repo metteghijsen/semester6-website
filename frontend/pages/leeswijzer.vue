@@ -62,7 +62,7 @@ export default {
             { to: '/deliverable/immersion', text: '• Immersion' },
             { to: '/deliverable/interview', text: '• Interview' },
             { to: '/deliverable/wireframes', text: '• Wireframing' },
-            { to: '/deliverable/usertesting', text: '• Usertesting' },
+            { to: '/deliverable/usertests', text: '• Usertesting' },
             { to: '/deliverable/abtesting', text: '• A/B Testing' },
             { to: '/deliverable/c4model', text: '• C4 model' },
             { to: '/deliverable/survey', text: '• Survey' },
@@ -76,7 +76,8 @@ export default {
             { to: '/deliverable/brandguide', text: '• Brandguide' },
             { to: '/deliverable/components', text: '• Components' },
             { to: '/deliverable/wireframing2', text: '• Wireframing' },
-            { to: '/deliverable/abctesting', text: '• A/B/C Testing' }
+            { to: '/deliverable/abctesting', text: '• A/B/C Testing' },
+            { to: '/deliverable/usertesting', text: '• Usertesting' }
           ],
           show: true
         },
@@ -85,13 +86,14 @@ export default {
           color: 'text-orange100',
           links: [
             { to: '/deliverable/wireframes', text: '• Wireframing' },
-            { to: '/deliverable/usertesting', text: '• Usertesting' },
+            { to: '/deliverable/usertests', text: '• Usertesting' },
             { to: '/deliverable/abtesting', text: '• A/B Testing' },
             { to: '/deliverable/developmentwebsite', text: '• Development Website' },
             { to: '/deliverable/wireframinggos', text: '• Wireframing' },
             { to: '/deliverable/components', text: '• Components' },
             { to: '/deliverable/wireframing2', text: '• Wireframing' },
-            { to: '/deliverable/abctesting', text: '• A/B/C Testing' }
+            { to: '/deliverable/abctesting', text: '• A/B/C Testing' },
+            { to: '/deliverable/usertesting', text: '• Usertesting' }
           ],
           show: false
         },
@@ -103,7 +105,10 @@ export default {
             { to: '/deliverable/c4model', text: '• C4 model' },
             { to: '/deliverable/pipeline', text: '• Pipeline' },
             { to: '/deliverable/darkmode', text: '• Darkmode' },
-            { to: '/deliverable/lucide', text: '• Lucide icons' }
+            { to: '/deliverable/lucide', text: '• Lucide icons' },
+            { to: '/deliverable/vueautocounter', text: '• Vue Autocounter' },
+            { to: '/deliverable/responsive', text: '• Responsiveness' },
+            { to: '/deliverable/apiexperiment', text: '• API Experiment' }
           ],
           show: false
         },
@@ -114,7 +119,8 @@ export default {
             { to: '/deliverable/projectplan', text: '• Projectplan' },
             { to: '/deliverable/leeswijzer', text: '• Leeswijzer' },
             { to: '/deliverable/brainstorming', text: '• Brainstorming' },
-            { to: '/deliverable/projectplangroup', text: '• Projectplan Group' }
+            { to: '/deliverable/projectplangroup', text: '• Projectplan Group' },
+            { to: '/deliverable/adviesrapport', text: '• Adviesrapport' }
           ],
           show: false
         },
@@ -127,7 +133,7 @@ export default {
             { to: '/deliverable/colorresearch', text: '• Color Research' },
             { to: '/deliverable/immersion', text: '• Immersion' },
             { to: '/deliverable/interview', text: '• Interview' },
-            { to: '/deliverable/usertesting', text: '• Usertesting' },
+            { to: '/deliverable/usertests', text: '• Usertesting' },
             { to: '/deliverable/abtesting', text: '• A/B Testing' },
             { to: '/deliverable/c4model', text: '• C4 model' },
             { to: '/deliverable/pipeline', text: '• Pipeline' },
@@ -145,7 +151,11 @@ export default {
             { to: '/deliverable/colorresearch2', text: '• Color Research' },
             { to: '/deliverable/brandguide', text: '• Brandguide' },
             { to: '/deliverable/components', text: '• Components' },
-            { to: '/deliverable/abctesting', text: '• A/B/C Testing' }
+            { to: '/deliverable/abctesting', text: '• A/B/C Testing' },
+            { to: '/deliverable/usertesting', text: '• Usertesting' },
+            { to: '/deliverable/vueautocounter', text: '• Vue Autocounter' },
+            { to: '/deliverable/responsive', text: '• Responsiveness' },
+            { to: '/deliverable/apiexperiment', text: '• API Experiment' }
           ],
           show: false
         },
@@ -156,7 +166,8 @@ export default {
             { to: '/deliverable/leeswijzer', text: '• Leeswijzer' },
             { to: '/deliverable/developmentwebsite', text: '• Development Website' },
             { to: '/deliverable/postersession', text: '• Poster Session' },
-            { to: '/deliverable/peerfeedback', text: '• Peer feedback' }
+            { to: '/deliverable/peerfeedback', text: '• Peer feedback' },
+            { to: '/deliverable/retrospective', text: '• Retrospective' }
           ],
           show: false
         },
@@ -180,7 +191,8 @@ export default {
             { to: '/deliverable/moscow', text: '• MoSCoW' },
             { to: '/deliverable/paperprototyping', text: '• Paper prototyping' },
             { to: '/deliverable/brandguide', text: '• Brandguide' },
-            { to: '/deliverable/weyweyweb', text: '• Wey Wey Web Malaga' }
+            { to: '/deliverable/weyweyweb', text: '• Wey Wey Web Malaga' },
+            { to: '/deliverable/adviesrapport', text: '• Adviesrapport' }
           ],
           show: false
         }
